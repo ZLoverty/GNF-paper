@@ -1,0 +1,192 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (72) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{12}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Ballerini}\ \emph {et~al.}(2008)\citenamefont
+  {Ballerini}, \citenamefont {Cabibbo}, \citenamefont {Candelier},
+  \citenamefont {Cavagna}, \citenamefont {Cisbani}, \citenamefont {Giardina},
+  \citenamefont {Lecomte}, \citenamefont {Orlandi}, \citenamefont {Parisi},
+  \citenamefont {Procaccini}, \citenamefont {Viale},\ and\ \citenamefont
+  {Zdravkovic}}]{Ballerini1232}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Ballerini}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Cabibbo}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Candelier}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Cavagna}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Cisbani}}, \bibinfo {author} {\bibfnamefont
+  {I.}~\bibnamefont {Giardina}}, \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {Lecomte}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Orlandi}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Parisi}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Procaccini}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Viale}},\ and\ \bibinfo {author} {\bibfnamefont
+  {V.}~\bibnamefont {Zdravkovic}},\ }\href
+  {https://doi.org/10.1073/pnas.0711437105} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {105}},\ \bibinfo {pages} {1232} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ward}\ \emph {et~al.}(2008)\citenamefont {Ward},
+  \citenamefont {Sumpter}, \citenamefont {Couzin}, \citenamefont {Hart},\ and\
+  \citenamefont {Krause}}]{Ward6948}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.~W.}\
+  \bibnamefont {Ward}}, \bibinfo {author} {\bibfnamefont {D.~J.~T.}\
+  \bibnamefont {Sumpter}}, \bibinfo {author} {\bibfnamefont {I.~D.}\
+  \bibnamefont {Couzin}}, \bibinfo {author} {\bibfnamefont {P.~J.~B.}\
+  \bibnamefont {Hart}},\ and\ \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Krause}},\ }\href
+  {https://doi.org/10.1073/pnas.0710344105} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {105}},\ \bibinfo {pages} {6948} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Narayan}\ \emph {et~al.}(2007)\citenamefont
+  {Narayan}, \citenamefont {Ramaswamy},\ and\ \citenamefont
+  {Menon}}]{Narayan105}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Narayan}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},\
+  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Menon}},\ }\href
+  {https://doi.org/10.1126/science.1140414} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {317}},\ \bibinfo {pages}
+  {105} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2010)\citenamefont {Zhang},
+  \citenamefont {Be{\textquoteright}er}, \citenamefont {Florin},\ and\
+  \citenamefont {Swinney}}]{Zhang13626}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~P.}\ \bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Be{\textquoteright}er}}, \bibinfo {author} {\bibfnamefont {E.-L.}\
+  \bibnamefont {Florin}},\ and\ \bibinfo {author} {\bibfnamefont {H.~L.}\
+  \bibnamefont {Swinney}},\ }\href {https://doi.org/10.1073/pnas.1001651107}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proceedings of the National
+  Academy of Sciences}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo {pages}
+  {13626} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schaller}\ and\ \citenamefont
+  {Bausch}(2013)}]{Schaller4488}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Schaller}}\ and\ \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
+  {Bausch}},\ }\href {https://doi.org/10.1073/pnas.1215368110} {\bibfield
+  {journal} {\bibinfo  {journal} {Proceedings of the National Academy of
+  Sciences}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo {pages} {4488}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nishiguchi}\ \emph {et~al.}(2017)\citenamefont
+  {Nishiguchi}, \citenamefont {Nagai}, \citenamefont {Chat\'e},\ and\
+  \citenamefont {Sano}}]{PhysRevE.95.020601}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Nishiguchi}}, \bibinfo {author} {\bibfnamefont {K.~H.}\ \bibnamefont
+  {Nagai}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Chat\'e}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sano}},\ }\href
+  {https://doi.org/10.1103/PhysRevE.95.020601} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo
+  {pages} {020601} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peng}\ \emph {et~al.}()\citenamefont {Peng},
+  \citenamefont {Liu},\ and\ \citenamefont {Cheng}}]{Peng2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Peng}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Liu}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Cheng}},\ }\href
+  {https://arxiv.org/abs/2003.12399v1} {\bibinfo  {journal} {arXiv:2003.12399}\
+  }\BibitemShut {NoStop}%
+\bibitem [{\citenamefont
+  {Chaté}(2020)}]{doi:10.1146/annurev-conmatphys-031119-050752}%
+  \BibitemOpen
+\bibfield  {journal} {  }\bibfield  {author} {\bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Chaté}},\ }\href
+  {https://doi.org/10.1146/annurev-conmatphys-031119-050752} {\bibfield
+  {journal} {\bibinfo  {journal} {Annual Review of Condensed Matter Physics}\
+  }\textbf {\bibinfo {volume} {11}},\ \bibinfo {pages} {189} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wilson}\ \emph {et~al.}(2011)\citenamefont {Wilson},
+  \citenamefont {Martinez}, \citenamefont {Schwarz-Linek}, \citenamefont
+  {Tailleur}, \citenamefont {Bryant}, \citenamefont {Pusey},\ and\
+  \citenamefont {Poon}}]{PhysRevLett.106.018101}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~G.}\ \bibnamefont
+  {Wilson}}, \bibinfo {author} {\bibfnamefont {V.~A.}\ \bibnamefont
+  {Martinez}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Schwarz-Linek}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Tailleur}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Bryant}},
+  \bibinfo {author} {\bibfnamefont {P.~N.}\ \bibnamefont {Pusey}},\ and\
+  \bibinfo {author} {\bibfnamefont {W.~C.~K.}\ \bibnamefont {Poon}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.106.018101} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {106}},\
+  \bibinfo {pages} {018101} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stenhammar}\ \emph {et~al.}(2017)\citenamefont
+  {Stenhammar}, \citenamefont {Nardini}, \citenamefont {Nash}, \citenamefont
+  {Marenduzzo},\ and\ \citenamefont {Morozov}}]{PhysRevLett.119.028005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Stenhammar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
+  \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Nash}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.119.028005} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\
+  \bibinfo {pages} {028005} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Walter}\ \emph {et~al.}(2007)\citenamefont {Walter},
+  \citenamefont {Greenfield}, \citenamefont {Bustamante},\ and\ \citenamefont
+  {Liphardt}}]{Walter2408}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Walter}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Greenfield}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Bustamante}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liphardt}},\ }\href
+  {https://doi.org/10.1073/pnas.0611035104} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {104}},\ \bibinfo {pages} {2408} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{ope()}]{openpiv}%
+  \BibitemOpen
+  \href {http://doi.org/10.5281/zenodo.3566451} {\bibinfo {title}
+  {Openpiv/openpiv-python}}\BibitemShut {NoStop}%
+\end{thebibliography}%
