@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex correlations"] 1594676870 "correlations.aux" "correlations.bbl" "correlations" 1594742907
+["bibtex correlations"] 1594749179 "correlations.aux" "correlations.bbl" "correlations" 1594749327
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/revtex/apsrev4-2.bst" 1547503538 69612 d43c8740409d8c756864ce4e3d57a214 ""
-  "correlations.aux" 1594742906 5781 3f6e88c0c42f20e2e807836c23207b15 "pdflatex"
+  "correlations.aux" 1594749327 5781 3f6e88c0c42f20e2e807836c23207b15 "pdflatex"
   "correlations.bib" 1594677044 14187 a857ebd92d8d7c63fcffa7bb404f3d8e ""
-  "correlationsNotes.bib" 1594742905 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "correlationsNotes.bib" 1594749326 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "correlations.bbl"
   "correlations.blg"
-["pdflatex"] 1594742901 "correlations.tex" "correlations.pdf" "correlations" 1594742907
+["pdflatex"] 1594749324 "correlations.tex" "correlations.pdf" "correlations" 1594749327
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm0900.tfm" 993062508 1444 b1efc6b76338296f8076c1701e4660f3 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233955448 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -191,13 +191,13 @@
   "GNF-figures-2.png" 1589332026 121850 2cda29099474e2b76328827d09c2e261 ""
   "GNF-figures-3.png" 1592357935 80366 41b70af9b8f73879eef21be5b4b77f48 ""
   "GNF_kinetics_conbine.png" 1592359112 125289 83d5528baadaf0293d0e1f4eeb597c78 ""
-  "correlations.aux" 1594742906 5781 3f6e88c0c42f20e2e807836c23207b15 "pdflatex"
-  "correlations.bbl" 1594676870 10871 d3299e115564e0e3b275446194c79fd1 "bibtex correlations"
-  "correlations.out" 1594742906 1448 18888030354d70e84dacb5f7e037f24e "pdflatex"
-  "correlations.tex" 1594742900 20055 49c40ad00218cfed0b3522562d97b408 ""
+  "correlations.aux" 1594749327 5781 3f6e88c0c42f20e2e807836c23207b15 "pdflatex"
+  "correlations.bbl" 1594749179 10871 d3299e115564e0e3b275446194c79fd1 "bibtex correlations"
+  "correlations.out" 1594749327 1448 18888030354d70e84dacb5f7e037f24e "pdflatex"
+  "correlations.tex" 1594749323 19996 52d2ea4c99b812bf4a8daebb4ec678cc ""
   (generated)
-  "correlationsNotes.bib"
   "correlations.out"
+  "correlationsNotes.bib"
+  "correlations.aux"
   "correlations.pdf"
   "correlations.log"
-  "correlations.aux"
