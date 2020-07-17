@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.5.5)  14 JUL 2020 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.5.5)  15 JUL 2020 09:59
 entering extended mode
 **./correlations.tex
 (correlations.tex
@@ -778,7 +778,7 @@ coli
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 68.
 
-<GNF-figures-1.png, id=134, 510.40688pt x 488.57532pt>
+<GNF-figures-1.png, id=138, 510.40688pt x 488.57532pt>
 File: GNF-figures-1.png Graphic file (type png)
 <use GNF-figures-1.png>
 Package pdftex.def Info: GNF-figures-1.png  used on input line 70.
@@ -788,7 +788,7 @@ Package pdftex.def Info: GNF-figures-1.png  used on input line 70.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 121.
 
-<GNF-figures-2.png, id=150, 512.66531pt x 405.01312pt>
+<GNF-figures-2.png, id=154, 512.66531pt x 405.01312pt>
 File: GNF-figures-2.png Graphic file (type png)
 <use GNF-figures-2.png>
 Package pdftex.def Info: GNF-figures-2.png  used on input line 123.
@@ -802,7 +802,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 123--124
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 129.
 
-<GNF-figures-3.png, id=151, 240.4182pt x 288.3573pt>
+<GNF-figures-3.png, id=155, 240.4182pt x 288.3573pt>
 File: GNF-figures-3.png Graphic file (type png)
 <use GNF-figures-3.png>
 Package pdftex.def Info: GNF-figures-3.png  used on input line 131.
@@ -816,7 +816,7 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 131--132
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 137.
 
-<GNF_kinetics_conbine.png, id=152, 262.581pt x 314.1336pt>
+<GNF_kinetics_conbine.png, id=156, 262.581pt x 314.1336pt>
 File: GNF_kinetics_conbine.png Graphic file (type png)
 <use GNF_kinetics_conbine.png>
 Package pdftex.def Info: GNF_kinetics_conbine.png  used on input line 139.
@@ -825,6 +825,10 @@ Package pdftex.def Info: GNF_kinetics_conbine.png  used on input line 139.
 Overfull \hbox (9.0pt too wide) in paragraph at lines 139--140
  [] 
  []
+
+
+Package natbib Warning: Citation `Wensink14308' on page 3 undefined on input li
+ne 153.
 
 [3]
 
@@ -836,17 +840,17 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 154.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-(correlations.bbl [4 <./GNF-figures-2.png> <./GNF-figures-3.png>]
+[4 <./GNF-figures-2.png> <./GNF-figures-3.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 165.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 9.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 165.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-
+(correlations.bbl
 Underfull \hbox (badness 1810) in paragraph at lines 71--78
  \OT1/cmr/m/n/9 E. Cis-bani, I. Gi-a-r-dina, V. Lecomte, A. Or-landi,
  []
@@ -861,43 +865,48 @@ Underfull \hbox (badness 1609) in paragraph at lines 183--188
  []\OT1/cmr/m/n/9 J. M. Wal-ter, D. Green-field, C. Bus-ta-mante, and
  []
 
-) [5 <./GNF_kinetics_conbine.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 176.
+)
+
+Package natbib Warning: There were undefined citations.
+
+[5 <./GNF_kinetics_conbine.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (correlations.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 176.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 176.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `correlations.out' has not changed.
-(rerunfilecheck)             Checksum: 18888030354D70E84DACB5F7E037F24E;1448.
+(rerunfilecheck)             Checksum: 8AE54B67F3839B08E662E653E0A2C9DA;1581.
  ) 
 Here is how much of TeX's memory you used:
- 19453 strings out of 481556
- 349613 string characters out of 2923635
- 617523 words of memory out of 3000000
- 34269 multiletter control sequences out of 15000+200000
+ 19462 strings out of 481556
+ 349782 string characters out of 2923635
+ 618618 words of memory out of 3000000
+ 34276 multiletter control sequences out of 15000+200000
  543710 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,60p,1347b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,6n,60p,1355b,395s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm0900.pk> <C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb>
-Output written on correlations.pdf (5 pages, 821156 bytes).
+cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/symbols/msam10.pfb>
+Output written on correlations.pdf (5 pages, 832494 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
