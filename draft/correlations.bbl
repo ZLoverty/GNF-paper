@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{13}%
+\begin{thebibliography}{14}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -189,6 +189,22 @@
   \BibitemOpen
   \href {http://doi.org/10.5281/zenodo.3566451} {\bibinfo {title}
   {Openpiv/openpiv-python}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wensink}\ \emph {et~al.}(2012)\citenamefont
+  {Wensink}, \citenamefont {Dunkel}, \citenamefont {Heidenreich}, \citenamefont
+  {Drescher}, \citenamefont {Goldstein}, \citenamefont {L{\"o}wen},\ and\
+  \citenamefont {Yeomans}}]{Wensink14308}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~H.}\ \bibnamefont
+  {Wensink}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Dunkel}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heidenreich}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Drescher}}, \bibinfo {author}
+  {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {L{\"o}wen}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.~M.}\ \bibnamefont {Yeomans}},\ }\href
+  {https://doi.org/10.1073/pnas.1202032109} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {109}},\ \bibinfo {pages} {14308} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Dunkel}\ \emph {et~al.}(2013)\citenamefont {Dunkel},
   \citenamefont {Heidenreich}, \citenamefont {Drescher}, \citenamefont
   {Wensink}, \citenamefont {B\"ar},\ and\ \citenamefont
