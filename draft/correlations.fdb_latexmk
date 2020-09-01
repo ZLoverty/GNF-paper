@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex correlations"] 1596127108 "correlations.aux" "correlations.bbl" "correlations" 1596127112
+["bibtex correlations"] 1596127108 "correlations.aux" "correlations.bbl" "correlations" 1598212574
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/revtex/apsrev4-2.bst" 1547503538 69612 d43c8740409d8c756864ce4e3d57a214 ""
   "correlations.aux" 1596127112 6290 29467bc0ee2208c6b7e2f3f69d7e7c05 "pdflatex"
   "correlations.bib" 1594879109 16896 5bfa1dee12572c1e9d9e638da0edf902 ""
@@ -7,7 +7,7 @@
   (generated)
   "correlations.blg"
   "correlations.bbl"
-["pdflatex"] 1596127109 "correlations.tex" "correlations.pdf" "correlations" 1596127112
+["pdflatex"] 1596127109 "correlations.tex" "correlations.pdf" "correlations" 1598212574
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm0900.tfm" 993062508 1444 b1efc6b76338296f8076c1701e4660f3 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233955448 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -194,10 +194,10 @@
   "correlations.aux" 1596127112 6290 29467bc0ee2208c6b7e2f3f69d7e7c05 "pdflatex"
   "correlations.bbl" 1596127109 12874 3159a5fb367071a0c99baf4d25a80dc7 "bibtex correlations"
   "correlations.out" 1596127112 1573 ee0f53c44a10a68b1dbf040eef1ab9bc "pdflatex"
-  "correlations.tex" 1596127104 20602 117ec31beade09b4fe6d3cfdb325c74b ""
+  "correlations.tex" 1598212573 20602 117ec31beade09b4fe6d3cfdb325c74b ""
   (generated)
+  "correlationsNotes.bib"
   "correlations.log"
+  "correlations.pdf"
   "correlations.out"
   "correlations.aux"
-  "correlations.pdf"
-  "correlationsNotes.bib"
