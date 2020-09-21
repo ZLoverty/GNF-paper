@@ -40,8 +40,6 @@ Bacterial suspensions are premier example of active matter. Being constantly dri
 
 Despite the extensive efforts to measure giant number fluctuations in a variety of systems, a few limitations remain to be overcome. First, although it is intuitive that the number fluctuation at high concentration (ordered state) is much stronger than that at low concentration (disordered state) \cite{PhysRevE.95.020601, Zhang13626}, the effects of concentration can be more complicated than binary. All experiments so far have oversimplified the concentration effects and a detailed measurement in need. Second, the kinetics (or growth) of giant number fluctuations has been overlooked. The kinetics itself can reveal an intrinsic time scale of an active system. More importantly, comparisons can be made with kinetics of other quantities \cite{Peng2020}, such as flow order and flow energy, to reveal the underlying mechanisms of giant number fluctuations. Third, while theories predict an explicit dependence on dimensionality \cite{doi:10.1146/annurev-conmatphys-031119-050752}, all simulations and experiments have been in 2-dimensional spaces. A measurement in 3-D is needed to test the theories.
 
-% few measurements on 3-D systems are reported due to the difficulty in directly counting particle numbers in microscopic 3-D systems. From theoretical point of view, the 3-D measurements of giant number fluctuations are of key importance since the scaling of number fluctuations is predicted to be dependent on dimensionality [1]. This missing piece motivates us to investigate the giant number fluctuations in 3-D systems.
-
 Most \textit{E. coli} strains use oxygen as their primary energy source. In a closed chamber, they deplete oxygen quickly and the motility decreases markedly. To overcome this limitation, we use a light-controlled \textit{E. coli} strain, whose primary energy source is light, so that the swimming speed can be instantaneously and precisely controlled. Without oxygen depletion issue, the concentration effects can be investigated in closed samples. In addition to solving the oxygen depletion issue, the light-controlled \textit{E. coli} strain allows us to study the kinetics of giant number fluctuations. Existing experiments have always been in 2-D, due to the difficulty in directly counting particle numbers in a 2-D image of a 3-D sample, where images of many layers superpose. Inspired by earlier experimental works, where image intensity was used to indicate local number density \cite{PhysRevLett.106.018101, Schaller4488}, we overcome the challenge of directly counting particle` numbers and are able to use image intensity variations to quantify the number fluctuations in a 3-D bacterial suspension.
 
 
@@ -67,7 +65,7 @@ The bacteria are harvested by gentle centrifugation (800g for 5 min). After disc
 
 \begin{figure}[!]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{GNF-figures-1.png}
+\includegraphics[width=0.45\textwidth]{GNF-figures-1-v2.png}
 \caption[]{Bright-field microscopy of a bacterial suspension at 80 n$_0$ (a) and the velocity field at the instance (b). Scale bar is 100 \textmu m. (c) Relation between bacterial suspension concentrations (measured by OD600 spectrometer) and average image intensities (red squares). Error bars represent the standard deviations of pixel intensities in an image. The black dashed line is a linear fitting of the relation. }
 \label{fig:1}
 \end{center}
@@ -81,6 +79,14 @@ The sample bacterial suspensions are images through an inverted bright-field mic
 
 \subsection{Kinetics}
 The growth of giant number fluctuations is imaged when we tune up the swimming speed of \textit{E. coli} by light. Videos are taken at 30 FPS for 1 minute. The light intensity is tuned from low to high at 5 seconds. Note that, to avoid a short unstable period of the light source when adjusting the voltage (\textcolor{red}{SI figure unstable\_light}), we set the voltage fixed at high at the beginning of each experiment. In the first 5 seconds, the light source is blocked with a neutral density filter, which is then removed to achieve high light intensity.
+
+\begin{figure}[!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{GNF-figures-2.png}
+\caption[]{(a) Spatial correlation of image intensity (b) Spatial correlation of flow orientation (c) Spatial correlation of velocity (d) Correlation length (defined as $C=1/e$) of intensity, orientation and velocity at concentrations = 20, 40, 60, 80 and 100 n$_0$.}
+\label{fig:2}
+\end{center}
+\end{figure}
 
 \subsection{Correlation analysis}
 
@@ -118,25 +124,19 @@ Therefore, we use the second method, since the illumination inhomogeneity is lon
 
 \section{Results and discussion}
 
-\begin{figure}[!]
-\begin{center}
-\includegraphics[width=0.5\textwidth]{GNF-figures-2.png}
-\caption[]{(a) Spatial correlation of image intensity (b) Spatial correlation of flow orientation (c) Spatial correlation of velocity (d) Correlation length (defined as $C=1/e$) of intensity, orientation and velocity at concentrations = 20, 40, 60, 80 and 100 n$_0$.}
-\label{fig:2}
-\end{center}
-\end{figure}
+
 
 \begin{figure}[!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{GNF-figures-3.png}
+\includegraphics[width=0.5\textwidth]{GNF-figures-3-v2.png}
 \caption[]{(a) Giant number fluctuations in bacterial suspensions at concentrations = 10, 20, 40, 60, 80, 100 n$_0$. The $\Delta N/\sqrt{N}$ is in fact $\Delta I/l$, where $I$ is the average pixel intensity of a subsystem and $l$ is size of the subsystem. The $\Delta I/l^2$ value is rescaled by the first value of each curve, so that all the curves start from $\Delta I/l=1$. (b) The scaling exponents $\alpha$ ($\Delta N \propto N^{0.5+\alpha}$) of number fluctuation curves as a function of bacterial concentrations.}
 \label{fig:3}
 \end{center}
 \end{figure}
 
-\begin{figure}[!]
+\begin{figure*}[!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{GNF_kinetics_conbine.png}
+\includegraphics[width=\textwidth]{GNF_figure-4-v1.png}
 \caption[]{Evolution of giant number fluctuations at concentration $n=100$ n$_0$. (a) Number fluctuations rescaled by the square root of average particle number $\Delta N/\sqrt N$ as a function of subsystem size rescaled by bacterial body size $l^2/l_b^2$. Numbers in legends marks the time (frame, videos are taken at 30 frames per second).  (b) The scaling exponents $\alpha$ ($\Delta N \propto N^{0.5+\alpha}$) of number fluctuation curves as a function of time.}
 \label{fig:4}
 \end{center}
@@ -163,6 +163,14 @@ We measured the number fluctuations in bacterial suspensions at concentrations r
 We also study the kinetics of giant number fluctuations. By virtue of the light-controlled \textit{E. coli}, we are able to image how a "dead" suspension gradually start to mix, form patterns, and deviate from the central limit theorem. Fig.~\ref{fig:4}a shows the number fluctuations at 100 n$_0$. Fig.~\ref{fig:4}b shows how the scaling exponent changes over time.
 
 \textcolor{red}{Most importantly, this study unveils the underlying mechanism of giant number fluctuations when compared with the evolution of other quantities (order parameter and flow energy).}
+
+\begin{figure*}[!]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{GNF_figure-5-v1.png}
+\caption[]{Correlations between local number fluctuations and flow fields. Insets show the local density fluctuation and convection field at steady state in a 80 n$_0$ bacterial suspension. }
+\label{fig:5}
+\end{center}
+\end{figure}
 
 \subsubsection{Driving force: correlation between velocity and concentration}
 \section{Conclusions}
