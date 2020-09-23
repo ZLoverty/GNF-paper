@@ -18,7 +18,6 @@
 
 
 \begin{document}
-
 \title{Density Correlations and Fluctuations in Bacterial Suspensions}
 
 \author{Zhengyang Liu}
@@ -32,9 +31,12 @@
 
 \date{\today}
 
+
 \begin{abstract}
 Active systems, such as bacterial suspensions, exhibit strong density correlations and  fluctuations. While these phenomena at high concentration are well established, it remains unclear whether they persist or simply vanish when concentration is brought below the turbulence transition. We report simultaneous measurements on correlations and density fluctuations in \textit{E. coli} suspensions at various concentrations. We find a nontrivial density fluctuation below the turbulence transition, which is characterized by a gradual increase with concentration, in contrast to the sudden increase of density correlations. Our kinetics study reveals the underlying mechanisms of the density fluctuations.
 \end{abstract}
+
+
 
 \maketitle
 \section{Introduction}
@@ -147,11 +149,11 @@ Therefore, we use the second method, since the illumination inhomogeneity is lon
 
 
 
-\begin{figure*}[!]\label{fig:4}
+\begin{figure*}[!]
 \begin{center}
 \includegraphics[width=\textwidth]{GNF_figure-4-v1.png}
-\caption[]{Evolution of giant number fluctuations at concentration $n=80$ n$_0$. (a) Number fluctuations rescaled by the square root of average particle number $\Delta N/\sqrt N$ as a function of subsystem size rescaled by bacterial body size $l^2/l_b^2$. Numbers in legends marks the time (frame, videos are taken at 30 frames per second).  (b) The scaling exponents $\alpha$ ($\Delta N \propto N^{0.5+\alpha}$) of number fluctuation curves as a function of time.}
-
+\caption[]{\textbf{Evolution of giant number fluctuations at concentration $n=80$ n$_0$.} (a) Standard deviation of particle numbers $\Delta N$ scaled by the square root of the mean $\sqrt N$ as a function of subsystem size rescaled by bacterial body size $l^2/l_b^2$. Numbers in legends denotes the time from the point when bacterial motility is triggered by light (seconds). (b) The temporal evolution of the scaling exponents $\alpha$, flow energy $E$ and flow order parameter $OP$.}
+\label{fig:4}
 \end{center}
 \end{figure*}
 
@@ -166,16 +168,12 @@ Therefore, we use the second method, since the illumination inhomogeneity is lon
 We analyzed the spatial correlations of flow velocity and concentration (Fig.~\ref{fig:2}a-b) of motile \textit{E. coli} suspensions at various concentrations. Both correlation lengths show a gradual increase at low concentration and saturate at high concentration (Fig.~\ref{fig:2}c). The crossover concentration of both correlation lengths are around 40-50 n$_0$, suggesting a transition from a disordered state to turbulence. The gradual increase at low concentration suggests that, even below the apparent turbulent transition, bacteria, or more generally active agents, start to move in a correlated way \cite{PhysRevLett.119.028005}. \textcolor{red}{Remarkably, we show that above the crossover concentration, the ratio between velocity correlation length and concentration correlation length converges to 2 (Fig.~\ref{fig:2}d). We have not fully understood the significance of this ratio, but it tends to suggest a close correlation between concentration and velocity field. In the following analysis of giant number fluctuations, we hope to elucidate this correlation.} Moreover, our finding suggest that spatial concentration correlation length, in addition to flow velocity correlation length\cite{Wensink14308, PhysRevLett.110.228102}, can be used to mark the transition to active turbulence.
 
 \subsection{Giant number fluctuations}
-We observed giant number fluctuations in bacterial suspensions. The magnitude, i.e. the deviation from central limit theorem, increases with bacterial concentration and motility.
+\textbf{Concentration dependence} We measured the number fluctuations at concentrations ranging from 10 n$_0$ to 100 n$_0$. As can be seen in Fig.~\ref{fig:3}a, as concentration gets higher, the fluctuation gets stronger and deviates farther from thermal equilirium. A more quantitative description of the concentration dependence is shown in Fig.~\ref{fig:3}b, where the scaling exponents $\alpha$ extracted from Fig.~\ref{fig:3}a are plotted against concentrations. $\alpha$ gradually increases with concentrations, and plateaus above 70 n$_0$. The plateau value of $\alpha$ at high concentrations is around 0.32, close to the theoretical prediction made by Simha and Ramaswamy \cite{PhysRevLett.89.058101}. Their theory follows from a set of hydrodynamic equations of motion, and implies that the standard deviation $\Delta N$, scaled by $\sqrt N$, diverges as $N^{1/3}$. At low concentrations, $\alpha$ increases smoothly up to 70 n$_0$, different from the turbulence transition, 40-50 n$_0$, marked by the crossover of velocity and concentration correlation lengths. This difference is defying our intuition that the giant number fluctuations are always the same once turbulent state is triggered. Such difference is attributed to flow energy. In Fig.~\ref{fig:3}c, we plot the steady-state flow energy, defined as the sum of velocity squares, as a function of concentration. This esult suggest that, above 40 n$_0$, within the turbulent state, the steady-state flow energy is not constant. Instead, it shows an abrupt increase from 40 n$_0$ to 70 n$_0$, after which it plateaus. The range of flow energy increase coincides with the range of increasing of $\alpha$, implying a correlation between flow energy and magnitude of number fluctuations. This correlation will appear again and get more evident further on.
 
-\subsubsection{Concentration dependence}
-We measured the number fluctuations in bacterial suspensions at concentrations ranging from 10 n$_0$ to 100 n$_0$.
- We found that bacterial suspensions at different concentrations exhibit giant number fluctuations to different degrees (Fig.~\ref{fig:3}a). Particularly, in contrast to the sudden crossover observed in the correlation lengths, we observe a gradual increase of scaling exponent $\alpha$ below and above the critical concentration in the turbulence transition (Fig.~\ref{fig:3}b). Notably, well below the critical concentration (at 20 n$_0$), the active suspension start to exhibit a highly nontrivial number fluctuation ($\alpha\approx0.22$), suggesting that the classic classification of active systems into ordered and disordered states is insufficient.
+\textbf{Evolution} By virtue of the light-controlled \textit{E. coli}, we are able to image how a "dead" suspension gradually start to mix, form patterns, deviate from the thermal equilibrium and exhibit giant number fluctuations. Fig.~\ref{fig:4}a shows how standard deviation scales with the mean and how it evolves over time. Initially, the collective motion is not fully developed, and the scaling exponent $\alpha$ is low. After 100 seconds, the increase of $\alpha$ slows down. The evolution of $\alpha$ is shown in a finer temporal resolution in Fig.~\ref{fig:4}b. In addition, the flow energy and flow order parameter for the same process are plotted as well in Fig.~\ref{fig:4}b \cite{Peng2020}. High flow energy indicates that the fluid elements are moving vigorously, and high order parameter indicates that most of the flows are moving along the directions of their neighbors. When order parameter is high, the flow field appears to us as a turbulence. The order parameter initially increases, and then reaches a plateau value of 0.56 at 40 seconds. At this point, the flow already looks like turbulence, but the energy is still low. After another 60 seconds, flow energy also reaches a plateau and the flow is then exhibiting the most vigorous turbulence. Remarkably, we find that $\alpha$ and $E$ evolve almost along the same trajectory, and both reach a high plateau value at 100 seconds. This coincidence is again pointing to the correlation between flow energy and magnitude of number fluctuations.
 
-\subsubsection{Kinetics: motility dependence}
-We also study the kinetics of giant number fluctuations. By virtue of the light-controlled \textit{E. coli}, we are able to image how a "dead" suspension gradually start to mix, form patterns, and deviate from the central limit theorem. Fig.~\ref{fig:4}a shows the number fluctuations at 100 n$_0$. Fig.~\ref{fig:4}b shows how the scaling exponent changes over time.
 
-\textcolor{red}{Most importantly, this study unveils the underlying mechanism of giant number fluctuations when compared with the evolution of other quantities (order parameter and flow energy).}
+\textbf{Microscopic origin}
 
 \begin{figure*}[!]
 \begin{center}
