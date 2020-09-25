@@ -1,4 +1,4 @@
-\documentclass[twocolumn,aps,pre,amsmath,amssymb,longbibliography]{revtex4-1}
+\documentclass[twocolumn,aps,pre,amsmath,amssymb,floatfix,longbibliography]{revtex4-1}
 \usepackage{graphicx}
 \usepackage{dcolumn}
 \usepackage{bm}
@@ -45,21 +45,11 @@ Bacterial suspensions are premier example of active matter. Being constantly dri
 
 Despite the extensive efforts to model and measure giant number fluctuations in a variety of systems, some physical aspects of the phenomenon remain unclear. We seek to understand the phenomenon better by experimenting with \textit{E. coli} bacteria.
 
-
-
 First, how the fluctuation depends on the crowdedness of "swimmers" is not elucidated. Although it has been shown that the fluctuation is stronger in crowded environment \cite{PhysRevE.95.020601, Zhang13626}, most experiments to date have assumed two regimes: low concentration and high concentration. Within each concentration regime, fluctuations are identical. In other words, at high concentrations, number fluctuations are always of the same magnitude, while at low concentration, giant number fluctuations become absent. The simple picture was great for appreciating the macroscopic concsequences of collective motions. However, a lack of detailed measurements on concentration dependence hindered the discovery of the microscopic origin of giant number fluctuations. The dependence of giant number fluctuations on concentrations is subtle and has been hinted by experiment with bacteria on 2-D surface\cite{Zhang13626}. In this paper, we present a more systematic measurement on concentration dependence, which points to the microscopic origin of giant number fluctuations.
 
 Second, how the magnitude of giant number fluctuation evolves has never been measured. And this is due to the fact that the most widely used experimental platform - bacterial suspensions - suffers from a lack of control over the motility of bacteria. To overcome this limitation, we use a light-controlled \textit{E. coli} strain, whose primary energy source is light, so that the swimming speed can be instantaneously and precisely controlled. This evolution can reveal the intrinsic time scale of an active system. More importantly, comparisons can be made with the evolution of other quantities \cite{Peng2020}, such as flow order and flow energy, to reveal the underlying mechanisms of giant number fluctuations.
 
 Third, while theories predict that giant number fluctuations depend on dimensionality \cite{PhysRevLett.75.4326, PhysRevE.58.4828, EPL2003, doi:10.1146/annurev-conmatphys-031119-050752}, all simulations and experiments so far have been done in 2-dimensional space \cite{PhysRevE.77.046113, PhysRevLett.123.218001, Schaller4488, PhysRevE.95.020601}. This work examines giant number fluctuations in 3-D space experimentally for the first time, and also compare the result with 2-D space under similar experimental setting. Thus, this work provides a good platform for testing existing theories.
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=0.45\textwidth]{GNF-figures-1-v2.png}
-\caption[]{Bright-field microscopy of a bacterial suspension at 80 n$_0$ (a) and the velocity field at the instance (b). Scale bar is 100 \textmu m. (c) Relation between bacterial suspension concentrations (measured by OD600 spectrometer) and average image intensities (red squares). Error bars represent the standard deviations of pixel intensities in an image. The black dashed line is a linear fitting of the relation. }
-\label{fig:1}
-\end{center}
-\end{figure}
 
 Measuring instantaneous local bacterial concentration is required in order to quantify the magnitude of giant number fluctuations. Yet, it is challenging. Inspired by earlier experimental works, where fluorescence intensity serve as indicators of local concentration \cite{Schaller4488}, we come up with the idea that light transmission - the natural information in bright field microscope images - could also indicate local concentrations. This idea is an extension of Beer-Lampert law, where the attenuation of light and particle concentration are related. Such principle is used in the spectrophotometer, with which we measure the concentration of bacterial suspensions. Similar idea, where fluctuations in image intensity is proportional to fluctuations in concentration, has been assumed in another work \cite{PhysRevLett.106.018101}. Here, we experimentally verify the assumption, showing that concentration and image intensity follow a nearly linear relationship (\textcolor{red}{Fig.~S1}). The idea gets more concrete if we look at Fig.~\ref{fig:1}c - a snapshot of dense bacterial suspensions - where giant number fluctuations lead to strong alternation of dark and bright region. In contrast, in a dilute suspension shown in Fig.~\ref{fig:1}a, where giant number fluctuations are absent, such intensity alternation is not observed.
 
@@ -76,8 +66,8 @@ Since local concentration measurements are made possible by the idea of using im
 %\end{center}
 %\end{figure}
 
-\section{Materials and Methods}
-\label{sec:method}
+\section{Experiment}
+
 \subsection{Light-controlled bacteria}
 We introduce a light-driven transmembrane proton pump, proteorhodopsin (PR), to wild-type \textit{E. coli} (BW25113) by transforming the bacteria with plasmid pZE-PR encoding the SAR86 $\gamma$-proteobacterial PR-variant \cite{Walter2408}. The activity of PR is directly correlated with the light intensity. Thus, we can control the swimming speed of bacteria using light of different intensities.
 
@@ -85,7 +75,13 @@ The bacteria are cultured at 37 \textcelsius with a shaking speed at 250 rpm for
 
 The bacteria are harvested by gentle centrifugation (800g for 5 min). After discarding the culture medium in the supernatant, we resuspend bacteria with dI water. The resuspended suspension is then centrifuged again at 500g for 5 min, and finally adjusted to target concentration for microscopy.
 
-
+\begin{figure}[!]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{GNF-figures-1-v2.png}
+\caption[]{Bright-field microscopy of a bacterial suspension at 80 n$_0$ (a) and the velocity field at the instance (b). Scale bar is 100 \textmu m. (c) Relation between bacterial suspension concentrations (measured by OD600 spectrometer) and average image intensities (red squares). Error bars represent the standard deviations of pixel intensities in an image. The black dashed line is a linear fitting of the relation. }
+\label{fig:1}
+\end{center}
+\end{figure}
 
 \subsection{Sample preparation and microscopy}
 
@@ -96,8 +92,22 @@ The sample bacterial suspensions are images through an inverted bright-field mic
 \subsection{Kinetics}
 The growth of giant number fluctuations is imaged when we tune up the swimming speed of \textit{E. coli} by light. Videos are taken at 30 FPS for 1 minute. The light intensity is tuned from low to high at 5 seconds. Note that, to avoid a short unstable period of the light source when adjusting the voltage (\textcolor{red}{Fig.~S2}), we set the voltage fixed at high at the beginning of each experiment. In the first 5 seconds, the light source is blocked with a neutral density filter, which is then removed to achieve high light intensity.
 
+\begin{figure}[!]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{GNF_figure-2-v2.PNG}
+\caption[]{\textbf{Spatial correlation functions and correlation lengths.} (a, b) velocity and image intensity correlation functions, (c) velocity and image intensity correlation length (defined as $C=1/e$) and (d) ratios between the two correlation lengths at concentrations = 20, 40, 60, 80, 100 and 120 n$_0$.}
+\label{fig:2}
+\end{center}
+\end{figure}
 
 
+\begin{figure*}[!]
+\begin{center}
+\includegraphics[width=\textwidth]{GNF-figures-3-v3.png}
+\caption[]{\textbf{Concentration dependence} (a) Giant number fluctuations in bacterial suspensions at concentrations ranging from 10 to 120 n$_0$. The $\Delta N/\sqrt{N}$ is in fact $\Delta I/l$, where $I$ is the average pixel intensity of a subsystem and $l$ is the linear size of the subsystem. The $\Delta N/\sqrt{N}$ value is rescaled by the first value of each curve, so that all the curves start from $\Delta I/l=1$. (b) The scaling exponents $\alpha$ ($\Delta N \propto N^{0.5+\alpha}$) of number fluctuation curves as a function of bacterial concentrations. (c) Steady- state flow energy as a funciton of bacterial concentrations.}
+\label{fig:3}
+\end{center}
+\end{figure*}
 
 
 \subsection{Correlation analysis}
@@ -139,70 +149,42 @@ Therefore, we use the second method, since the illumination inhomogeneity is lon
 
 
 
-
-
-\begin{figure}[h]
+\begin{figure*}[!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{GNF_figure-2-v2.PNG}
-\caption[]{\textbf{Spatial correlation functions and correlation lengths.} (a, b) velocity and image intensity correlation functions, (c) velocity and image intensity correlation length (defined as $C=1/e$) and (d) ratios between the two correlation lengths at concentrations = 20, 40, 60, 80, 100 and 120 n$_0$.}
-\label{fig:2}
+\includegraphics[width=\textwidth]{GNF_figure-4-v1.png}
+\caption[]{\textbf{Evolution of giant number fluctuations at concentration $n=80$ n$_0$.} (a) Standard deviation of particle numbers $\Delta N$ scaled by the square root of the mean $\sqrt N$ as a function of subsystem size rescaled by bacterial body size $l^2/l_b^2$. Numbers in legends denotes the time from the point when bacterial motility is triggered by light (seconds). (b) The temporal evolution of the scaling exponents $\alpha$, flow energy $E$ and flow order parameter $OP$.}
+\label{fig:4}
 \end{center}
-\end{figure}
+\end{figure*}
+
+\begin{itemize}
+\item Correlation Results
+\item GNF Result
+\item interplay Results
+\item discussion (wave, lifetime, length scale implication, low concentration correlation, etc)
+\end{itemize}
 
 \subsection{Spatial correlations}
 We analyzed the spatial correlations of flow velocity and concentration (Fig.~\ref{fig:2}a-b) of motile \textit{E. coli} suspensions at various concentrations. Both correlation lengths show a gradual increase at low concentration and saturate at high concentration (Fig.~\ref{fig:2}c). The crossover concentration of both correlation lengths are around 40-50 n$_0$, suggesting a transition from a disordered state to turbulence. The gradual increase at low concentration suggests that, even below the apparent turbulent transition, bacteria, or more generally active agents, start to move in a correlated way \cite{PhysRevLett.119.028005}. \textcolor{red}{Remarkably, we show that above the crossover concentration, the ratio between velocity correlation length and concentration correlation length converges to 2 (Fig.~\ref{fig:2}d). We have not fully understood the significance of this ratio, but it tends to suggest a close correlation between concentration and velocity field. In the following analysis of giant number fluctuations, we hope to elucidate this correlation.} Moreover, our finding suggest that spatial concentration correlation length, in addition to flow velocity correlation length\cite{Wensink14308, PhysRevLett.110.228102}, can be used to mark the transition to active turbulence.
 
 \subsection{Giant number fluctuations}
-\begin{figure*}[!]
-\begin{center}
-\includegraphics[width=\textwidth]{GNF-figures-3-v3.png}
-\caption[]{\textbf{Concentration dependence} (a) Giant number fluctuations in bacterial suspensions at concentrations ranging from 10 to 120 n$_0$. The $\Delta N/\sqrt{N}$ is in fact $\Delta I/l$, where $I$ is the average pixel intensity of a subsystem and $l$ is the linear size of the subsystem. The $\Delta N/\sqrt{N}$ value is rescaled by the first value of each curve, so that all the curves start from $\Delta I/l=1$. (b) The scaling exponents $\alpha$ ($\Delta N \propto N^{0.5+\alpha}$) of number fluctuation curves as a function of bacterial concentrations. (c) Steady- state flow energy as a funciton of bacterial concentrations.}
-\label{fig:3}
-\end{center}
-\end{figure*}
-\textbf{Concentration dependence} We measured the number fluctuations at concentrations ranging from 10 n$_0$ to 100 n$_0$. As can be seen in Fig.~\ref{fig:3}a, as concentration gets higher, the fluctuation gets stronger and deviates farther from thermal equilirium. A more quantitative description of the concentration dependence is shown in Fig.~\ref{fig:3}b, where the scaling exponents $\alpha$ extracted from Fig.~\ref{fig:3}a are plotted against concentrations. $\alpha$ gradually increases with concentrations, and plateaus above 70 n$_0$. The plateau value of $\alpha$ at high concentrations is around 0.32, close to the theoretical prediction made by Simha and Ramaswamy \cite{PhysRevLett.89.058101}. Their theory follows from a set of hydrodynamic equations of motion, and implies that the standard deviation $\Delta N$, scaled by
-$\sqrt N$, diverges as $N^{1/3}$. At low concentrations, $\alpha$ increases smoothly up to 70 n$_0$, different from the turbulence transition, 40-50 n$_0$, marked by the crossover of velocity and concentration correlation lengths. This difference is defying our intuition that the giant number fluctuations are always the same once turbulent state is triggered. Such difference is attributed to flow energy. In Fig.~\ref{fig:3}c, we plot the steady-state flow energy, defined as the sum of velocity squares, as a function of concentration. This esult suggest that, above 40 n$_0$, within the turbulent state, the steady-state flow energy is not constant. Instead, it shows an abrupt increase from 40 n$_0$ to 70 n$_0$, after which it plateaus. The range of flow energy increase coincides with the range of increasing of $\alpha$, implying a correlation between flow energy and magnitude of number fluctuations. This correlation will appear again and get more evident further on.
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=0.5\textwidth]{GNF_figure-4-v1.png}
-\caption[]{\textbf{Evolution of giant number fluctuations at concentration $n=80$ n$_0$.} (a) Standard deviation of particle numbers $\Delta N$ scaled by the square root of the mean $\sqrt N$ as a function of subsystem size rescaled by bacterial body size $l^2/l_b^2$. Numbers in legends denotes the time from the point when bacterial motility is triggered by light (seconds). (b) The temporal evolution of the scaling exponents $\alpha$, flow energy $E$ and flow order parameter $OP$.}
-\label{fig:4}
-\end{center}
-\end{figure}
+\textbf{Concentration dependence} We measured the number fluctuations at concentrations ranging from 10 n$_0$ to 100 n$_0$. As can be seen in Fig.~\ref{fig:3}a, as concentration gets higher, the fluctuation gets stronger and deviates farther from thermal equilirium. A more quantitative description of the concentration dependence is shown in Fig.~\ref{fig:3}b, where the scaling exponents $\alpha$ extracted from Fig.~\ref{fig:3}a are plotted against concentrations. $\alpha$ gradually increases with concentrations, and plateaus above 70 n$_0$. The plateau value of $\alpha$ at high concentrations is around 0.32, close to the theoretical prediction made by Simha and Ramaswamy \cite{PhysRevLett.89.058101}. Their theory follows from a set of hydrodynamic equations of motion, and implies that the standard deviation $\Delta N$, scaled by $\sqrt N$, diverges as $N^{1/3}$. At low concentrations, $\alpha$ increases smoothly up to 70 n$_0$, different from the turbulence transition, 40-50 n$_0$, marked by the crossover of velocity and concentration correlation lengths. This difference is defying our intuition that the giant number fluctuations are always the same once turbulent state is triggered. Such difference is attributed to flow energy. In Fig.~\ref{fig:3}c, we plot the steady-state flow energy, defined as the sum of velocity squares, as a function of concentration. This esult suggest that, above 40 n$_0$, within the turbulent state, the steady-state flow energy is not constant. Instead, it shows an abrupt increase from 40 n$_0$ to 70 n$_0$, after which it plateaus. The range of flow energy increase coincides with the range of increasing of $\alpha$, implying a correlation between flow energy and magnitude of number fluctuations. This correlation will appear again and get more evident further on.
 
 \textbf{Evolution} By virtue of the light-controlled \textit{E. coli}, we are able to image how a "dead" suspension gradually start to mix, form patterns, deviate from the thermal equilibrium and exhibit giant number fluctuations. Fig.~\ref{fig:4}a shows how standard deviation scales with the mean and how it evolves over time. Initially, the collective motion is not fully developed, and the scaling exponent $\alpha$ is low. After 100 seconds, the increase of $\alpha$ slows down. The evolution of $\alpha$ is shown in a finer temporal resolution in Fig.~\ref{fig:4}b. In addition, the flow energy and flow order parameter for the same process are plotted as well in Fig.~\ref{fig:4}b \cite{Peng2020}. High flow energy indicates that the fluid elements are moving vigorously, and high order parameter indicates that most of the flows are moving along the directions of their neighbors. When order parameter is high, the flow field appears to us as a turbulence. The order parameter initially increases, and then reaches a plateau value of 0.56 at 40 seconds. At this point, the flow already looks like turbulence, but the energy is still low. After another 60 seconds, flow energy also reaches a plateau and the flow is then exhibiting the most vigorous turbulence. Remarkably, we find that $\alpha$ and $E$ evolve almost along the same trajectory, and both reach a high plateau value at 100 seconds. This coincidence is again pointing to the correlation between flow energy and magnitude of number fluctuations.
 
-\begin{figure}[h]
+
+\textbf{Microscopic origin}
+
+\begin{figure*}[!]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{GNF_figure-5-v2.png}
-\caption[]{\textbf{Correlations of local concentration fluctuation with flow field.} (a) Time series of correlation between local concentration fluctuation and convection. (b) Correlations of local concentration fluctuation with vorticity, divergence, convection and divergence of concentration weighted velocity. Insets show a snapshot of local concentration fluctuation field and convection field in a 80 n$_0$ bacterial suspension at steady state.}
+\includegraphics[width=0.8\textwidth]{GNF_figure-5-v1.png}
+\caption[]{Correlations between local number fluctuations and flow fields. Insets show the local density fluctuation field and convection field at steady state in a 80 n$_0$ bacterial suspension. }
 \label{fig:5}
 \end{center}
-\end{figure}
+\end{figure*}
 
-\textbf{Microscopic origin} To uncover the microscopic origin of the giant number fluctuations, we analyze the correlation between local concentration fluctuation and local flow field. The local concentration fluctuation is defined as the standard deviation of local concentration over a period of time, where the length of the time is determined by the autocorrelation time of concentration. The flow field has several meaningful derivatives, including the curl of velocity, the divergence of velocity, the divergence of concentration weighted velocity and velocity dotted into concentration gradient. These derivatives quantify the energy dissipation, topological defects, particle fluxes and particle convection, respectively. \textcolor{red}{The assumption here is that if the local fluctuation shows high correlation with one of the derivatives of the local flow field, this derivative is likely to be the driving force of the local concentration fluctuation, and thus the driving force of the global giant number fluctuations. Though it is possible that none of these flow field derivatives shows high correlation, our measurement on the concentration dependence and the evolution, as well as other existing works \cite{PhysRevLett.100.178103, Schaller4488} all suggest that the flow field plays a key role in giant number fluctuations.} Fig.~\ref{fig:5} shows the correlations between local concentration fluctuation and various flow field derivatives. The correlations are between two fields are computed as described in Sec.~\ref{sec:method}. The correlation typically fluctuates, and sometimes the amplitude can be quite large, as shown in Fig.~\ref{fig:5}a. Nonetheless, the mean correlation over a long time can still reflect the relationship between two fields.
-Fig.~\ref{fig:5}b shows the correlations at concentrations ranging from 10 to 120 n$_0$.
-Among all the flow field derivatives, the convection, $v\cdot\nabla c$, shows the highest correlation with local concentration fluctuation. In addition, the correlation shows a similar trend as that of the velocity and concentration spatial correlation lengths, where a plateau is found above 40 n$_0$. These observations suggest that the convection is the microscopic origin of local conconcentration fluctuation, and is also the leading cause of the giant number fluctuations in dense bacterial suspensions.
+\section{Conclusions}
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=0.5\textwidth]{GNF_figure-6-v1.png}
-\caption[]{Giant number fluctuations magnitudes (a) and flow energy (b) at gap thicknesses 20, 100, 140 and 200 \textmu m.  }
-\label{fig:6}
-\end{center}
-\end{figure}
-
-\textbf{Dimensionality effect} \textcolor{red}{The dimensionality effect is also investigated by gradually reducing the gap size from the bulk limit 200 \textmu m down to 20 \textmu m, a quasi-2D geometry, by using thinner coverslips as the spacer between the top and bottom glass slides. $\alpha$, the magnitude of giant number fluctuations, is found to decrease monotonically when the gap size is decreased, contradicting the theoretical predictions \cite{}. Yet, we noticed that the flow induced by the swimming of bacteria also gets smaller when gap size is decreased. As we noted earlier in concentration dependence and evolution measurement, the magnitude of giant number fluctuations follow closely with flow energy. Thus, this observed decrease of $\alpha$ with gap size, may be solely a result from the suppresion of fluid flow by close no-slip boundaries. Though this measurement does not provide a solid evidence of dimensionality effect on giant number fluctuations, it does suggest, again, that flow energy plays the key role in determining the magnitude of giant number fluctuations.}
-
-\section{Discussion}
-
-
-
-
-
-\section{Conclusion}
-We find something
 
 \section*{Acknowledgments}
 
