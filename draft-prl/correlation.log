@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.5.5)  26 SEP 2020 19:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.5.5)  26 SEP 2020 22:18
 entering extended mode
-**./correlations.tex
-(correlations.tex
+**./correlation.tex
+(correlation.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 ("C:\Program Files\MiKTeX 2.9\tex/latex/revtex\revtex4-1.cls"
@@ -71,8 +71,8 @@ File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 )
-Class revtex4-1 Info: Selecting journal pre on input line 7544.
-Class revtex4-1 Info: APS journal PRE selected on input line 7545.
+Class revtex4-1 Info: Selecting journal prl on input line 7544.
+Class revtex4-1 Info: APS journal PRL selected on input line 7545.
 
 
 Class revtex4-1 Warning: No type size specified, using default 10.
@@ -688,20 +688,24 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 15.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xr.sty"
 Package: xr 2019/07/22 v5.05 eXternal References (DPC)
 )
-Package xr Info: IMPORTING LABELS FROM correlation_SI.aux on input line 17.
+
+Package xr Warning: 
+No file correlation_SI.aux
+LABELS NOT IMPORTED.
+ on input line 17.
+
 Class revtex4-1 Info: Unrecognized array package. Please update this document c
 lass! (Proceeding with fingers crossed.) on input line 20.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 20.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 20.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 20.
-
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count300
 \l__pdf_internal_box=\box80
 )
-(correlations.aux)
-\openout1 = `correlations.aux'.
+(correlation.aux)
+\openout1 = `correlation.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
@@ -757,25 +761,25 @@ LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
 
-(correlations.out) (correlations.out)
+(correlation.out) (correlation.out)
 \@outlinefile=\write5
-\openout5 = `correlations.out'.
+\openout5 = `correlation.out'.
 
 Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 20.
-\openout3 = `correlationsNotes.bib'.
+\openout3 = `correlationNotes.bib'.
 
-<GNF-figures-1-v2.png, id=105, 492.33937pt x 493.845pt>
-File: GNF-figures-1-v2.png Graphic file (type png)
-<use GNF-figures-1-v2.png>
-Package pdftex.def Info: GNF-figures-1-v2.png  used on input line 58.
+<figures/fig-1-v2.png, id=33, 492.33937pt x 493.845pt>
+File: figures/fig-1-v2.png Graphic file (type png)
+<use figures/fig-1-v2.png>
+Package pdftex.def Info: figures/fig-1-v2.png  used on input line 48.
 (pdftex.def)             Requested size: 229.49844pt x 230.2007pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -787,95 +791,82 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [1{C:/Users/liuzy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 69.
-
-
-Underfull \hbox (badness 1997) in paragraph at lines 82--83
-\OT1/cmr/m/n/10 pump, pro-te-orhodopsin (PR), to wild-type \OT1/cmr/m/it/10 E. 
-coli
- []
-
-[2 <./GNF-figures-1-v2.png>] [3]
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 144.
-
-<GNF_figure-2-v2.PNG, id=158, 474.27188pt x 379.4175pt>
-File: GNF_figure-2-v2.PNG Graphic file (type png)
-<use GNF_figure-2-v2.PNG>
-Package pdftex.def Info: GNF_figure-2-v2.PNG  used on input line 146.
-(pdftex.def)             Requested size: 255.0pt x 203.99661pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 146--147
- [] 
- []
+ on input line 57.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 156.
+               Default added (so using `!tbp') on input line 59.
 
-<GNF-figures-3-v3.png, id=165, 508.90125pt x 119.69719pt>
-File: GNF-figures-3-v3.png Graphic file (type png)
-<use GNF-figures-3-v3.png>
-Package pdftex.def Info: GNF-figures-3-v3.png  used on input line 158.
+<figures/fig-2-v2.PNG, id=62, 474.27188pt x 379.4175pt>
+File: figures/fig-2-v2.PNG Graphic file (type png)
+<use figures/fig-2-v2.PNG>
+Package pdftex.def Info: figures/fig-2-v2.PNG  used on input line 61.
+(pdftex.def)             Requested size: 229.49844pt x 183.60042pt.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 69.
+
+<figures/fig-3-v3.png, id=69, 508.90125pt x 119.69719pt>
+File: figures/fig-3-v3.png Graphic file (type png)
+<use figures/fig-3-v3.png>
+Package pdftex.def Info: figures/fig-3-v3.png  used on input line 71.
 (pdftex.def)             Requested size: 510.0pt x 119.95988pt.
-<GNF_figure-4-v1.png, id=171, 544.28343pt x 151.3153pt>
-File: GNF_figure-4-v1.png Graphic file (type png)
-<use GNF_figure-4-v1.png>
-Package pdftex.def Info: GNF_figure-4-v1.png  used on input line 168.
+[2 <./figures/fig-1-v2.png> <./figures/fig-2-v2.PNG>]
+<figures/fig-4-v2.png, id=94, 544.28343pt x 151.3153pt>
+File: figures/fig-4-v2.png Graphic file (type png)
+<use figures/fig-4-v2.png>
+Package pdftex.def Info: figures/fig-4-v2.png  used on input line 81.
 (pdftex.def)             Requested size: 255.0pt x 70.89192pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 168--169
+Overfull \hbox (9.0pt too wide) in paragraph at lines 81--82
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./GNF_figure-2-v2.PNG>]
-<GNF_figure-5-v2.png, id=191, 461.47406pt x 182.18062pt>
-File: GNF_figure-5-v2.png Graphic file (type png)
-<use GNF_figure-5-v2.png>
-Package pdftex.def Info: GNF_figure-5-v2.png  used on input line 178.
+<figures/fig-5-v2.png, id=99, 461.47406pt x 182.18062pt>
+File: figures/fig-5-v2.png Graphic file (type png)
+<use figures/fig-5-v2.png>
+Package pdftex.def Info: figures/fig-5-v2.png  used on input line 91.
 (pdftex.def)             Requested size: 255.0pt x 100.66943pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 178--179
+Overfull \hbox (9.0pt too wide) in paragraph at lines 91--92
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./GNF-figures-3-v3.png> <./GNF_figure-4-v1.png> <./GNF_figure-5-v2.png>]
+[3 <./figures/fig-3-v3.png> <./figures/fig-4-v2.png> <./figures/fig-5-v2.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 188.
+               Default added (so using `!tbp') on input line 101.
 
-<GNF_figure-6-v1.png, id=209, 441.14813pt x 173.89969pt>
-File: GNF_figure-6-v1.png Graphic file (type png)
-<use GNF_figure-6-v1.png>
-Package pdftex.def Info: GNF_figure-6-v1.png  used on input line 190.
+<figures/fig-6-v1.png, id=116, 441.14813pt x 173.89969pt>
+File: figures/fig-6-v1.png Graphic file (type png)
+<use figures/fig-6-v1.png>
+Package pdftex.def Info: figures/fig-6-v1.png  used on input line 103.
 (pdftex.def)             Requested size: 255.0pt x 100.51958pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 190--191
+Overfull \hbox (9.0pt too wide) in paragraph at lines 103--104
  [] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 207.
+               Default added (so using `!tbp') on input line 111.
 
-<GNF_figures-7-v1.png, id=213, 312.41719pt x 173.14688pt>
-File: GNF_figures-7-v1.png Graphic file (type png)
-<use GNF_figures-7-v1.png>
-Package pdftex.def Info: GNF_figures-7-v1.png  used on input line 209.
+<figures/fig-7-v1.png, id=118, 312.41719pt x 173.14688pt>
+File: figures/fig-7-v1.png Graphic file (type png)
+<use figures/fig-7-v1.png>
+Package pdftex.def Info: figures/fig-7-v1.png  used on input line 113.
 (pdftex.def)             Requested size: 255.0pt x 141.32878pt.
 
-Overfull \hbox (9.0pt too wide) in paragraph at lines 209--210
+Overfull \hbox (9.0pt too wide) in paragraph at lines 113--114
  [] 
  []
 
-[6 <./GNF_figure-6-v1.png> <./GNF_figures-7-v1.png>] (correlations.bbl
+[4 <./figures/fig-6-v1.png> <./figures/fig-7-v1.png>]
+Underfull \hbox (badness 1320) in paragraph at lines 128--129
+\OT1/cmr/m/n/10 cen-tra-tion de-pen-dence, evo-lu-tion and de-tailed flow-
+ []
+
+(correlation.bbl
 Underfull \hbox (badness 1810) in paragraph at lines 71--78
  \OT1/cmr/m/n/9 E. Cis-bani, I. Gi-a-r-dina, V. Lecomte, A. Or-landi,
  []
@@ -885,48 +876,40 @@ Underfull \hbox (badness 1975) in paragraph at lines 207--213
  []\OT1/cmr/m/n/9 L. G. Wil-son, V. A. Mar-tinez, J. Schwarz-Linek,
  []
 
-
-Underfull \hbox (badness 1609) in paragraph at lines 218--223
- []\OT1/cmr/m/n/9 J. M. Wal-ter, D. Green-field, C. Bus-ta-mante, and
- []
-
-) [7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 227.
- (correlations.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 227.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 227.
-Package rerunfilecheck Info: File `correlations.out' has not changed.
-(rerunfilecheck)             Checksum: 3FD08D335E555A1B0808C02291AD070C;1378.
+) [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
+ (correlation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package rerunfilecheck Info: File `correlation.out' has not changed.
+(rerunfilecheck)             Checksum: C172D15BB6476B14D1355A3E8C51450A;201.
  ) 
 Here is how much of TeX's memory you used:
- 19572 strings out of 481556
- 351863 string characters out of 2923635
- 628848 words of memory out of 3000000
- 34361 multiletter control sequences out of 15000+200000
+ 19519 strings out of 481556
+ 351197 string characters out of 2923635
+ 641404 words of memory out of 3000000
+ 34329 multiletter control sequences out of 15000+200000
  543710 words of font info for 65 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,60p,2000b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,6n,60p,2335b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm1000.pk> <C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\tcrm0900.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti9.pfb>
-Output written on correlations.pdf (7 pages, 1197749 bytes).
+cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on correlation.pdf (5 pages, 1140591 bytes).
 PDF statistics:
- 351 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 243 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 72 words of extra memory for PDF output out of 10000 (max. 10000000)
 

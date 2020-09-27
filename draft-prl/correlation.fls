@@ -1,7 +1,7 @@
-PWD E:\Github\GNF-paper\draft
+PWD E:\Github\GNF-paper\draft-prl
 INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT correlations.tex
-OUTPUT correlations.log
+INPUT correlation.tex
+OUTPUT correlation.log
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\revtex\revtex4-1.cls
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\revtex\aps4-1.rtx
@@ -200,12 +200,11 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xr.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xr.sty
-INPUT correlation_SI.aux
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
-INPUT correlations.aux
-INPUT correlations.aux
-OUTPUT correlations.aux
+INPUT correlation.aux
+INPUT correlation.aux
+OUTPUT correlation.aux
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -216,26 +215,25 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\refcount\refcount.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\generic\gettitlestring\gettitlestring.sty
-INPUT correlations.out
-INPUT correlations.out
-INPUT correlations.out
-INPUT correlations.out
-OUTPUT correlations.pdf
-INPUT .\correlations.out
-INPUT .\correlations.out
-OUTPUT correlations.out
-OUTPUT correlationsNotes.bib
+INPUT correlation.out
+INPUT correlation.out
+INPUT correlation.out
+INPUT correlation.out
+OUTPUT correlation.pdf
+INPUT .\correlation.out
+INPUT .\correlation.out
+OUTPUT correlation.out
+OUTPUT correlationNotes.bib
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
-INPUT GNF-figures-1-v2.png
-INPUT .\GNF-figures-1-v2.png
-INPUT .\GNF-figures-1-v2.png
-INPUT .\GNF-figures-1-v2.png
-INPUT .\GNF-figures-1-v2.png
+INPUT figures\fig-1-v2.png
+INPUT .\figures\fig-1-v2.png
+INPUT .\figures\fig-1-v2.png
+INPUT .\figures\fig-1-v2.png
+INPUT .\figures\fig-1-v2.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
@@ -254,6 +252,7 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx5.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
@@ -263,7 +262,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm0900.tfm
-INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
@@ -275,54 +273,51 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
+INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT figures\fig-2-v2.PNG
+INPUT .\figures\fig-2-v2.PNG
+INPUT .\figures\fig-2-v2.PNG
+INPUT .\figures\fig-2-v2.PNG
+INPUT .\figures\fig-2-v2.PNG
+INPUT figures\fig-3-v3.png
+INPUT .\figures\fig-3-v3.png
+INPUT .\figures\fig-3-v3.png
+INPUT .\figures\fig-3-v3.png
+INPUT .\figures\fig-3-v3.png
+INPUT figures\fig-4-v2.png
+INPUT .\figures\fig-4-v2.png
+INPUT .\figures\fig-4-v2.png
+INPUT .\figures\fig-4-v2.png
+INPUT .\figures\fig-4-v2.png
+INPUT figures\fig-5-v2.png
+INPUT .\figures\fig-5-v2.png
+INPUT .\figures\fig-5-v2.png
+INPUT .\figures\fig-5-v2.png
+INPUT .\figures\fig-5-v2.png
+INPUT figures\fig-6-v1.png
+INPUT .\figures\fig-6-v1.png
+INPUT .\figures\fig-6-v1.png
+INPUT .\figures\fig-6-v1.png
+INPUT .\figures\fig-6-v1.png
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT GNF_figure-2-v2.PNG
-INPUT .\GNF_figure-2-v2.PNG
-INPUT .\GNF_figure-2-v2.PNG
-INPUT .\GNF_figure-2-v2.PNG
-INPUT .\GNF_figure-2-v2.PNG
-INPUT GNF-figures-3-v3.png
-INPUT .\GNF-figures-3-v3.png
-INPUT .\GNF-figures-3-v3.png
-INPUT .\GNF-figures-3-v3.png
-INPUT .\GNF-figures-3-v3.png
-INPUT GNF_figure-4-v1.png
-INPUT .\GNF_figure-4-v1.png
-INPUT .\GNF_figure-4-v1.png
-INPUT .\GNF_figure-4-v1.png
-INPUT .\GNF_figure-4-v1.png
-INPUT GNF_figure-5-v2.png
-INPUT .\GNF_figure-5-v2.png
-INPUT .\GNF_figure-5-v2.png
-INPUT .\GNF_figure-5-v2.png
-INPUT .\GNF_figure-5-v2.png
-INPUT GNF_figure-6-v1.png
-INPUT .\GNF_figure-6-v1.png
-INPUT .\GNF_figure-6-v1.png
-INPUT .\GNF_figure-6-v1.png
-INPUT .\GNF_figure-6-v1.png
-INPUT GNF_figures-7-v1.png
-INPUT .\GNF_figures-7-v1.png
-INPUT .\GNF_figures-7-v1.png
-INPUT .\GNF_figures-7-v1.png
-INPUT .\GNF_figures-7-v1.png
-INPUT correlations.bbl
-INPUT correlations.bbl
-INPUT correlations.aux
-INPUT .\correlations.out
-INPUT .\correlations.out
+INPUT figures\fig-7-v1.png
+INPUT .\figures\fig-7-v1.png
+INPUT .\figures\fig-7-v1.png
+INPUT .\figures\fig-7-v1.png
+INPUT .\figures\fig-7-v1.png
+INPUT correlation.bbl
+INPUT correlation.bbl
+INPUT correlation.aux
+INPUT .\correlation.out
+INPUT .\correlation.out
 INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
 INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx9.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi6.pfb
@@ -333,8 +328,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr7.pfb
