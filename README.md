@@ -3,7 +3,7 @@ version control my paper draft on giant number fluctuations.
 
 ## When should I start a new version?
 
-Rule of thumb is to do it whenever a stable version, or an acceptable version is reached. Each version should be a complete document, rather than having some issues unresolved. 
+Rule of thumb is to do it whenever a stable version, or an acceptable version is reached. Each version should be a complete document, rather than having some issues unresolved. If major change is made, for example *title* or *story line* changes, a new version should start.
 
 
 ## Versions
