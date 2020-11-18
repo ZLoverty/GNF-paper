@@ -1,4 +1,4 @@
-PWD E:\Github\GNF-paper\draft-prl
+PWD E:\Github\GNF-paper\V_1
 INPUT C:\Users\liuzy\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
 INPUT correlation.tex
 OUTPUT correlation.log
@@ -691,7 +691,6 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xr.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xr.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xr.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\tools\xr.sty
-INPUT correlation_SI.aux
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdftex.def
@@ -764,7 +763,6 @@ INPUT .\correlation.out
 OUTPUT correlation.out
 OUTPUT correlationNotes.bib
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
@@ -798,6 +796,7 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\figures\fig-1-v2.png
 INPUT .\figures\fig-1-v2.png
