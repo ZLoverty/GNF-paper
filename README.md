@@ -1,17 +1,20 @@
 # GNF-paper
-version control my paper draft on giant number fluctuations.
+version control my paper draft on giant number fluctuations. 
 
-I will keep on updating this read me as soon as important improvement is made.
+## When should I start a new version?
 
-## Progress - Sep 26, 2020
+Rule of thumb is to do it whenever a stable version, or an acceptable version is reached. Each version should be a complete document, rather than having some issues unresolved. If major change is made, for example *title* or *story line* changes, a new version should start.
 
-The first draft is almost done. Some parts of the text are still being considered and are likely to be modified - I colored those sentences red.
+## File organization
 
-In particular, I have 3 concerns:
+### Root folder
+- Version folders: "V_0" and "V_1"
+  - Figures
+  - Refs
+  - SI
+- doc: "README", document guidelines of this repo
 
-- I would like to show the ratio between velocity correlation length and concentration correlation length (which converges to 2 at high concentrations). However, the interpretation of this ratio is left as an open question.
-
-- We choose divergence, vorticity, convection and divergence of concentration weighted velocity as candidates of driving force. However, I haven't come up with a good way to rationalize these choices.
-
-- Discussion about dimensionality effect is not satisfactory.
+## Versions
+- V0: Correlations and Fluctuations 3-D in Bacterial Suspensions
+- **V1: Giant Number Fluctuations and Energy Spectra in 3-D Bacterial Turbulence**
 
