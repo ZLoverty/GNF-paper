@@ -1,0 +1,9 @@
+Versions and captions
+
+v3 - 11182020
+-------------------------------------------
+(a) Bacterial suspensions of different volume fractions under the same illumination conditions.
+(b) Volume fraction as a function of averaged pixel intensities.
+(c) Bacterial active turbulence displaying constantly varying concentration inhomogeneity (6.4\%). Scale bar is 100 \textmu m.
+(d) Velocity field of a dilute bacterial suspension (1.6\%).
+(e) Velocity field of a dense bacterial suspension (6.4\%).
