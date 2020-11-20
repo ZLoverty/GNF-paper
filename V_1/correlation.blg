@@ -70,45 +70,45 @@ while executing---line 3515 of file apsrev4-2.bst
 ---they aren't the same literal types for entry Aranson2008
 while executing---line 3515 of file apsrev4-2.bst
 Warning--missing journal in Aranson2008
-You've used 29 entries,
+You've used 35 entries,
             6079 wiz_defined-function locations,
-            1906 strings with 21614 characters,
-and the built_in function-call counts, 32255 in all, are:
-= -- 2330
-> -- 887
-< -- 177
-+ -- 272
-- -- 212
-* -- 5086
-:= -- 2962
-add.period$ -- 29
-call.type$ -- 29
-change.case$ -- 116
-chr.to.int$ -- 29
-cite$ -- 30
-duplicate$ -- 2888
-empty$ -- 2219
-format.name$ -- 525
-if$ -- 6586
+            1952 strings with 22985 characters,
+and the built_in function-call counts, 39315 in all, are:
+= -- 2793
+> -- 1119
+< -- 217
++ -- 342
+- -- 270
+* -- 6258
+:= -- 3597
+add.period$ -- 35
+call.type$ -- 35
+change.case$ -- 141
+chr.to.int$ -- 35
+cite$ -- 36
+duplicate$ -- 3523
+empty$ -- 2704
+format.name$ -- 661
+if$ -- 8024
 int.to.chr$ -- 1
-int.to.str$ -- 37
-missing$ -- 453
-newline$ -- 139
-num.names$ -- 87
-pop$ -- 1186
+int.to.str$ -- 43
+missing$ -- 546
+newline$ -- 157
+num.names$ -- 105
+pop$ -- 1436
 preamble$ -- 1
-purify$ -- 145
+purify$ -- 175
 quote$ -- 0
-skip$ -- 1404
+skip$ -- 1683
 stack$ -- 0
-substring$ -- 645
-swap$ -- 2856
-text.length$ -- 106
+substring$ -- 761
+swap$ -- 3502
+text.length$ -- 135
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 425
+type$ -- 520
 warning$ -- 1
-while$ -- 86
+while$ -- 103
 width$ -- 0
-write$ -- 298
+write$ -- 348
 (There were 14 error messages)

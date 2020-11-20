@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{29}%
+\begin{thebibliography}{35}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -364,6 +364,84 @@
   {Shelley}},\ }\bibfield  {journal} {\bibinfo  {journal} {Physics of Fluids}\
   }\textbf {\bibinfo {volume} {20}},\ \href {https://doi.org/10.1063/1.3041776}
   {10.1063/1.3041776} (\bibinfo {year} {2008})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ishikawa}\ \emph {et~al.}(2011)\citenamefont
+  {Ishikawa}, \citenamefont {Yoshida}, \citenamefont {Ueno}, \citenamefont
+  {Wiedeman}, \citenamefont {Imai},\ and\ \citenamefont
+  {Yamaguchi}}]{Ishikawa2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ishikawa}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Yoshida}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ueno}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Wiedeman}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Imai}},\ and\ \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Yamaguchi}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.107.028102} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
+  {107}},\ \bibinfo {pages} {1} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wensink}\ \emph {et~al.}(2012)\citenamefont
+  {Wensink}, \citenamefont {Dunkel}, \citenamefont {Heidenreich}, \citenamefont
+  {Drescher}, \citenamefont {Goldstein}, \citenamefont {L{\"{o}}wen},\ and\
+  \citenamefont {Yeomans}}]{Wensink2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~H.}\ \bibnamefont
+  {Wensink}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Dunkel}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heidenreich}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Drescher}}, \bibinfo {author}
+  {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {L{\"{o}}wen}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.~M.}\ \bibnamefont {Yeomans}},\ }\href
+  {https://doi.org/10.1073/pnas.1202032109} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences of the United
+  States of America}\ }\textbf {\bibinfo {volume} {109}},\ \bibinfo {pages}
+  {14308} (\bibinfo {year} {2012})},\ \Eprint
+  {https://arxiv.org/abs/1208.4239v1} {arXiv:1208.4239v1} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Sokolov}\ and\ \citenamefont
+  {Aranson}(2012)}]{Sokolov2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Sokolov}}\ and\ \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont
+  {Aranson}},\ }\href {https://doi.org/10.1103/PhysRevLett.109.248109}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {109}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2012})},\ \Eprint {https://arxiv.org/abs/0710.3256v2} {arXiv:0710.3256v2}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sanchez}\ \emph {et~al.}(2012)\citenamefont
+  {Sanchez}, \citenamefont {Chen}, \citenamefont {Decamp}, \citenamefont
+  {Heymann},\ and\ \citenamefont {Dogic}}]{Sanchez2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sanchez}}, \bibinfo {author} {\bibfnamefont {D.~T.}\ \bibnamefont {Chen}},
+  \bibinfo {author} {\bibfnamefont {S.~J.}\ \bibnamefont {Decamp}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Heymann}},\ and\ \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Dogic}},\ }\href
+  {https://doi.org/10.1038/nature11591} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {491}},\ \bibinfo {pages}
+  {431} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dunkel}\ \emph {et~al.}(2013)\citenamefont {Dunkel},
+  \citenamefont {Heidenreich}, \citenamefont {Drescher}, \citenamefont
+  {Wensink}, \citenamefont {B{\"{a}}r},\ and\ \citenamefont
+  {Goldstein}}]{Dunkel2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Dunkel}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heidenreich}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Drescher}}, \bibinfo
+  {author} {\bibfnamefont {H.~H.}\ \bibnamefont {Wensink}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {B{\"{a}}r}},\ and\ \bibinfo {author}
+  {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.110.228102} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
+  {110}},\ \bibinfo {pages} {1} (\bibinfo {year} {2013})},\ \Eprint
+  {https://arxiv.org/abs/1302.5277} {arXiv:1302.5277} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Peng}\ \emph {et~al.}(2020)\citenamefont {Peng},
+  \citenamefont {Liu},\ and\ \citenamefont {Cheng}}]{Peng2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Peng}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Liu}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Cheng}},\ }\href@noop {}
+  {\bibinfo {title} {{Imaging the emergence of bacterial turbulence using
+  light-powered Escherichia coli}}} (\bibinfo {year} {2020})\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Wilson}\ \emph {et~al.}(2011)\citenamefont {Wilson},
   \citenamefont {Martinez}, \citenamefont {Schwarz-Linek}, \citenamefont
   {Tailleur}, \citenamefont {Bryant}, \citenamefont {Pusey},\ and\
