@@ -59,9 +59,9 @@ In this letter, we present an experimental measurement of GNF in 3-dimensional b
 Counting particle numbers poses a major challenge in measuring the GNF of 3-dimensional bacterial turbulence. Looking at the bright field microscopy images of a dense 3-dimensional bacterial suspension (Fig.~\ref{fig:1}c, and Supplementary movie 1), one immediately realizes that it is not possible to directly count the number of bacteria. Fortunately, the spatial distribution of bacterial concentrations can be inferred from optical microscopy images, where dark region indicates high local concentration and bright region indicates low local concentration. This idea is an extension of Beer-Lambert law which correlates solution concentration with its light attenuation. Similar principle has been used in some inspiring experimental works using image intensity as local concentration indicators \cite{Wilson2011, Schaller2013}. To be more quantitative on the relation between concentration and image pixel intensity, we did a calibration experiment by preparing bacterial suspensions of volume fractions ranging from 1.6\% to 7.2\% and take images of them under the same illumination. The images corresponding to different volume fractions are shown in Fig.~\ref{fig:1}a. As expected, when volume fraction gets higher, the image becomes dimmer. We plot the volume fractions as a function of the mean pixel intensities in the corresponding images, and find that the relation is almost linear, as shown in Fig.~\ref{fig:1}b.
 
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.45\textwidth]{figures/fig-1/v3.pdf}
+\includegraphics[width=0.5\textwidth]{figures/fig-1/v3.pdf}
 \caption[Experimental details]
 {
 (a) Bacterial suspensions of different volume fractions under the same illumination conditions.
@@ -73,6 +73,39 @@ Counting particle numbers poses a major challenge in measuring the GNF of 3-dime
 \end{center}
 \end{figure}
 
+With this linear relation, we are able to measure \emph{relative} local concentrations with image pixel intensities (see details in SM). We can in turn calculate the standard deviation of particle number $\Delta N$ and mean particle number $N$ at in subsystems with various sizes. In Fig.~\ref{concentration-dependence}a, we plot $\Delta N / \sqrt N$ as a function of $l^2/l_b^2$ for bacterial suspensions of volume fractions $\phi$ ranging from 0\% to 9.6\%.
+$l$ is the side length of the square subsystems, and $l_b=3$ \textmu m is the length of a typical bacterial body. $l^2/l_b^2$ is thus a rescaled subsystem size and is proportional to mean particle number $N$.
+When $\phi<3.2$, bacterial suspensions display a disordered state and standard deviation $\Delta N$ scales with $\sqrt N$, resulting in flat lines in Fig.~\ref{concentration-dependence}a.
+When $\phi\ge3.2$, bacterial suspensions start to exhibit a transition to turbulent state, and $\Delta N$ scales much faster than $\sqrt N$, exhibiting giant number fluctuations.
+If we write down the scaling relation between $\Delta N$ and $N$ as $\Delta N \propto N^{0.5+\alpha}$, the excess exponent $\alpha$ quantifies the magnitude of GNF.
+For an equilibrium system, $\alpha=0$; for a system displaying GNF, $\alpha>0$ and $\alpha$ can take value up to 0.5.
+Note that beyond a \emph{critical} length scale ($l^2/l_b^2>100$ or $l>30$ \textmu m), the all the curves in Fig.~\ref{concentration-dependence}a level off due to the typical dynamics in bacterial active turbulence, which is characterized by quasi-periodic formation and break-up of concentration patterns \cite{Saintillan2012}. No GNF can be observed at such large length scales. When measuring $\alpha$, we only look at the short length limit within 30 \textmu m.
+By fitting for scaling exponents in Fig.~\ref{concentration-dependence}a, we obtain $\alpha$ values at various volume fractions, as shown in blue markers in Fig.~\ref{concentration-dependence}b.
+At low volume fraction limit, where no collective motion can be observed, $\alpha$ remains at a low level acround 0.05.
+As the volume fraction increases up to the turbulence transition ($\phi>3.2$), $\alpha$ shows a gradual increase followed by a plateau above a volume fraction of 0.64.
+The $\alpha$ value at the high volume fraction limit is approximately 0.32.
+
+In Fig.~\ref{concentration-dependence}b, we also plot the kinetic energy of the flows $E$ in bacterial suspensions at various volume fractions.
+$E$ is calculated according to $E = \frac{1}{2}\langle|\boldsymbol{v}|^2 \rangle$ from the velocity fields obtained by PIV.
+We find that $\alpha$ and $E$ exhibit very similar concentration dependence. In particular, the increases of both $\alpha$ and $E$ in the intermediate volume fractions $2.4\%<\phi<6.4\%$ are almost concurrent, suggesting a strong correlation between these two quantities.
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{figures/fig-3/v4.pdf}
+\caption[Concentration dependence of GNF.]
+{
+\textbf{Concentration dependence of GNF.}
+(a) Standard deviation of particle number $\Delta N$ scaled by particle mean number $N$ plotted against subsystem size rescaled by single bacterium size $l^2/l_b^2$ in bacterial suspensions at volume fractions ranging from 0.8\% to 9.6\%.
+(b) Concentration dependence of the magnitude of GNF $\alpha$ (blue circles) and kinetic energy $E$ (orange squares).
+}
+\label{concentration-dependence}
+\end{center}
+\end{figure}
+
+The correlation between $\alpha$ and $E$ mentioned above is found on the length scale of the whole field of view.
+To further investigate the correlation between GNF and flow kinetic energy, we examine the \emph{local} correlation between concentration fluctuations and kinetic energy at a much smaller length scale. To do it, we divide the images of bacterial suspensions taken with bright field microscope into small windows using the same dividing scheme as the PIV interrogation window, as shown in Fig.~\ref{local-correlation}a.
+
+% illustrate how local fluctuation is calculated
 
 % Bacterial suspensions are premier example of active matter. Being constantly driven out of equilibrium, they exhibit anomalous properties drastically different from systems in equilibium, including enhanced diffusivity, reduced viscosity and giant number fluctuations. While the anomalous diffusion and rheology have only been demonstrated in microscopic scale, the giant number fluctuations are found to be more universal across multiple length scales. Indeed, such fluctuations have been observed in bird flocks \cite{Ballerini1232}, fish schools \cite{Ward6948}, shaking granules \cite{Narayan105}, bacteria on agar gels \cite{Zhang13626} and active actin filaments \cite{Schaller4488}. \textcolor{red}{Though the phenomenon appears to be universal, the underlying mechanisms can be different. citation needed}
 %
