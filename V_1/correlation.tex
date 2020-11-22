@@ -75,14 +75,14 @@ Counting particle numbers poses a major challenge in measuring the GNF of 3-dime
 
 With this linear relation, we are able to measure \emph{relative} local concentrations with image pixel intensities (see details in SM). We can in turn calculate the standard deviation of particle number $\Delta N$ and mean particle number $N$ at in subsystems with various sizes. In Fig.~\ref{concentration-dependence}a, we plot $\Delta N / \sqrt N$ as a function of $l^2/l_b^2$ for bacterial suspensions of volume fractions $\phi$ ranging from 0\% to 9.6\%.
 $l$ is the side length of the square subsystems, and $l_b=3$ \textmu m is the length of a typical bacterial body. $l^2/l_b^2$ is thus a rescaled subsystem size and is proportional to mean particle number $N$.
-When $\phi<3.2$, bacterial suspensions display a disordered state and standard deviation $\Delta N$ scales with $\sqrt N$, resulting in flat lines in Fig.~\ref{concentration-dependence}a.
-When $\phi\ge3.2$, bacterial suspensions start to exhibit a transition to turbulent state, and $\Delta N$ scales much faster than $\sqrt N$, exhibiting giant number fluctuations.
+When $\phi<3.2\%$, bacterial suspensions display a disordered state and standard deviation $\Delta N$ scales with $\sqrt N$, resulting in flat lines in Fig.~\ref{concentration-dependence}a.
+When $\phi\ge3.2\%$, bacterial suspensions start to exhibit a transition to turbulent state, and $\Delta N$ scales much faster than $\sqrt N$, exhibiting giant number fluctuations.
 If we write down the scaling relation between $\Delta N$ and $N$ as $\Delta N \propto N^{0.5+\alpha}$, the excess exponent $\alpha$ quantifies the magnitude of GNF.
 For an equilibrium system, $\alpha=0$; for a system displaying GNF, $\alpha>0$ and $\alpha$ can take value up to 0.5.
 Note that beyond a \emph{critical} length scale ($l^2/l_b^2>100$ or $l>30$ \textmu m), the all the curves in Fig.~\ref{concentration-dependence}a level off due to the typical dynamics in bacterial active turbulence, which is characterized by quasi-periodic formation and break-up of concentration patterns \cite{Saintillan2012}. No GNF can be observed at such large length scales. When measuring $\alpha$, we only look at the short length limit within 30 \textmu m.
 By fitting for scaling exponents in Fig.~\ref{concentration-dependence}a, we obtain $\alpha$ values at various volume fractions, as shown in blue markers in Fig.~\ref{concentration-dependence}b.
 At low volume fraction limit, where no collective motion can be observed, $\alpha$ remains at a low level acround 0.05.
-As the volume fraction increases up to the turbulence transition ($\phi>3.2$), $\alpha$ shows a gradual increase followed by a plateau above a volume fraction of 0.64.
+As the volume fraction increases up to the turbulence transition ($\phi>3.2\%$), $\alpha$ shows a gradual increase followed by a plateau above a volume fraction of 0.64.
 The $\alpha$ value at the high volume fraction limit is approximately 0.32.
 
 In Fig.~\ref{concentration-dependence}b, we also plot the kinetic energy of the flows $E$ in bacterial suspensions at various volume fractions.
@@ -104,6 +104,25 @@ We find that $\alpha$ and $E$ exhibit very similar concentration dependence. In 
 
 The correlation between $\alpha$ and $E$ mentioned above is found on the length scale of the whole field of view.
 To further investigate the correlation between GNF and flow kinetic energy, we examine the \emph{local} correlation between concentration fluctuations and kinetic energy at a much smaller length scale. To do it, we divide the images of bacterial suspensions taken with bright field microscope into small windows using the same dividing scheme as the PIV interrogation window, as shown in Fig.~\ref{local-correlation}a.
+
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{figures/fig-5/v3.pdf}
+\caption[Concentration dependence of GNF.]
+{
+\textbf{Calculation of local correlation between density fluctuations and kinetic energy.}
+(a) An image stack of bacterial active turbulence ($\phi=4.8\%$).
+(b) Divide images into small windows and average the pixel intensities to "coarse-grain" the image
+(c) PIV analysis on the same dividing scheme as in (b).
+(d) Local density fluctuations, defined as standard deviations of averaged pixel intensities in each window.
+(e) Local kinetic energy, defined as half of squared velocity in each window .
+(f) Cross correlation between local density fluctuations and local kinetic energy $C$ plotted against volume fraction $\phi$.
+}
+\label{local-correlation}
+\end{center}
+\end{figure}
+
 
 % illustrate how local fluctuation is calculated
 

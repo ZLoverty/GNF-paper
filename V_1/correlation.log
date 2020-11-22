@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.18)  20 NOV 2020 22:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.18)  21 NOV 2020 23:13
 entering extended mode
 **./correlation.tex
 (correlation.tex
@@ -804,15 +804,26 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 94--95
  [] 
  []
 
+<figures/fig-5/v3.pdf, id=93, 221.45734pt x 417.36285pt>
+File: figures/fig-5/v3.pdf Graphic file (type pdf)
+<use figures/fig-5/v3.pdf>
+Package pdftex.def Info: figures/fig-5/v3.pdf  used on input line 111.
+(pdftex.def)             Requested size: 255.0pt x 480.58128pt.
 
-LaTeX Warning: Reference `local-correlation' on page 2 undefined on input line 
-106.
+Overfull \hbox (9.0pt too wide) in paragraph at lines 111--112
+ [] 
+ []
 
 (correlation.bbl [2 <./figures/fig-1/v3.pdf> <./figures/fig-3/v4.pdf
 
 pdfTeX warning: pdflatex (file ./figures/fig-3/v4.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
 >]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 92.
+
+
 Underfull \hbox (badness 1810) in paragraph at lines 105--112
  \OT1/cmr/m/n/9 E. Cis-bani, I. Gi-a-r-dina, V. Lecomte, A. Or-landi,
  []
@@ -832,42 +843,38 @@ Underfull \hbox (badness 1975) in paragraph at lines 456--461
  []\OT1/cmr/m/n/9 L. G. Wil-son, V. A. Mar-tinez, J. Schwarz-Linek,
  []
 
-) [3] (correlation.aux)
+) [3] [4 <./figures/fig-5/v3.pdf>] (correlation.aux)
 Package rerunfilecheck Info: File `correlation.out' has not changed.
 (rerunfilecheck)             Checksum: 86F359E9B78CD69B41D518D857C9D58E;215.
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 19643 strings out of 479799
- 355923 string characters out of 2877698
- 679795 words of memory out of 3000000
- 36204 multiletter control sequences out of 15000+200000
+ 19651 strings out of 479799
+ 356098 string characters out of 2877698
+ 682683 words of memory out of 3000000
+ 36209 multiletter control sequences out of 15000+200000
  546460 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  85i,6n,96p,2291b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm0900.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on correlation.pdf (3 pages, 1544223 bytes).
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmib10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sf
+rm0900.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pf
+b>
+Output written on correlation.pdf (4 pages, 2349133 bytes).
 PDF statistics:
- 1427 PDF objects out of 1440 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 47 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1539 PDF objects out of 1728 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

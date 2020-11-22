@@ -824,6 +824,12 @@ INPUT figures\fig-3\v4.pdf
 INPUT .\figures\fig-3\v4.pdf
 INPUT .\figures\fig-3\v4.pdf
 INPUT .\figures\fig-3\v4.pdf
+INPUT .\figures\fig-5\v3.pdf
+INPUT .\figures\fig-5\v3.pdf
+INPUT figures\fig-5\v3.pdf
+INPUT .\figures\fig-5\v3.pdf
+INPUT .\figures\fig-5\v3.pdf
+INPUT .\figures\fig-5\v3.pdf
 INPUT .\correlation.bbl
 INPUT correlation.bbl
 INPUT .\correlation.bbl
@@ -832,8 +838,6 @@ INPUT correlation.aux
 INPUT .\correlation.out
 INPUT .\correlation.out
 INPUT C:\Program Files\MiKTeX 2.9\fonts\enc\dvips\cm-super\cm-super-ts1.enc
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx9.pfb
