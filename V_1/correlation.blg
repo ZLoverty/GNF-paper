@@ -20,6 +20,18 @@ Repeated entry---line 231 of file correlation.bib
  : @article{Ballerini2008
  :                       ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 948 of file correlation.bib
+ : @article{Ishikawa2011
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1016 of file correlation.bib
+ : @article{Karani2019
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1038 of file correlation.bib
+ : @article{Skultety2020
+ :                      ,
+I'm skipping whatever remains of this entry
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
@@ -70,45 +82,45 @@ while executing---line 3515 of file apsrev4-2.bst
 ---they aren't the same literal types for entry Aranson2008
 while executing---line 3515 of file apsrev4-2.bst
 Warning--missing journal in Aranson2008
-You've used 35 entries,
+You've used 39 entries,
             6079 wiz_defined-function locations,
-            1952 strings with 22985 characters,
-and the built_in function-call counts, 39315 in all, are:
-= -- 2793
-> -- 1119
-< -- 217
-+ -- 342
-- -- 270
-* -- 6258
-:= -- 3597
-add.period$ -- 35
-call.type$ -- 35
-change.case$ -- 141
-chr.to.int$ -- 35
-cite$ -- 36
-duplicate$ -- 3523
-empty$ -- 2704
-format.name$ -- 661
-if$ -- 8024
-int.to.chr$ -- 1
-int.to.str$ -- 43
-missing$ -- 546
-newline$ -- 157
-num.names$ -- 105
-pop$ -- 1436
+            1987 strings with 23924 characters,
+and the built_in function-call counts, 43861 in all, are:
+= -- 3109
+> -- 1257
+< -- 241
++ -- 385
+- -- 304
+* -- 6994
+:= -- 4012
+add.period$ -- 39
+call.type$ -- 39
+change.case$ -- 157
+chr.to.int$ -- 38
+cite$ -- 40
+duplicate$ -- 3934
+empty$ -- 3017
+format.name$ -- 741
+if$ -- 8952
+int.to.chr$ -- 2
+int.to.str$ -- 47
+missing$ -- 609
+newline$ -- 169
+num.names$ -- 117
+pop$ -- 1608
 preamble$ -- 1
-purify$ -- 175
+purify$ -- 195
 quote$ -- 0
-skip$ -- 1683
+skip$ -- 1870
 stack$ -- 0
-substring$ -- 761
-swap$ -- 3502
-text.length$ -- 135
+substring$ -- 837
+swap$ -- 3909
+text.length$ -- 152
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 520
+type$ -- 581
 warning$ -- 1
-while$ -- 103
+while$ -- 114
 width$ -- 0
-write$ -- 348
-(There were 14 error messages)
+write$ -- 382
+(There were 17 error messages)

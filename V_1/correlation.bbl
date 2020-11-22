@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{35}%
+\begin{thebibliography}{39}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -418,10 +418,10 @@
   {https://doi.org/10.1038/nature11591} {\bibfield  {journal} {\bibinfo
   {journal} {Nature}\ }\textbf {\bibinfo {volume} {491}},\ \bibinfo {pages}
   {431} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Dunkel}\ \emph {et~al.}(2013)\citenamefont {Dunkel},
-  \citenamefont {Heidenreich}, \citenamefont {Drescher}, \citenamefont
-  {Wensink}, \citenamefont {B{\"{a}}r},\ and\ \citenamefont
-  {Goldstein}}]{Dunkel2013}%
+\bibitem [{\citenamefont {Dunkel}\ \emph
+  {et~al.}(2013{\natexlab{a}})\citenamefont {Dunkel}, \citenamefont
+  {Heidenreich}, \citenamefont {Drescher}, \citenamefont {Wensink},
+  \citenamefont {B{\"{a}}r},\ and\ \citenamefont {Goldstein}}]{Dunkel2013a}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Dunkel}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heidenreich}},
@@ -431,8 +431,9 @@
   {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\ }\href
   {https://doi.org/10.1103/PhysRevLett.110.228102} {\bibfield  {journal}
   {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
-  {110}},\ \bibinfo {pages} {1} (\bibinfo {year} {2013})},\ \Eprint
-  {https://arxiv.org/abs/1302.5277} {arXiv:1302.5277} \BibitemShut {NoStop}%
+  {110}},\ \bibinfo {pages} {1} (\bibinfo {year} {2013}{\natexlab{a}})},\
+  \Eprint {https://arxiv.org/abs/1302.5277} {arXiv:1302.5277} \BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Peng}\ \emph {et~al.}(2020)\citenamefont {Peng},
   \citenamefont {Liu},\ and\ \citenamefont {Cheng}}]{Peng2020}%
   \BibitemOpen
@@ -458,4 +459,55 @@
   {\bibinfo  {journal} {Physical Review Letters}\ }\textbf {\bibinfo {volume}
   {106}},\ \bibinfo {pages} {7} (\bibinfo {year} {2011})},\ \Eprint
   {https://arxiv.org/abs/1004.4764} {arXiv:1004.4764} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dunkel}\ \emph
+  {et~al.}(2013{\natexlab{b}})\citenamefont {Dunkel}, \citenamefont
+  {Heidenreich}, \citenamefont {B{\"{a}}r},\ and\ \citenamefont
+  {Goldstein}}]{Dunkel2013b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Dunkel}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heidenreich}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {B{\"{a}}r}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\
+  }\bibfield  {journal} {\bibinfo  {journal} {New Journal of Physics}\ }\textbf
+  {\bibinfo {volume} {15}},\ \href
+  {https://doi.org/10.1088/1367-2630/15/4/045016}
+  {10.1088/1367-2630/15/4/045016} (\bibinfo {year} {2013}{\natexlab{b}}),\
+  \Eprint {https://arxiv.org/abs/1208.4464} {arXiv:1208.4464} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Bratanov}\ \emph {et~al.}(2015)\citenamefont
+  {Bratanov}, \citenamefont {Jenko},\ and\ \citenamefont
+  {Frey}}]{Bratanov2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Bratanov}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Jenko}},\
+  and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Frey}},\ }\href
+  {https://doi.org/10.1073/pnas.1509304112} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences of the United
+  States of America}\ }\textbf {\bibinfo {volume} {112}},\ \bibinfo {pages}
+  {15048} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chatterjee}\ \emph {et~al.}(2019)\citenamefont
+  {Chatterjee}, \citenamefont {Rana}, \citenamefont {{Aditi Simha}},
+  \citenamefont {Perlekar},\ and\ \citenamefont {Ramaswamy}}]{Chatterjee2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Chatterjee}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Rana}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {{Aditi Simha}}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Perlekar}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {arXiv}\ ,\ \bibinfo {pages} {1}}
+  (\bibinfo {year} {2019})},\ \Eprint {https://arxiv.org/abs/1907.03492}
+  {arXiv:1907.03492} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{\v{S}}kult{\'{e}}ty}\ \emph
+  {et~al.}(2020)\citenamefont {{\v{S}}kult{\'{e}}ty}, \citenamefont {Nardini},
+  \citenamefont {Stenhammar}, \citenamefont {Marenduzzo},\ and\ \citenamefont
+  {Morozov}}]{Skultety2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {{\v{S}}kult{\'{e}}ty}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Nardini}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Stenhammar}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\href
+  {https://doi.org/10.1103/PhysRevX.10.031059} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review X}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
 \end{thebibliography}%
