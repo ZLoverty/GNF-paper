@@ -20,15 +20,15 @@ Repeated entry---line 231 of file correlation.bib
  : @article{Ballerini2008
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 948 of file correlation.bib
+Repeated entry---line 952 of file correlation.bib
  : @article{Ishikawa2011
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1016 of file correlation.bib
+Repeated entry---line 1020 of file correlation.bib
  : @article{Karani2019
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1038 of file correlation.bib
+Repeated entry---line 1042 of file correlation.bib
  : @article{Skultety2020
  :                      ,
 I'm skipping whatever remains of this entry
@@ -82,45 +82,45 @@ while executing---line 3515 of file apsrev4-2.bst
 ---they aren't the same literal types for entry Aranson2008
 while executing---line 3515 of file apsrev4-2.bst
 Warning--missing journal in Aranson2008
-You've used 39 entries,
+You've used 43 entries,
             6079 wiz_defined-function locations,
-            1987 strings with 23924 characters,
-and the built_in function-call counts, 43861 in all, are:
-= -- 3109
-> -- 1257
-< -- 241
-+ -- 385
-- -- 304
-* -- 6994
-:= -- 4012
-add.period$ -- 39
-call.type$ -- 39
-change.case$ -- 157
-chr.to.int$ -- 38
-cite$ -- 40
-duplicate$ -- 3934
-empty$ -- 3017
-format.name$ -- 741
-if$ -- 8952
-int.to.chr$ -- 2
-int.to.str$ -- 47
-missing$ -- 609
-newline$ -- 169
-num.names$ -- 117
-pop$ -- 1608
+            2021 strings with 24777 characters,
+and the built_in function-call counts, 48038 in all, are:
+= -- 3442
+> -- 1354
+< -- 264
++ -- 416
+- -- 326
+* -- 7616
+:= -- 4398
+add.period$ -- 43
+call.type$ -- 43
+change.case$ -- 172
+chr.to.int$ -- 41
+cite$ -- 44
+duplicate$ -- 4312
+empty$ -- 3308
+format.name$ -- 803
+if$ -- 9815
+int.to.chr$ -- 3
+int.to.str$ -- 51
+missing$ -- 674
+newline$ -- 181
+num.names$ -- 129
+pop$ -- 1777
 preamble$ -- 1
-purify$ -- 195
+purify$ -- 215
 quote$ -- 0
-skip$ -- 1870
+skip$ -- 2069
 stack$ -- 0
-substring$ -- 837
-swap$ -- 3909
-text.length$ -- 152
+substring$ -- 920
+swap$ -- 4271
+text.length$ -- 163
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 581
+type$ -- 636
 warning$ -- 1
-while$ -- 114
+while$ -- 126
 width$ -- 0
-write$ -- 382
+write$ -- 416
 (There were 17 error messages)

@@ -1,0 +1,13 @@
+v1: energy spectrum and its correlation with GNF
+--------------------------------------------
+
+(a) Energy spectra of bacterial active turbulence at volume fractions ranging from 0.8\% to 9.6\%.
+(b) Kinetic energy plotted against density fluctuations at corresponding length scales. 
+(c) Scaling exponents of density fluctuations ($\alpha$) and energy spectra ($\beta$) against length scales at volume fractions ranging from 0.8\% to 9.6\%.
+(d) Long-wave limit energy $E_0$ at volume fractions ranging from 0.8\% to 9.6\%.
+
+v2: energy spectrum and its correlation with GNF
+--------------------------------------------
+(a) Energy spectra of bacterial active turbulence at volume fractions ranging from 0.8\% to 9.6\%.
+(b) Kinetic energy plotted against density fluctuations at corresponding length scales. 
+(c) Scaling exponents of density fluctuations ($\alpha$) and energy spectra ($\beta$) against length scales at volume fractions ranging from 0.8\% to 9.6\%.

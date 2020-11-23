@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{39}%
+\begin{thebibliography}{43}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -357,13 +357,14 @@
   {123}},\ \bibinfo {pages} {1} (\bibinfo {year} {2019})},\ \Eprint
   {https://arxiv.org/abs/1908.03794} {arXiv:1908.03794} \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
-  {Shelley}(2008)}]{Saintillan2008b}%
+  {Shelley}(2008{\natexlab{a}})}]{Saintillan2008b}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
   {Shelley}},\ }\bibfield  {journal} {\bibinfo  {journal} {Physics of Fluids}\
   }\textbf {\bibinfo {volume} {20}},\ \href {https://doi.org/10.1063/1.3041776}
-  {10.1063/1.3041776} (\bibinfo {year} {2008})\BibitemShut {NoStop}%
+  {10.1063/1.3041776} (\bibinfo {year} {2008}{\natexlab{a}})\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Ishikawa}\ \emph {et~al.}(2011)\citenamefont
   {Ishikawa}, \citenamefont {Yoshida}, \citenamefont {Ueno}, \citenamefont
   {Wiedeman}, \citenamefont {Imai},\ and\ \citenamefont
@@ -440,9 +441,9 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
   {Peng}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Liu}},\ and\
   \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Cheng}},\ }\href@noop {}
-  {\bibinfo {title} {{Imaging the emergence of bacterial turbulence using
-  light-powered Escherichia coli}}} (\bibinfo {year} {2020})\BibitemShut
-  {NoStop}%
+  {\bibfield  {journal} {\bibinfo  {journal} {arXiv}\ } (\bibinfo {year}
+  {2020})},\ \Eprint {https://arxiv.org/abs/2003.12399} {arXiv:2003.12399}
+  \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wilson}\ \emph {et~al.}(2011)\citenamefont {Wilson},
   \citenamefont {Martinez}, \citenamefont {Schwarz-Linek}, \citenamefont
   {Tailleur}, \citenamefont {Bryant}, \citenamefont {Pusey},\ and\
@@ -510,4 +511,44 @@
   {https://doi.org/10.1103/PhysRevX.10.031059} {\bibfield  {journal} {\bibinfo
   {journal} {Physical Review X}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo
   {pages} {1} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
+  {Shelley}(2008{\natexlab{b}})}]{Saintillan2008a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Shelley}},\ }\href {https://doi.org/10.1103/PhysRevLett.100.178103}
+  {\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {100}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2008}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Subramanian}\ and\ \citenamefont
+  {Koch}(2009)}]{Subramanian2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Subramanian}}\ and\ \bibinfo {author} {\bibfnamefont {D.~L.}\ \bibnamefont
+  {Koch}},\ }\href {https://doi.org/10.1017/S002211200900706X} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of Fluid Mechanics}\ }\textbf
+  {\bibinfo {volume} {632}},\ \bibinfo {pages} {359} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hohenegger}\ and\ \citenamefont
+  {Shelley}(2010)}]{Hohenegger2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Hohenegger}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Shelley}},\ }\href {https://doi.org/10.1103/PhysRevE.81.046311} {\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review E - Statistical, Nonlinear,
+  and Soft Matter Physics}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo
+  {pages} {1} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {B{\'{a}}rdfalvy}\ \emph {et~al.}(2019)\citenamefont
+  {B{\'{a}}rdfalvy}, \citenamefont {Nordanger}, \citenamefont {Nardini},
+  \citenamefont {Morozov},\ and\ \citenamefont {Stenhammar}}]{Bardfalvy2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {B{\'{a}}rdfalvy}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Nordanger}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Stenhammar}},\ }\href
+  {https://doi.org/10.1039/c9sm00774a} {\bibfield  {journal} {\bibinfo
+  {journal} {Soft Matter}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages}
+  {7747} (\bibinfo {year} {2019})},\ \Eprint {https://arxiv.org/abs/1904.03069}
+  {arXiv:1904.03069} \BibitemShut {NoStop}%
 \end{thebibliography}%
