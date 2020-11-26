@@ -1,0 +1,8 @@
+GNF calculations
+------------------
+
+
+v1
+--
+(a) Varying subsystem sizes.
+(b) Multiple seeds of subsystems for spatial average.

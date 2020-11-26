@@ -1,0 +1,5 @@
+v1
+--
+\textbf{The correlation between GNF and kinetic energy and kinetic energy spectra.}
+(a) Local correlations between density fluctuations and kinetic energy at volume fractions ranging from 0\% to 9.6\%. Inset: a snapshot of a density fluctuation field and a kinetic energy field. The correlations are calculated by averaging over 1000 frames.
+(b) Energy spectra $E$ plotted against number fluctuations ($\Delta N/\sqrt N$) at corresponding length scales at volume fractions ranging from 0\% to 9.6\%. Black arrow indicates the direction of increasing length scale. Inset: the scaling exponent of number fluctuations $\alpha$ plotted against the scaling exponent of energy spectra $\beta$ at corresponding volume fractions.
