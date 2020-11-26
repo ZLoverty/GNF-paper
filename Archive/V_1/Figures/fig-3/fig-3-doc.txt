@@ -1,0 +1,11 @@
+v4: Concentration dependence of GNF.
+----
+(a) Standard deviation of particle number $\Delta N$ scaled by particle mean number $N$ plotted against subsystem size rescaled by single bacterium size $l^2/l_b^2$ in bacterial suspensions at volume fractions ranging from 0.8\% to 9.6\%. 
+(b) Concentration dependence of the magnitude of GNF $\alpha$ (blue circles) and kinetic energy $E$ (orange squares).
+
+
+v6 
+---
+\textbf{Concentration dependence of GNF.}
+(a) Standard deviation of particle number $\Delta N$ scaled by particle mean number $N$ plotted against subsystem size rescaled by single bacterium size $l^2/l_b^2$ in bacterial suspensions at volume fractions ranging from 0.8\% to 9.6\%. Shaded region indicates the range over which the scaling exponents $\alpha$ are fitted.
+(b) Concentration dependence of the scaling exponents $\alpha$. Dashed line indicates the high concentration plateau value of $\alpha$ which equals approximately 0.32.
