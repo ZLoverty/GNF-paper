@@ -11,3 +11,9 @@ v2: energy spectrum and its correlation with GNF
 (a) Energy spectra of bacterial active turbulence at volume fractions ranging from 0.8\% to 9.6\%.
 (b) Kinetic energy plotted against density fluctuations at corresponding length scales. 
 (c) Scaling exponents of density fluctuations ($\alpha$) and energy spectra ($\beta$) against length scales at volume fractions ranging from 0.8\% to 9.6\%.
+
+v3
+--
+\textbf{Concentration dependence of energy spectra.}
+(a) Energy spectra of bacterial active turbulence at volume fractions ranging from 0.8\% to 9.6\%. Shaded region indicates the range over which the scaling exponents $\beta$ are fitted. Red dashed line is a fitting of the $\phi=0.8\%$ curve (purple), based on the hydrodynamic model of Ref.~\cite{Bardfalvy2019}. Fitting parameters: $n=0.07%$ and $\epsilon=98$.
+(b) Scaling exponents of energy spectra ($\beta$) as a function of volume fractions $\phi$.
