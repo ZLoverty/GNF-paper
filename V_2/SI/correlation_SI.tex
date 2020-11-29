@@ -45,15 +45,29 @@
 
 \section{Materials and Methods}
 \label{sec:method}
+\subsection{Light-powered \textit{E. coli}}
+We introduce a light-driven transmembrane proton pump, proteorhodopsin (PR), to wild-type \textit{E. coli} (BW25113) by transforming the bacteria with plasmid pZE-PR encoding the SAR86 $\gamma$-proteobacterial PR-variant (Walter 2007). The activity of PR is directly correlated with the light intensity. Thus, we can control the swimming speed of bacteria using light of different intensities.
+
+The bacteria are cultured at 37 \textcelsius{} with a shaking speed at 250 rpm for 14-16 hours in terrific broth (TB) [tryptone 1.2\% (w/w), yeast extract 2.4\% (w/w), and glycerol 0.4\% (w/w)] supplemented with 0.1 g/L ampicillin. The culture is then diluted 1: 100 (v: v) in fresh TB and grown at 30 \textcelsius{} for 6.5 hours. PR expression is triggered by supplementing the culture medium with 1 mM isopropyl $\beta$-D-thiogalactoside and 10 \textmu M ethanolic all-trans-retinal in the mid-log phase (3 hours after the dilution).
+
+The bacteria are harvested by gentle centrifugation (800g for 5 min). After discarding the culture medium in the supernatant, we resuspend bacteria with dI water. The resuspended suspension is then centrifuged again at 800g for 5 min, and finally adjusted to target concentration for microscopy.
 
 \subsection{Sample preparation and microscopy}
 
 To prepare the sample for microscopy, we put bacterial suspensions prepared from the previous step into a seal chamber made of glass slides (25 mm $\times$ 75 mm) and coverslips (18 mm $\times$ 18 mm). We first glue (NOA 81, Norland, NJ) two coverslips on a glass slide, side-by-side, leaving a 3-mm separation between the two coverslips. We then cover the 3-mm separation with another coverslip to form a ``channel''. Then we use pipet to inject bacterial suspensions into the channel. Finally, we seal the two ends of the channel using UV glue (NOA 76, Norland, NJ) to form a sealed chamber.
 
-\subsection{Microscopy}
-
+\subsection{Imaging and analysis}
+\subsubsection{Microscopy}
 Images of the bacterial suspensions are taken with a Nikon Ti-E inverted microscope using the bright field mode, and with a 20$\times$ (NA 0.5) objective. The field of view is 422 $\times$ 356 \textmu m$^2$. All videos are recorded at 30 frames per second using a sCMOS camera.
-
+\subsubsection{Linear relation between intensity and density}
+In the low attenuation limit (small thickness and weak absorptivity), $I=I_0-\epsilon$ where $\epsilon<<I_0$:
+$$
+\log \frac{I_0}{I} = \log \frac{I_0}{I_0 - \epsilon} \approx \frac{\epsilon}{I_0} \sim c
+$$
+$$
+I = I_0 - \epsilon \sim c
+$$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Giant number fluctuations calculations}
 
 
@@ -133,7 +147,7 @@ we obtain
 \end{equation}
 the first integration is the available space size of velocity field, in this case the system area $A$. Thus,
 \begin{equation}
-E1(k_x, k_y) = E^1(k_x, k_y)}
+E(k_x, k_y) = E^1(k_x, k_y)
 \end{equation}
 
 

@@ -22,6 +22,16 @@
 % modified sentences will be used in the main text.
 % comments will be below the modified sentence
 
+% Things to discuss:
+% 1 autocorrelation is included in SI
+% 2 alpha=0.5 corresponds to a system with XX. I don't know what XX is supposed to be. Why 0.5?
+% 3 I want to avoid the term "cluster", since it sounds more like a "2D" "jammed" state to me.
+% 4 Use large graph for energy spectra since there are many curves, put phi dependence as inset
+% 5 Confused about units, check Bardfalvy2019
+% 6 Particularly, $E(k)$ is flat at small and intermediate $k$ due to the superposition of the dipolar flow fields of uncorrelated bacteria. (don't understand, intermediate k? weak peak?)
+% 7 $E(k) = 8\pi/15 n \kappa^2$ (I don't think it's a low k prediction, check Bardfalvy2019)
+% 8 Should I indicate the range of fitting in the plot?
+% 9 linear plot is also ok for steady-state dN-E plot
 
 \begin{document}
 
@@ -69,7 +79,7 @@ Dey2012,Saintillan2012,Saintillan2013,Ngo2014,Mahault2019}. Meanwhile, many impo
 \cite{Narayan2007, Aranson2008, Deseigne2010, Zhang2010, Schaller2013,
 Nishiguchi2017, Kawaguchi2017, Palacci2013}.
 %% Although significant progress has been made in the theoretical understanding of GNF over the last two decades since the seminal works of Toner and Tu\cite{Toner1995,Tu1998,Toner1998,AditiSimha2002,Ramaswamy2003,Toner2005,Chate2008,Mishra2010, Dey2012,Saintillan2012,Saintillan2013,Ngo2014,Mahault2019}, quantitative experimental verification of many important theoretical and numerical predictions on GNF is still out of reach.
-Of particular interest is the scaling exponent $\alpha$, which is defined following $\Delta N /\sqrt N \propto N^\alpha$, where $\Delta N$ is the standard deviation of particle number and $N$ is the mean number of particles in a subsystem of given size. Heretofore, all the existing experiments on GNF were limited to two-dimensional (2D) or quasi-2D systems. In contrast to theoretical predictions (where $\alpha \approx 0.3$), $\alpha$'s obtained in these experiments show large variations ranging from 0.13 to 0.5. Such a large variation arises partially because of complicated particle-boundary interactions, which are hard to incorporate in theoretical studies. Moreover, the predictions of $\alpha$ in three-dimensional (3D) wet active fluids---one of the most important classes of active fluids where hydrodynamics dominate the interparticle interactions and conserve the total momentum of systems \cite{Marchetti2013}---has not been experimentally testified. Therefore, there is an imperative need for an experimental measurement of $\alpha$ in 3D active fluids, which are not affected by system boundaries. Such experiments will provide not only experimental support on the effect of dimensionality on density fluctuations of active fluids \cite{Marchetti2013} but also an unambiguous experimental benchmark to testify theories of active fluids.
+Of particular interest is the scaling exponent $\alpha$, which is defined following $\Delta N /\sqrt N \propto N^\alpha$, where $\Delta N$ is the standard deviation of particle number and $N$ is the mean number of particles in a subsystem of given size. Heretofore, all the existing experiments on GNF were limited to two-dimensional (2D) or quasi-2D systems. In contrast to theoretical predictions (where $\alpha \approx 0.3$), $\alpha$'s obtained in these experiments show large variations ranging from 0.13 to 0.5. Such a large variation arises partially because of complicated particle-boundary interactions, which are hard to incorporate in theoretical studies. Moreover, the predictions of $\alpha$ in three-dimensional (3D) wet active fluids---one of the most important classes of active fluids where hydrodynamics dominate the interparticle interactions and conserve the total momentum of systems \cite{Marchetti2013}---has not been experimentally testified. Therefore, there is an imperative need for an experimental measurement of $\alpha$ in 3D active fluids, which are not affected by system boundaries. Such a measurement will provide not only an unambiguous experimental benchmark to testify theories of active fluids, but also experimental support on the effect of dimensionality on GNF of active fluids \cite{Marchetti2013}.
 %% Here, $\alpha$ is defined following $\Delta N /\sqrt N \propto N^\alpha$, where $\Delta N$ is the standard deviation of particle number and $N$ is the mean number of particles in a subsystem of given size.
 %% the mean number of particles of a subsystem of given size
 %%% of --> in
@@ -86,13 +96,8 @@ The rise of GNF in active fluids is usually accompanied by the transition to ord
 % Ths significance statement need further modification
 
 %% frequently measured to quantify such scale-dependent flow properties and to illustrate energy transfer between different scales in active turbulence.
-
 %% Nevertheless, existing experiments on energy spectra of active turbulence all focused on high-concentration suspensions with fully developed active turbulent flows \cite{Ishikawa2011,Wensink2012,Dunkel2013a,Creppy2015,Patteson2018}. How the characteristic turbulent spectrum emerges with increasing particle concentration has not been systematically studied.
-
 %% More importantly, although both GNF and energy spectra quantify the scale-dependent dynamics of active fluids, the intrinsic relation between the two quantities have not been explicitly discussed.
-
-% could be in the next p
-
 
 \begin{figure}[ht]
 \begin{center}
@@ -152,10 +157,14 @@ To calibrate the density-intensity correlation, we prepare bacterial suspensions
 
 \textit{Density fluctuations.}--The linear intensity-density relation allows us to measure the spatiotemporal evolution of relative local bacterial densities and investigate density fluctuations in 3D bacterial suspensions. We first calculate the two-point density spatial correlation and the density auto-correlation for suspensions of different $\phi$ and compare them with well-studied velocity correlations extracted from PIV \cite{Liu2020}.
 %% \textcolor{red}{Should we also show autocorrelation? We could have a separate figure for all the four correlations (density, velocity, spatial and auto). In any case, we need to show the definition of the correlation function(s) in SM, if not here in the main text.}
-The correlation length and correlation time are measured when the corresponding correlation functions decay to $1/e$. Fig.~\ref{fig:experiment}d shows the density correlation lengths at different $\phi$ \textcolor{red}{(use a symbol different from $l$ for the correlation length, e.g. $\lambda$, since $l$ is used as the size of subsystem below)}, where dense bacterial clusters with a size of $\sim 5$ bacterial lengths emerge in high-concentration bacterial suspensions of $\phi \gtrsim 4\%$.
+%%%%%%% Done in SM
+The correlation length and correlation time are measured when the corresponding correlation functions decay to $1/e$. Fig.~\ref{fig:experiment}d shows the density correlation lengths at different $\phi$
+%% \textcolor{red}{(use a symbol different from $l$ for the correlation length, e.g. $\lambda$, since $l$ is used as the size of subsystem below)}
+%%%%%%%%%%%%%%% use \lambda: done
+, where dense bacterial clusters with a size of $\sim 5$ bacterial lengths emerge in high-concentration bacterial suspensions of $\phi \gtrsim 4\%$.
 Simultaneously, long-range correlations also develop in the velocity-velocity correlation, indicating the strong coupling between density fluctuations and collective turbulent flows. The velocity correlation length is about twice of that of density correlations in fully-developed active turbulence.
 %% \textcolor{red}{If we show auto-correlation, we need to discuss the correlation time too. The correlation time could be important to justify the 10 frames used in your analysis below.}
-%%%%%%% autocorrelation is included in SI, discuss
+%%%%%%% Discuss: autocorrelation is included in SI,
 
 We further examine GNF by calculating the standard deviation of bacterial number $\Delta N$ and the mean bacterial number $N$ in subsystems of increasing sizes \cite{Liu2020}. $\Delta N / \sqrt N$ as a function of $l^2/l_b^2$ for bacterial suspensions of different $\phi$ is plotted in Fig.~\ref{fig:GNF}a, where $l$ is the side length of square subsystems and $l_b=3$ $\mu$m is the average length of bacterial body. Note that the rescaled subsystem size $l^2/l_b^2$ is linearly proportional to mean particle number $N$ at given $\phi$.
 %% \textcolor{red}{It is quite confusing that we talked about relative bacterial density in the previous paragraph and then bacterial number in this paragraph. A short explanation on the relation between density and number will help.}
@@ -189,7 +198,7 @@ Like GNF, the velocity field of active turbulence also shows scale-dependent str
 %%
 We investigate such structures by calculating the energy spectra of bacterial suspensions $E(k)$ at different $\phi$ \cite{Liu2020}. $E(k)$ measures the kinetic energy density at different scales in terms of wavenumber $k = 2\pi/l$, which is related to the real-space mean kinetic energy density $E = \langle V_x^2 + V_y^2 \rangle/2$ via $E = \int_0^\infty E(k)dk$. Fig.~\ref{fig:energy-spectra}a shows $E(k)$ of bacterial suspensions at different $\phi$.
 %% \textcolor{red}{We should plot $k/k_b$, instead of $k$ in analogy of $l/l_b$ for GNF.}
-%%%%%%%%%%%%% Will do
+%%%%%%%%%%%%% Done
 At low $\phi$ with random swimming bacteria, $E(k)$ quantitatively agrees with the theoretical prediction for uncorrelated pusher swimmers \cite{Bardfalvy2019}
 \begin{equation}
 E_k = 4\pi n \kappa^2 \left[ \frac{1}{3} + \frac{\cos(kl)}{(kl)^2} - \frac{\sin(kl)}{(kl)^3} \right] \frac{\epsilon^4k^2}{l^2} K_2^2(k\epsilon)
@@ -231,21 +240,14 @@ The same windows are then also used in PIV to extract the local velocities of ba
 \begin{equation}
 C = \bigg \langle \frac{ (\delta N(\vec{r},t) - \langle \delta N(\vec{r},t) \rangle_r)(E_l(\vec{r},t) - \langle E_l(\vec{r},t) \rangle_r)}{\sigma_{\delta N}\sigma_{E_1}} \bigg \rangle,
 \end{equation}
-where $\langle\cdot\rangle$ and $\sigma_X$ are the mean and standard deviation over $\vec{r}$, respectively, and the average $\langle\cdot\rangle$ is taken over all $x$, $y$ and $t$.
+where $\langle X \rangle_r$ and $\sigma_X$ are the mean and standard deviation of $X$ over the space $\vec{r}$, respectively, and the average $\langle\cdot\rangle$ is taken over all $x$, $y$ and $t$.
 %% \textcolor{red}{Fill in the formula here.}
 Fig.\ref{fig:GNF-energy-spectra-correlation}a shows $C$ as a function of $\phi$. At low $\phi$ with random swimming bacteria, the correlation between density fluctuations and kinetic energies remains weak fluctuating around zero. The correlation increases with $\phi$ as bacterial suspensions transition to active turbulence. An obvious positive correlation can be observed in the turbulent regime with $\phi \ge 4\%$, consistent with the observation at large scales.
 
-The correlations at both large and small scales imply that density fluctuations and kinetic energies may be correlated across all length scales in active turbulence. A scale-independent correlation between density fluctuations and kinetic energies may exist. Indeed, when we plot density fluctuations $\Delta N/\sqrt N$ against the corresponding kinetic energies $E$ at the same scale, all the $\Delta N/\sqrt N$-$E$ pairs fall onto a universal curve in the active turbulence regime over XX orders of magnitude in scales, regardless of the specific volume fractions of the samples.
+The correlations at both large and small scales imply that density fluctuations and kinetic energies may be correlated across all length scales in active turbulence. A scale-independent correlation between density fluctuations and kinetic energies may exist. Indeed, when we plot density fluctuations $\Delta N/\sqrt N$ against the corresponding kinetic energies $E$ at the same scale, all the $\Delta N/\sqrt N$-$E$ pairs fall onto a universal curve in the active turbulence regime over \textcolor{red}{two (17 $\mu$m PIV box to the field of view length scale)} orders of magnitude in scales, regardless of the specific volume fractions of the samples.
 %% \textcolor{red}{I am wondering if we should plot the data in a linear-linear plot, which may show better data collapse. The dynamic range of the collapsing is barely one decade in $y$ and only a factor of 2 in $x$.}
 %%%%%%%%%%%%%%%% Discuss: linear plot is also ok
-In contrast, $\Delta N/\sqrt N$-$E$ shows much stronger scattering for low $\phi$ suspensions with random swimming bacteria. We also plot $\alpha$ versus $\beta$ to compare the scaling exponents of the two variables. We find $\alpha$ increases linearly with $\beta$ with a constant ratio $\alpha/\beta = 0.095 \pm 0.016$ in the turbulent regime. The result further strengthens the strong scale-independent correlation between the density fluctuations and the kinetic energy of active turbulent flows.
-
-\textcolor{red}{What is this reference: \cite{Chatterjee2019}?}
-
-
-
-
-
+In contrast, $\Delta N/\sqrt N$-$E$ shows much stronger scattering for low $\phi$ suspensions with random swimming bacteria. We also plot $\alpha$ versus $\beta$ to compare the scaling exponents of the two variables. We find $\alpha$ increases linearly with $\beta$ with a constant ratio $\alpha/\beta = 0.087 \pm 0.012$ in the turbulent regime. The result further strengthens the strong scale-independent correlation between the density fluctuations and the kinetic energy of active turbulent flows.
 
 In summary, we present the first measurement on GNF in 3-dimensional bacterial suspensions. The scaling exponents $\alpha$ we measure are not subject to the effect of frictional walls and are thus more suitable for quantitatively testing theoretical predictions.
 Our detailed analysis on the velocity fields reveals a strong coupling between flow kinetic energy and GNF, not only on the global scale, but spans all the length scales down to single swimmer length.
