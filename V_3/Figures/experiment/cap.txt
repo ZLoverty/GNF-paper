@@ -1,0 +1,6 @@
+v1
+---------------
+(a) Bacterial active turbulence displaying constantly varying concentration inhomogeneity (6.4\%). Scale bar is 85 \textmu m.
+(b) Velocity field of a dilute bacterial suspension ($\phi=6.4\%$). 
+(c) Volume fraction as a function of averaged pixel intensities. Inset shows bacterial suspensions of different volume fractions under the same illumination conditions.
+(d) Velocity and concentration spatial correlation functions $C_{v}(r)$ and $C_{n}(r)$.
