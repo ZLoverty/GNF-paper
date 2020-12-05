@@ -46,45 +46,45 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--empty author in Liu2020
 Warning--empty year in Liu2020
-You've used 51 entries,
+You've used 50 entries,
             6079 wiz_defined-function locations,
-            2056 strings with 25878 characters,
-and the built_in function-call counts, 53610 in all, are:
-= -- 3860
-> -- 1471
-< -- 287
-+ -- 459
-- -- 352
-* -- 8185
-:= -- 5024
-add.period$ -- 51
-call.type$ -- 51
-change.case$ -- 205
-chr.to.int$ -- 50
-cite$ -- 55
-duplicate$ -- 4792
-empty$ -- 3762
-format.name$ -- 859
-if$ -- 11011
+            2051 strings with 25756 characters,
+and the built_in function-call counts, 52722 in all, are:
+= -- 3810
+> -- 1445
+< -- 284
++ -- 451
+- -- 346
+* -- 8043
+:= -- 4934
+add.period$ -- 50
+call.type$ -- 50
+change.case$ -- 201
+chr.to.int$ -- 49
+cite$ -- 54
+duplicate$ -- 4702
+empty$ -- 3685
+format.name$ -- 844
+if$ -- 10837
 int.to.chr$ -- 2
-int.to.str$ -- 59
-missing$ -- 761
-newline$ -- 205
-num.names$ -- 151
-pop$ -- 2018
+int.to.str$ -- 58
+missing$ -- 752
+newline$ -- 202
+num.names$ -- 148
+pop$ -- 1979
 preamble$ -- 1
-purify$ -- 254
+purify$ -- 249
 quote$ -- 0
-skip$ -- 2367
+skip$ -- 2340
 stack$ -- 0
-substring$ -- 1173
-swap$ -- 4626
-text.length$ -- 174
+substring$ -- 1160
+swap$ -- 4552
+text.length$ -- 171
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 736
+type$ -- 723
 warning$ -- 2
-while$ -- 146
+while$ -- 144
 width$ -- 0
-write$ -- 453
+write$ -- 446
 (There were 4 error messages)
