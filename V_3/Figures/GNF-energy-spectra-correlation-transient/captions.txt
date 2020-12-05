@@ -1,0 +1,4 @@
+v1
+--
+(a) Evolutions of GNF scaling exponent $\alpha$ (black), flow kinetic energy $E$ (orange) and coherent flow fraction $M$ (blue) during the onset of active turbulence ($\phi=6.4$).
+(b) Kinetic energy and number fluctuations at corresponding time and length scales during the onset of active turbulence at volume fractions ranging from 2.4\% to 9.6\%.

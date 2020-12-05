@@ -1,0 +1,10 @@
+v3 - 12042020
+------
+(a-c) Velocity and concentration spatial correlation functions $C_{v}(r)$  and $C_{n}(r)$ and correlation lengths $\lambda$,
+(d-f) Velocity and concentration temporal autocorrelation functions $C_{t, v}(t)$  and $C_{t, n}(t)$ and correlation times $\tau$ at volume fractions ranging from 0.8\% to 9.6\%.
+
+
+
+
+--- footnote
+# Characteristic time scale: tau_b = l_b / v_b = 3 / 15 = 0.2 s

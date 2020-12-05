@@ -23,15 +23,6 @@
 % comments will be below the modified sentence
 
 % Things to discuss:
-% 1 autocorrelation is included in SI
-% 2 alpha=0.5 corresponds to a system with XX. I don't know what XX is supposed to be. Why 0.5?
-% 3 I want to avoid the term "cluster", since it sounds more like a "2D" "jammed" state to me.
-% 4 Use large graph for energy spectra since there are many curves, put phi dependence as inset
-% 5 Confused about units, check Bardfalvy2019
-% 6 Particularly, $E(k)$ is flat at small and intermediate $k$ due to the superposition of the dipolar flow fields of uncorrelated bacteria. (don't understand, intermediate k? weak peak?)
-% 7 $E(k) = 8\pi/15 n \kappa^2$ (I don't think it's a low k prediction, check Bardfalvy2019)
-% 8 Should I indicate the range of fitting in the plot?
-% 9 linear plot is also ok for steady-state dN-E plot
 
 \begin{document}
 
@@ -59,20 +50,9 @@ Giant number fluctuations, a landmark of collectively moving active particles, i
 
 Active fluids exhibit many unusual behaviors beyond the expectation of equilibrium statistical mechanics \cite{Ramaswamy2010,Cates2012,Marchetti2013,Poon2013,Elgeti2015}.
 In particular, an active fluid can exhibit anomalously large density variations, the so-called giant number fluctuations (GNF), where the standard deviation of the number of particles grows nonlinearly with the square root of the mean particle number, defying the central limit theorem of equilibrium systems \cite{Mishin2015}.
-%% In particular, an active fluid can show anomalously strong density fluctuations, the so-called giant number fluctuations (GNF), where the variance of local particle density is significantly larger than the square root of the mean density, defying the central limit theorem of equilibrium systems \cite{Mishin2015}.
-%%% can show anomalously strong density fluctuations --> exhibits strong transient density inhomogeneity
-%%%% to avoid repeating "fluctuations"
-%%% local particle density is significantly larger than the square root of the mean density --> particle number shows anomalously strong dependence on the mean number
-%%%% to variance is std^2 and thus scales with the mean in equilibrium systems // I like to use "number" here in order to be consistent with "giant number fluctuations"
 Such unusual density fluctuations have been observed in a wide range of active fluids in both living and non-living systems including vibrated granular rods \cite{Narayan2007,Aranson2008,Kudrolli2008,Deseigne2010},
 swarming bacteria \cite{Zhang2010,Nishiguchi2017} and mammalian cells \cite{Kawaguchi2017},
 self-propelled cytoskeleton \cite{Schaller2013}, and synthetic colloidal swimmers \cite{Palacci2013,Karani2019}. As a result, GNF has generally been viewed as a hallmark of the emergent behaviors of active fluids.
-%% Such anomalous density fluctuations have been observed in a wide range of active fluids in both biological and physical systems including vibrated granular rods \cite{Narayan2007,Aranson2008,Deseigne2010}, swarming bacteria \cite{Zhang2010,Nishiguchi2017} and mammalian cells \cite{Kawaguchi2017}, self-propelled cytoskeleton \cite{Schaller2013}, and synthetic colloidal swimmers \cite{Palacci2013,Karani2019}. As a result, GNF has generally been viewed as a hallmark of the emergent behaviors of active fluids.
-%%% density --> strong number
-%%% biological and physical --> living and non-living
-%%%% I feel "physical systems" a little strange but we can talk about this
-%%% add ref Kudrolli2008
-
 
 
 Significant theoretical and computational advancement on GNF has been made over the past two decades since the seminal works of Toner and Tu \cite{Toner1995,Tu1998,Toner1998,AditiSimha2002,Ramaswamy2003,Toner2005,Chate2008,Mishra2010,
@@ -102,13 +82,13 @@ The rise of GNF in active fluids is usually accompanied by the transition to ord
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{Figures/experiment/v1.pdf}
+\includegraphics[width=0.47\textwidth]{Figures/experiment/v5.pdf}
 \caption[Experimental details]
 {
-(a) Bacterial active turbulence displaying constantly varying concentration inhomogeneity (6.4\%). Scale bar is 85 \textmu m.
-(b) Velocity field of a dilute bacterial suspension ($\phi=6.4\%$).
-(c) Volume fraction as a function of averaged pixel intensities. Inset shows bacterial suspensions of different volume fractions under the same illumination conditions.
-(d) Velocity and concentration spatial correlation functions $C_{v}(r)$ and $C_{n}(r)$.
+(a) Active turbulence in a dense bacterial suspension (6.4\%) displaying constantly varying concentration inhomogeneity. Scale bar is 85 \textmu m.
+(b) Velocity field of the active turbulence in the dense bacterial suspension ($\phi=6.4\%$) shown in (a).
+(c) A dilute bacterial suspension (1.6\%) showing weaker density variations.
+(d) Volume fraction as a function of averaged pixel intensities. Inset shows bacterial suspensions of different volume fractions under the same illumination conditions.
 }
 \label{fig:experiment}
 \end{center}
@@ -128,26 +108,27 @@ It is challenging to directly count the number of bacteria in a 3D suspension of
 % On the macroscopic scale of the chamber, the light intensity is still uniform. \textcolor{red}{This is argument is wrong if the microscopy light is the same as the light power light.} Moreover, the life time of the dense clusters is significantly shorter than the response time of bacteria to the change of light condition. Hence, the motility of light-powered bacteria should not be affected by the local fast light attenuation and is dominantly controlled by the average intensity of illuminating light. \textcolor{red}{We need to justify the formation of clusters does not strongly affect bacteria motility, since in the clusters the light is dimmer. The other argument could be we already saturate the light response of bacteria. Even though in the clusters light is dimmer, bacterial motility is still the same.}
 To calibrate the density-intensity correlation, we prepare bacterial suspensions of different $\phi$ and image the suspensions under the same illumination (Fig.~\ref{fig:experiment}c inset). The mean image intensity decreases with increasing $\phi$ following an approximately linear relation (Fig.~\ref{fig:experiment}c), agreeing with the the Beer-Lambert law for samples of small thickness and weak absorptivity appropriate for our experiments. The linear density-intensity relation has also been used in previous experiments on \textit{E. coli} suspensions \cite{Wilson2011}.
 
-%% \textcolor{red}{I am not sure if this argument is correct. Is there another work showing linear relation too? I remember you mentioned Wilson Poon also found the same linear relation. If yes, we should cite their work here to support our calibration.}
-%%% I do have cited (Wilson2011)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% The argument is correct. In the low attenuation limit (small thickness and weak absorptivity), $I=I_0-\epsilon$ where $\epsilon<<I_0$:
-% $$
-% \log \frac{I_0}{I} = \log \frac{I_0}{I_0 - \epsilon} \approx \frac{\epsilon}{I_0} \sim c
-% $$
-% $$
-% I = I_0 - \epsilon \sim c
-% $$
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{figure}[ht]
 \begin{center}
-\includegraphics[width=0.5\textwidth]{figures/GNF/v1.pdf}
+\includegraphics[width=0.47\textwidth]{figures/spatiotemporal-correlations/v3.pdf}
+\caption[spatiotemporal-correlations.]
+{
+(a-c) Velocity and concentration spatial correlation functions $C_{v}(r)$  and $C_{n}(r)$ and correlation lengths $\lambda$,
+(d-f) Velocity and concentration temporal autocorrelation functions $C_{t, v}(t)$  and $C_{t, n}(t)$ and correlation times $\tau$ at volume fractions ranging from 0.8\% to 9.6\%.
+}
+\label{fig:spatiotemporal-correlations}
+\end{center}
+\end{figure}
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=0.47\textwidth]{figures/GNF/v3.pdf}
 \caption[Concentration dependence of GNF.]
 {
 \textbf{Concentration dependence of GNF.}
-(a) Standard deviation of particle number $\Delta N$ scaled by particle mean number $N$ plotted against subsystem size rescaled by single bacterium size $l^2/l_b^2$ in bacterial suspensions at volume fractions ranging from 0.8\% to 9.6\%. Shaded region indicates the range over which the scaling exponents $\alpha$ are fitted.
-(b) Concentration dependence of the scaling exponents $\alpha$. Dashed line indicates the high concentration plateau value of $\alpha$ which equals approximately 0.32.
+Standard deviation of particle number $\Delta N$ scaled by particle mean number $N$ plotted against subsystem size rescaled by single bacterium size $l^2/l_b^2$ in bacterial suspensions at volume fractions ranging from 0.8\% to 9.6\%. Shaded region indicates the range over which the scaling exponents $\alpha$ are fitted.
+Inset: Concentration dependence of the scaling exponents $\alpha$. Dashed line indicates the high concentration plateau value of $\alpha$ which equals approximately $0.30 \pm 0.01$.
 }
 \label{fig:GNF}
 \end{center}
@@ -170,12 +151,11 @@ The degree of GNF can be quantified by the scaling exponent $\alpha$ following $
 $\alpha$ approaches to a high plateau of $0.32 \pm XX$ at even higher $\phi \geq \phi_h = 6.4\%$. The plateau value quantitatively agrees with the theoretical prediction of $\alpha = 1/3$ for 3D suspensions of polar-ordered self-propelled particles with hydrodynamic interactions \cite{AditiSimha2002}. \textcolor{red}{Please provide the error bar.} As such, our experiments provide the first quantitative verification of the theory of GNF in 3D wet active fluids. Nevertheless, the gradual increase of $\alpha$ at intermediate $\phi$ between $\phi_c$ and $\phi_h$ where active turbulence has already been established cannot been explained by the linear theory. Such a gradual increase has been observed in numerical simulations of suspensions of self-propelled rods beyond the linear regime \cite{Saintillan2012}.
 
 \begin{figure}[!]
-\begin{center}\includegraphics[width=0.5\textwidth]{Figures/energy-spectra/v1.pdf}
+\begin{center}\includegraphics[width=0.47\textwidth]{Figures/energy-spectra/v3.pdf}
 \caption[Concentration dependence of energy spectra.]
 {
-\textbf{Concentration dependence of energy spectra.}
-(a) Energy spectra of bacterial active turbulence at volume fractions ranging from 0.8\% to 9.6\%. Shaded region indicates the range over which the scaling exponents $\beta$ are fitted. Red dashed line is a fitting of the $\phi=0.8\%$ curve (purple), based on the hydrodynamic model of Ref.~\cite{Bardfalvy2019}. Fitting parameters: $n=0.07\%$ and $\epsilon=98$.
-(b) Scaling exponents of energy spectra ($\beta$) as a function of volume fractions $\phi$.
+Energy spectra of bacterial active turbulence at volume fractions ranging from 0.8\% to 9.6\%. Shaded region indicates the range over which the scaling exponents $\beta$ are fitted. Red dashed line is a fitting of the $\phi=0.8\%$ curve (purple), based on the hydrodynamic model of Ref.~\cite{Bardfalvy2019}. Fitting parameters: $n=0.07\%$ and $\epsilon=98$.
+Inset: Scaling exponents of energy spectra ($\beta$) as a function of volume fractions $\phi$. Dashed line is $3.3 \pm 0.1$.
 }
 \label{fig:energy-spectra}
 \end{center}
@@ -203,28 +183,45 @@ Weak peaks are observed for high $\phi$ suspensions at low $k$. This overall tre
 We also extract the scaling exponent $\beta$ from $E(k) \sim k^{-\beta}$ by fitting the energy spectra at intermediate and large $k$, where a significant change of $E(k)$ with $\phi$ occurs and $E(k)$ exhibits good power-law relations.
 %% \textcolor{red}{I think we should use a smaller range of $k$ in the fitting. For the low $\phi$ samples, the curves are apparently nonlinear in the current range.I don't think we need to enforce the overlap of the length scales between GNF and energy spectra at this point, since we will plot $\Delta N/\sqrt{N}$ and $E(k)$ directly anyway.}
 %%%%%%%%%%%%%%% Sure
-Similar to the trend of $\alpha$, $\beta$ also increases with $\phi$ and saturates at $2.9 \pm 0.1$ at high $\phi \geq \phi_h$. The saturated scaling exponent is quantitatively the same as that of the active turbulence of high-concentration suspensions of sperm at large $k$ \cite{Creppy2015}. The exponent is also consistent with experiments on confined dense suspensions of \textit{B. subtilis} and swarming \textit{S. marcescens} on agar substrates, where the scaling of $E(k) \sim k^{-8/3}$ has been reported at large $k$ \cite{Wensink2012,Patteson2018}. Since the characteristic vortex size quantified by the velocity correlation length is linearly proportional to the system size $L$ \cite{Guo2018}, when $k$ is significantly smaller than $2\pi/L$, $E(k)$ would decreases, exhibiting the non-monotonic trend shown in \cite{Wensink2012,Patteson2018}. The large system size of $L = 140$ $\mu$m of our experiments allows us to probe the small $k$ limit predicted by theories and simulations without the influence of system boundaries.
+Similar to the trend of $\alpha$, $\beta$ also increases with $\phi$ and saturates at $2.9 \pm 0.1$ at high $\phi \geq \phi_h$. The saturated scaling exponent is quantitatively the same as that of the active turbulence of high-concentration suspensions of sperm at large $k$ \cite{Creppy2015}.
+The exponent is also consistent with experiments on confined dense suspensions of \textit{B. subtilis} and swarming \textit{S. marcescens} on agar substrates, where the scaling of $E(k) \sim k^{-8/3}$ has been reported at large $k$ \cite{Wensink2012,Patteson2018}. Since the characteristic vortex size quantified by the velocity correlation length is linearly proportional to the system size $L$ \cite{Guo2018}, when $k$ is significantly smaller than $2\pi/L$, $E(k)$ would decreases, exhibiting the non-monotonic trend shown in \cite{Wensink2012,Patteson2018}. The large system size of $L = 140$ $\mu$m of our experiments allows us to probe the small $k$ limit predicted by theories and simulations without the influence of system boundaries.
 
-Although the scaling in the small $k$ limit is strongly affected by the system size, the scaling in the large $k$ limit seems to be universal with $\beta \approx 3$ from different experiments. To the best of our knowledge, no theoretical prediction has been made on this interesting scaling behavior for 3D wet active fluids. Giomi investigated the energy spectra of 2D active nematics by combining numerical simulations with mean-field theories and showed $E(k) \sim k^{-4}$ in the large $k$ limit \cite{Giomi2015}. The result has also been confirmed recently by a hydrodynamic theory \cite{Alert2020}. For isotropic turbulence in $d$ dimension, the energy spectra can be written as $E(k) = C_d k^{d-1} \langle \mathbf{v}(\mathbf{k})\cdot \mathbf{v}(-\mathbf{k})\rangle_{k = |\mathbf{k}|}$ \cite{Wensink2012,Bardfalvy2019}, where $C_d k^{d-1}$ is the surface area of $d$-sphere and $\langle \mathbf{v}(\mathbf{k})\cdot \mathbf{v}(-\mathbf{k})\rangle_{k = |\mathbf{k}|}$ is the Fourier transform of the velocity-velocity spatial correlation function. If we assume that the velocity correlation function for 2D active nematics is quantitatively similar to that of 3D bacterial suspensions independent of the dimensionality of systems, the mean-field theory would then predict the correct scaling of $E(k) \sim k^{-3}$ for 3D active turbulence. This hypothesis is certainly highly non-trivial and needs further theoretical investigation. Note that although we measure the energy spectra of 2D in-plane flows of 3D suspensions, the scaling of the spectra is the same as the spectra of 3D turbulent flows \cite{Pope2000}. Taken together, our study provides the first systematic experiments on the evolution of $E(k)$ over a large range of $\phi$ in bulk bacterial suspensions. The results quantitatively verify the existing theory on low-concentration active fluids and serve as a crucial benchmark for future theoretical development on the spectral properties of 3D active turbulence.
+Although the scaling in the small $k$ limit is strongly affected by the system size, the scaling in the large $k$ limit seems to be universal with $\beta \approx 3$ from different experiments. To the best of our knowledge, no theoretical prediction has been made on this interesting scaling behavior for 3D wet active fluids. Giomi investigated the energy spectra of 2D active nematics by combining numerical simulations with mean-field theories and showed $E(k) \sim k^{-4}$ in the large $k$ limit \cite{Giomi2015}.
+The result has also been confirmed recently by a hydrodynamic theory \cite{Alert2020}. For isotropic turbulence in $d$ dimension, the energy spectra can be written as $E(k) = C_d k^{d-1} \langle \mathbf{v}(\mathbf{k})\cdot \mathbf{v}(-\mathbf{k})\rangle_{k = |\mathbf{k}|}$ \cite{Wensink2012,Bardfalvy2019},
+where $C_d k^{d-1}$ is the surface area of $d$-sphere and $\langle \mathbf{v}(\mathbf{k})\cdot \mathbf{v}(-\mathbf{k})\rangle_{k = |\mathbf{k}|}$ is the Fourier transform of the velocity-velocity spatial correlation function. If we assume that the velocity correlation function for 2D active nematics is quantitatively similar to that of 3D bacterial suspensions independent of the dimensionality of systems, the mean-field theory would then predict the correct scaling of $E(k) \sim k^{-3}$ for 3D active turbulence. This hypothesis is certainly highly non-trivial and needs further theoretical investigation. Note that although we measure the energy spectra of 2D in-plane flows of 3D suspensions, the scaling of the spectra is the same as the spectra of 3D turbulent flows \cite{Pope2000}. Taken together, our study provides the first systematic experiments on the evolution of $E(k)$ over a large range of $\phi$ in bulk bacterial suspensions. The results quantitatively verify the existing theory on low-concentration active fluids and serve as a crucial benchmark for future theoretical development on the spectral properties of 3D active turbulence.
 
 \begin{figure}[!]
 \begin{center}
-\includegraphics[width=0.47\textwidth]{figures/GNF-energy-spectra-correlation/v1.pdf}
+\includegraphics[width=0.47\textwidth]{figures/GNF-energy-spectra-correlation/v4.pdf}
 \caption[The correlation between GNF and kinetic energy and kinetic energy spectra.]
 {
 \textbf{The correlation between GNF and kinetic energy and kinetic energy spectra.}
-(a) Local correlations between density fluctuations and kinetic energy at volume fractions ranging from 0\% to 9.6\%. Inset: a snapshot of a density fluctuation field and a kinetic energy field. The correlations are calculated by averaging over 1000 frames.
-(b) Energy spectra $E$ plotted against number fluctuations ($\Delta N/\sqrt N$) at corresponding length scales at volume fractions ranging from 0\% to 9.6\%. Black arrow indicates the direction of increasing length scale. Inset: the scaling exponent of number fluctuations $\alpha$ plotted against the scaling exponent of energy spectra $\beta$ at corresponding volume fractions.
+(a) Energy spectra $E$ plotted against number fluctuations ($\Delta N/\sqrt N$) at corresponding length scales at volume fractions ranging from 0\% to 9.6\%. Black arrow indicates the direction of increasing length scale. Inset: the scaling exponent of number fluctuations $\alpha$ plotted against the scaling exponent of energy spectra $\beta$ at corresponding volume fractions. Dashed line has slope $0.08 \pm 0.01$.
+(b) Local correlations between density fluctuations and kinetic energy at volume fractions ranging from 0\% to 9.6\%. Inset: a snapshot of a density fluctuation field and a kinetic energy field. The correlations are calculated by averaging over 1000 frames.
 }
 \label{fig:GNF-energy-spectra-correlation}
 \end{center}
 \end{figure}
 
-\textit{Density-flow coupling.}--Both GNF and energy spectra probe the scale dependence of active turbulence. The former measures density fluctuations at different scales, whereas the latter considers flow energies across scales. Although both properties have been extensively studied, the coupling between the two has not been explicitly examined so far. The scaling exponents of GNF and $E(k)$ show qualitatively similar increasing trend and both saturate at high $\phi \geq \phi_h$. We plot $\alpha$ versus $\beta$ at different $\phi$ (Fig.~\ref{fig:GNF-energy-spectra-correlation}b inset), which shows a $\phi$-independent constant ratio $\alpha/\beta = 0.087 \pm 0.012$ in the turbulent regime. The finding suggests that a density-independent correlation between density fluctuations and kinetic energies may exist across all different length scales. Indeed, when we plot density fluctuations $\Delta N/\sqrt N$ against the corresponding kinetic energies $E$ at the same scale, all the $\Delta N/\sqrt N$-$E$ pairs fall onto a universal curve over two orders of magnitude in scales extending from the size of single PIV boxes to the entire field of view of experiments in the active turbulence regime, regardless of the specific volume fractions of the samples. In contrast, $\Delta N/\sqrt N$-$E$ shows much larger scattering for low $\phi$ suspensions with random swimming bacteria. Although it is not surprising that density fluctuations correlate with kinetic energies in general as both measure different aspects of the same active turbulence, the collapse of data and the constant ratio of $\alpha/\beta$ are still quite unexpected. The results show that the coupling between density fluctuations and turbulent flows occur at every scale of active turbulence in a quantitative same fashion. Such a scale-invariant coupling is independent of the volume fraction of bacterial suspensions and manifests even in the turbulent regime between $\phi_c$ and $\phi_h$ where the linear theory fails. Since Newtonian fluids are generally considered to be incompressible, this scale-invariant density-flow coupling does not have an analogue in classical turbulence and is unique to active turbulence.
+\textit{Density-flow coupling.}--Both GNF and energy spectra probe the scale dependence of active turbulence. The former measures density fluctuations at different scales, whereas the latter considers flow energies across scales. Although both properties have been extensively studied, the coupling between the two has not been explicitly examined so far. The scaling exponents of GNF and $E(k)$ show qualitatively similar increasing trend and both saturate at high $\phi \geq \phi_h$. We plot $\alpha$ versus $\beta$ at different $\phi$ (Fig.~\ref{fig:GNF-energy-spectra-correlation}b inset), which shows a $\phi$-independent constant ratio $\alpha/\beta = 0.087 \pm 0.012$ in the turbulent regime. The finding suggests that a density-independent correlation between density fluctuations and kinetic energies may exist across all different length scales.
+Indeed, when we plot density fluctuations $\Delta N/\sqrt N$ against the corresponding kinetic energies $E$ at the same scale, all the $\Delta N/\sqrt N$-$E$ pairs fall onto a universal curve over two orders of magnitude in scales extending from the size of single PIV boxes to the entire field of view of experiments in the active turbulence regime, regardless of the specific volume fractions of the samples. In contrast, $\Delta N/\sqrt N$-$E$ shows much larger scattering for low $\phi$ suspensions with random swimming bacteria. Although it is not surprising that density fluctuations correlate with kinetic energies in general as both measure different aspects of the same active turbulence, the collapse of data and the constant ratio of $\alpha/\beta$ are still quite unexpected. The results show that the coupling between density fluctuations and turbulent flows occur at every scale of active turbulence in a quantitative same fashion. Such a scale-invariant coupling is independent of the volume fraction of bacterial suspensions and manifests even in the turbulent regime between $\phi_c$ and $\phi_h$ where the linear theory fails. Since Newtonian fluids are generally considered to be incompressible, this scale-invariant density-flow coupling does not have an analogue in classical turbulence and is unique to active turbulence.
 
 To further illustrate such an unusual coupling in real space, we measure the \emph{local} correlation of density fluctuations and kinetic energies at a randomly chosen small scale of $l = 5\l_b$. The local density fluctuation $\delta N(\mathbf{r},t)$ and local kinetic energy $E(\mathbf{r},t)$ at position $\mathbf{r} = (x,y)$ and time $t$ are extracted from the image intensity field and the PIV velocity field, respectively (Fig.~\ref{fig:GNF-energy-spectra-correlation}a inset) \cite{Liu2020}. The normalized correlation between $\delta N(\mathbf{r},t)$ and $E(\mathbf{r},t)$ is then computed at different $\phi$ (Fig.~\ref{fig:GNF-energy-spectra-correlation}a). At low $\phi$ with random swimming bacteria, the correlation is weak fluctuating around zero, which then increases with $\phi$ as bacterial suspensions transition to active turbulence. A constant positive correlation is found in the turbulent regime when $\phi \geq \phi_c$. The real-space measurement provides a concrete example of the coupling between density fluctuations and turbulent flows at small scales.
 
-Even more surprisingly, we find that the same density-independent coupling also manifests in the kinetic process during the transition towards bacterial turbulence. Taking the advantage of the light-powered bacteria, we trigger the onset of bacterial turbulence by suddenly turning on the light illumination on high-concentration bacterial suspensions at $t=0$ \cite{Peng2020}. The density fluctuations and the energy spectra are then monitored as a function of $t$ before the suspensions reach the steady turbulent state. First, at the large scale of the system, the emergence of GNF is directly coupled with the increase of the total kinetic energy of the flows (Fig. XXa). Both are significantly delayed compared with the formation of collective flows. Here, we quantify the formation of collective flows by the area fraction of the regions with strong alignment of local velocities \cite{Liu2020,Peng2020}. The finding provides strong experimental support to an important prediction of the kinetic theory of active fluids \cite{Saintillan2008a,Saintillan2008b}, where the density fluctuation arises due to the nonlinear coupling between collective flows and particle densities. At the onset of hydrodynamic instability in the linear regime, the density should stay uniform as confirmed by our experiments at early times.
+\begin{figure}[!]
+\begin{center}
+\includegraphics[width=0.47\textwidth]{figures/GNF-energy-spectra-correlation-transient/v1.pdf}
+\caption[The correlation between GNF and kinetic energy and kinetic energy spectra at transient state]
+{
+(a) Evolutions of GNF scaling exponent $\alpha$ (black), flow kinetic energy $E$ (orange) and coherent flow fraction $M$ (blue) during the onset of active turbulence ($\phi=6.4$).
+(b) Kinetic energy and number fluctuations at corresponding time and length scales during the onset of active turbulence at volume fractions ranging from 2.4\% to 9.6\%.
+}
+\label{fig:GNF-energy-spectra-correlation-transient}
+\end{center}
+\end{figure}
+
+Even more surprisingly, % avoid "surprisingly"
+we find that the same density-independent coupling also manifests in the kinetic process during the transition towards bacterial turbulence. Taking the advantage of the light-powered bacteria, we trigger the onset of bacterial turbulence by suddenly turning on the light illumination on high-concentration bacterial suspensions at $t=0$ \cite{Peng2020}. The density fluctuations and the energy spectra are then monitored as a function of $t$ before the suspensions reach the steady turbulent state. First, at the large scale of the system, the emergence of GNF is directly coupled with the increase of the total kinetic energy of the flows (Fig. XXa). Both are significantly delayed compared with the formation of collective flows. Here, we quantify the formation of collective flows by the area fraction of the regions with strong alignment of local velocities \cite{Liu2020,Peng2020}. The finding provides strong experimental support to an important prediction of the kinetic theory of active fluids \cite{Saintillan2008a,Saintillan2008b}, where the density fluctuation arises due to the nonlinear coupling between collective flows and particle densities. At the onset of hydrodynamic instability in the linear regime, the density should stay uniform as confirmed by our experiments at early times.
 More importantly, we also analyze the temporal evolution of $\Delta N/\sqrt N$ and $E(k)$ for bacterial suspensions of different $\phi$. All the data at different $t$ and $\phi$ collapse into the same master curve obtained from the steady-state measurements (Fig. XXb) \cite{Liu2020}.
 This remarkable result from the kinetic measurements further suggests that the rise of GNF is governed by the kinetic energy at each corresponding scale.
 %% Specifically, we divide the images of bacterial suspensions into small square windows of $5.7l_b$. The standard deviation of the density of each window at time $t$, $\delta N(\mathbf{r},t)$, is then calculated over a small time interval of 0.3 s, less than the correlation time of density fluctuations $\tau$. $\delta N(\mathbf{r},t)$ quantifies the local density fluctuation at position $\mathbf{r} = (x,y)$ and time $t$ (Fig.\ref{fig:GNF-energy-spectra-correlation}a inset). The same windows are then also used in PIV to extract the local velocities of bacterial suspensions. The local kinetic energy at $t$ is given by $E_l(\mathbf{r},t) = \left[ V_x(\mathbf{r},t)^2 + V_y(\mathbf{r},t)^2 \right]/2$ (Fig.\ref{fig:GNF-energy-spectra-correlation}a inset). Finally, we calculate the normalized correlation between $\delta N(\mathbf{r},t)$ and $E_l(\mathbf{r},t)$, $C$ for bacterial suspensions of different $\phi$ (Fig.\ref{fig:GNF-energy-spectra-correlation}a).
