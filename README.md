@@ -8,7 +8,8 @@ Rule of thumb is to do it whenever a stable version, or an acceptable version is
 ## Versions
 - V0: Correlations and Fluctuations 3-D in Bacterial Suspensions
 - V1: Giant Number Fluctuations and Energy Spectra in 3-D Bacterial Turbulence
-- **V2: Change figure organizations**
+- V2: Change figure organizations
+- **V3: Update spatial and temporal correlation, density-flow coupling at transient state**
 ## Rules
 - Only keep essential files: tex/pdf/bib and two folders Figures/SI
 ## File organization
