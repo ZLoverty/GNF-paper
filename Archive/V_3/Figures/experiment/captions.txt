@@ -1,0 +1,22 @@
+Versions and captions
+
+v3 - 11182020
+---------------
+(a) Bacterial suspensions of different volume fractions under the same illumination conditions.
+(b) Volume fraction as a function of averaged pixel intensities.
+(c) Bacterial active turbulence displaying constantly varying concentration inhomogeneity (6.4\%). Scale bar is 100 \textmu m.
+(d), (e) Velocity field of a dilute bacterial suspension (1.6\%) and (6.4\%). Scale bars are 135 \textmu m.
+
+v4 - 11252020
+---------------
+(a) Bacterial active turbulence displaying constantly varying concentration inhomogeneity (6.4\%). Scale bar is 85 \textmu m.
+(b) Velocity field of a dilute bacterial suspension ($\phi=6.4\%$). 
+(c) Volume fraction as a function of averaged pixel intensities. Inset shows bacterial suspensions of different volume fractions under the same illumination conditions.
+(d) Velocity and concentration spatial correlation functions $C_{v}(r)$ and $C_{n}(r)$.
+
+v5 - 12042020
+---------------
+(a) Active turbulence in a dense bacterial suspension (6.4\%) displaying constantly varying concentration inhomogeneity. Scale bar is 85 \textmu m.
+(b) Velocity field of the active turbulence in the dense bacterial suspension ($\phi=6.4\%$) shown in (a).
+(c) a dilute bacterial suspension (1.6\%) showing weaker density variations.
+(d) Volume fraction as a function of averaged pixel intensities. Inset shows bacterial suspensions of different volume fractions under the same illumination conditions.
