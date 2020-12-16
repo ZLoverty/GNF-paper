@@ -20,3 +20,10 @@ v5 - 12042020
 (b) Velocity field of the active turbulence in the dense bacterial suspension ($\phi=6.4\%$) shown in (a).
 (c) a dilute bacterial suspension (1.6\%) showing weaker density variations.
 (d) Volume fraction as a function of averaged pixel intensities. Inset shows bacterial suspensions of different volume fractions under the same illumination conditions.
+
+v6 - 12152020
+---------------
+(a) Active turbulence in a dense bacterial suspension (6.4\%) displaying constantly varying concentration inhomogeneity. Scale bar is 85 \textmu m.
+(b) Velocity field of the active turbulence in the dense bacterial suspension ($\phi=6.4\%$) shown in (a).
+(c) a dilute bacterial suspension (1.6\%) showing weaker density variations.
+(d) Average pixel intensities as a function of volume fractions. Inset shows bacterial suspensions of different volume fractions under the same illumination conditions.
