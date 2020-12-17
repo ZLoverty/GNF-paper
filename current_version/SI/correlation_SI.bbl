@@ -59,16 +59,16 @@
   and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Menon}},\ }\href
   {https://doi.org/10.1126/science.1140414} {\bibfield  {journal} {\bibinfo
   {journal} {Science}\ }\textbf {\bibinfo {volume} {317}},\ \bibinfo {pages}
-  {105} (\bibinfo {year} {2007})},\ \Eprint {https://arxiv.org/abs/0612020}
-  {arXiv:0612020 [cond-mat]} \BibitemShut {NoStop}%
+  {105} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Aranson}\ \emph {et~al.}(2008)\citenamefont
   {Aranson}, \citenamefont {Snezhko}, \citenamefont {Olafsen},\ and\
-  \citenamefont {Urbach3}}]{Aranson2008}%
+  \citenamefont {Urbach}}]{Aranson2008}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
   {Aranson}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Snezhko}},
   \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Olafsen}},\ and\
-  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Urbach3}},\
-  }\href@noop {} {\ \textbf {\bibinfo {volume} {320}},\ \bibinfo {pages} {1}
-  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Urbach}},\ }\href
+  {https://doi.org/10.1126/science.1153456} {\bibfield  {journal} {\bibinfo
+  {journal} {Science}\ }\textbf {\bibinfo {volume} {320}},\ \bibinfo {pages}
+  {612} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \end{thebibliography}%

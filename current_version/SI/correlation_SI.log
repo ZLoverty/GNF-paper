@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.18)  23 NOV 2020 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.24)  16 DEC 2020 21:24
 entering extended mode
 **./correlation_SI.tex
 (correlation_SI.tex
@@ -768,86 +768,139 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\\' on input line 28.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 52.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 52.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1{C:/Users/liuzy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 
-Package hyperref Warning: Suppressing empty link on input line 60.
+Package hyperref Warning: Suppressing empty link on input line 79.
 
-[1{C:/Users/liuzy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+[3]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 71.
+               Default added (so using `!tbp') on input line 90.
 
-<figures/GNF-calculation/v1.pdf, id=75, 412.1396pt x 180.675pt>
+<figures/GNF-calculation/v1.pdf, id=120, 412.1396pt x 180.675pt>
 File: figures/GNF-calculation/v1.pdf Graphic file (type pdf)
 <use figures/GNF-calculation/v1.pdf>
-Package pdftex.def Info: figures/GNF-calculation/v1.pdf  used on input line 73.
+Package pdftex.def Info: figures/GNF-calculation/v1.pdf  used on input line 92.
 
 (pdftex.def)             Requested size: 374.40143pt x 164.13605pt.
-[3 <./figures/GNF-calculation/v1.pdf>] [4]
-correlation_SI.tex:136: Extra }, or forgotten $.
-l.136 E1(k_x, k_y) = E^1(k_x, k_y)}
-                                   
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[5]
+[4 <./figures/GNF-calculation/v1.pdf>] [5] [6]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 158.
+               Default added (so using `!tbp') on input line 176.
 
-<figures/density-autocorrelation/v1.pdf, id=122, 216.81pt x 130.086pt>
+<figures/density-autocorrelation/v1.pdf, id=164, 216.81pt x 130.086pt>
 File: figures/density-autocorrelation/v1.pdf Graphic file (type pdf)
 <use figures/density-autocorrelation/v1.pdf>
 Package pdftex.def Info: figures/density-autocorrelation/v1.pdf  used on input 
-line 160.
+line 178.
 (pdftex.def)             Requested size: 327.59857pt x 196.58345pt.
-(correlation_SI.bbl) [6] [7 <./figures/density-autocorrelation/v1.pdf>]
-(correlation_SI.aux)
+[7 <./figures/density-autocorrelation/v1.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 191.
+
+<Figures/kinks-in-energy-spectra/v1.pdf, id=200, 126.4725pt x 108.405pt>
+File: Figures/kinks-in-energy-spectra/v1.pdf Graphic file (type pdf)
+<use Figures/kinks-in-energy-spectra/v1.pdf>
+Package pdftex.def Info: Figures/kinks-in-energy-spectra/v1.pdf  used on input 
+line 193.
+(pdftex.def)             Requested size: 327.59857pt x 280.80588pt.
+[8 <./Figures/kinks-in-energy-spectra/v1.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 209.
+
+<Figures/GNF-normalization/different-filters.pdf, id=239, 252.945pt x 202.356pt
+>
+File: Figures/GNF-normalization/different-filters.pdf Graphic file (type pdf)
+<use Figures/GNF-normalization/different-filters.pdf>
+Package pdftex.def Info: Figures/GNF-normalization/different-filters.pdf  used 
+on input line 211.
+(pdftex.def)             Requested size: 327.59857pt x 262.08395pt.
+[9 <./Figures/GNF-normalization/different-filters.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 238.
+
+<Figures/GNF-normalization/same-illumination.pdf, id=268, 252.945pt x 202.356pt
+>
+File: Figures/GNF-normalization/same-illumination.pdf Graphic file (type pdf)
+<use Figures/GNF-normalization/same-illumination.pdf>
+Package pdftex.def Info: Figures/GNF-normalization/same-illumination.pdf  used 
+on input line 240.
+(pdftex.def)             Requested size: 327.59857pt x 262.08395pt.
+[10 <./Figures/GNF-normalization/same-illumination.pdf>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 251.
+
+<Figures/image-contrast/v1.pdf, id=297, 342.12724pt x 348.41765pt>
+File: Figures/image-contrast/v1.pdf Graphic file (type pdf)
+<use Figures/image-contrast/v1.pdf>
+Package pdftex.def Info: Figures/image-contrast/v1.pdf  used on input line 253.
+
+(pdftex.def)             Requested size: 327.59857pt x 333.6212pt.
+[11 <./Figures/image-contrast/v1.pdf>] [12]
+<Figures/video-snapshot/t.jpg, id=383, 383.93437pt x 323.70938pt>
+File: Figures/video-snapshot/t.jpg Graphic file (type jpg)
+<use Figures/video-snapshot/t.jpg>
+Package pdftex.def Info: Figures/video-snapshot/t.jpg  used on input line 281.
+(pdftex.def)             Requested size: 234.0pt x 197.29942pt.
+<Figures/video-snapshot/piv.jpg, id=384, 268.75406pt x 223.58531pt>
+File: Figures/video-snapshot/piv.jpg Graphic file (type jpg)
+<use Figures/video-snapshot/piv.jpg>
+Package pdftex.def Info: Figures/video-snapshot/piv.jpg  used on input line 283
+.
+(pdftex.def)             Requested size: 234.0pt x 194.67456pt.
+ (correlation_SI.bbl) [13 <./Figures/video-snapshot/t.jpg> <./Figures/video-sna
+pshot/piv.jpg>] (correlation_SI.aux)
 Package rerunfilecheck Info: File `correlation_SI.out' has not changed.
-(rerunfilecheck)             Checksum: 246DCA6CC29609C5A45765DDE6E847F0;939.
+(rerunfilecheck)             Checksum: 6F7AAACE175CEE40DF5CB31B9A39A88B;1599.
  ) 
 Here is how much of TeX's memory you used:
- 19520 strings out of 479799
- 353945 string characters out of 2877698
- 647395 words of memory out of 3000000
- 36103 multiletter control sequences out of 15000+200000
- 544399 words of font info for 62 fonts, out of 3000000 for 9000
+ 19605 strings out of 479799
+ 356035 string characters out of 2877698
+ 647655 words of memory out of 3000000
+ 36153 multiletter control sequences out of 15000+200000
+ 545104 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,17n,96p,947b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 85i,17n,96p,955b,411s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program F
-iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on correlation_SI.pdf (7 pages, 752092 bytes).
+nts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/cm-super/sfrm1200.pfb>
+Output written on correlation_SI.pdf (13 pages, 1410271 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 56 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
