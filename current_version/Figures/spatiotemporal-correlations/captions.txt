@@ -12,5 +12,14 @@ v5
 (e) Correlation lengths of both density and velocity correlation functions, defined as the distance $\lambda$ where $C_{n(v)}(\lambda)=1/e$.
 (f) Autocorrelation times of both density and velocity autocorrelation functions, defined as the time $\tau$ where $C_{n(v)}(\tau)=1/e$.
 
+
+v6
+---
+\textbf{Spatial and temporal correlations of density and velocity.}
+(a) and (b) are density spatial correlation functions and autocorrelation functions.
+(c) and (d) are velocity spatial correlation functions and autocorrelation functions. 
+(e) Correlation lengths of both density and velocity correlation functions, defined as the distance $\lambda$ where $C_{n(v)}(\lambda)=1/e$.
+(f) Autocorrelation times of both density and velocity autocorrelation functions, defined as the time $\tau$ where $C_{n(v)}(\tau)=1/e$.
+
 --- footnote
 # Characteristic time scale: tau_b = l_b / v_b = 3 / 15 = 0.2 s

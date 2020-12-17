@@ -15,3 +15,9 @@ v5
 \textbf{The coupling between GNF and kinetic energy spectra.}
 (a) Energy spectra $E$ plotted against number fluctuations ($\Delta N/\sqrt N$) at corresponding length scales at volume fractions ranging from 1.2\% to 14.4\%. Black dashed line is a phenomenological fitting of the universal coupling between GNF and energy spectra across different volume fractions ($\log E = 2.2 (\log G)^2 - 4.8 \log G + 6.3$, where $G=\Delta N/\sqrt N$). Black arrow indicates the direction of increasing length scale. 
 (b) Local correlations $C$ between density fluctuations and kinetic energy at volume fractions ranging from 0\% to 14.4\%. The correlations are calculated by averaging over 1000 frames. Inset: a snapshot of a density fluctuation field and a kinetic energy field. 
+
+v5
+--
+\textbf{The coupling between GNF and kinetic energy spectra.}
+(a) Energy spectra $E$ plotted against number fluctuations ($\Delta N/\sqrt N$) at corresponding length scales at volume fractions ranging from 0.8\% to 9.6\%. Black dashed line is a phenomenological fitting of the universal coupling between GNF and energy spectra across different volume fractions ($\log E = 2.2 (\log G)^2 - 4.8 \log G + 6.3$, where $G=\Delta N/\sqrt N$). Black arrow indicates the direction of increasing length scale. 
+(b) Local correlations $C$ between density fluctuations and kinetic energy at volume fractions ranging from 0\% to 9.6\%. The correlations are calculated by averaging over 1000 frames. Inset: a snapshot of a density fluctuation field and a kinetic energy field. 
