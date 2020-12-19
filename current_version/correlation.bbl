@@ -494,10 +494,6 @@
   }\href {https://doi.org/10.1038/s41467-018-07781-y} {\bibfield  {journal}
   {\bibinfo  {journal} {Nat. Commun.}\ }\textbf {\bibinfo {volume} {9}},\
   \bibinfo {pages} {5373} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
-\bibitem [{Liu()}]{Liu2020}%
-  \BibitemOpen
-  \href@noop {} {\bibinfo  {journal} {See Supplemental Material}\ }\BibitemShut
-  {NoStop}%
 \bibitem [{\citenamefont {Liberzon}\ \emph {et~al.}(2020)\citenamefont
   {Liberzon}, \citenamefont {Lasagna}, \citenamefont {Aubert}, \citenamefont
   {Bachant}, \citenamefont {Käufer}, \citenamefont {jakirkham}, \citenamefont
@@ -505,17 +501,16 @@
   {Borg}, \citenamefont {tomerast},\ and\ \citenamefont
   {ranleu}}]{Liberzon2020}%
   \BibitemOpen
-\bibfield  {journal} {  }\bibfield  {author} {\bibinfo {author} {\bibfnamefont
-  {A.}~\bibnamefont {Liberzon}}, \bibinfo {author} {\bibfnamefont
-  {D.}~\bibnamefont {Lasagna}}, \bibinfo {author} {\bibfnamefont
-  {M.}~\bibnamefont {Aubert}}, \bibinfo {author} {\bibfnamefont
-  {P.}~\bibnamefont {Bachant}}, \bibinfo {author} {\bibfnamefont
-  {T.}~\bibnamefont {Käufer}}, \bibinfo {author} {\bibnamefont {jakirkham}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bauer}}, \bibinfo
-  {author} {\bibfnamefont {B.}~\bibnamefont {Vodenicharski}}, \bibinfo {author}
-  {\bibfnamefont {C.}~\bibnamefont {Dallas}}, \bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Borg}}, \bibinfo {author} {\bibnamefont {tomerast}},\ and\
-  \bibinfo {author} {\bibnamefont {ranleu}},\ }\href
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Liberzon}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Lasagna}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Aubert}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Bachant}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Käufer}}, \bibinfo {author} {\bibnamefont
+  {jakirkham}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bauer}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Vodenicharski}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dallas}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Borg}}, \bibinfo {author} {\bibnamefont
+  {tomerast}},\ and\ \bibinfo {author} {\bibnamefont {ranleu}},\ }\href
   {https://doi.org/10.5281/zenodo.3930343} {\bibinfo {title} {{OpenPIV}}}
   (\bibinfo {year} {2020})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sokolov}\ \emph {et~al.}(2009)\citenamefont
@@ -556,18 +551,23 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {98}},\ \bibinfo {pages} {158102} (\bibinfo {year}
   {2007})}\BibitemShut {NoStop}%
+\bibitem [{Liu()}]{Liu2020}%
+  \BibitemOpen
+  \href@noop {} {\bibinfo  {journal} {See Supplemental Material}\ }\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Stenhammar}\ \emph {et~al.}(2017)\citenamefont
   {Stenhammar}, \citenamefont {Nardini}, \citenamefont {Nash}, \citenamefont
   {Marenduzzo},\ and\ \citenamefont {Morozov}}]{Stenhammar2017}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Stenhammar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
-  \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Nash}}, \bibinfo
-  {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}},\ and\ \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.119.028005} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\
-  \bibinfo {pages} {1} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibfield  {journal} {  }\bibfield  {author} {\bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Stenhammar}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Nardini}}, \bibinfo {author} {\bibfnamefont {R.~W.}\
+  \bibnamefont {Nash}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Marenduzzo}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Morozov}},\ }\href {https://doi.org/10.1103/PhysRevLett.119.028005}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {119}},\ \bibinfo {pages} {1} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nambiar}\ \emph {et~al.}(2021)\citenamefont
   {Nambiar}, \citenamefont {Garg},\ and\ \citenamefont
   {Subramanian}}]{Nambiar2021}%
