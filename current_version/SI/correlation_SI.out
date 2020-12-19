@@ -1,21 +1,11 @@
-\BOOKMARK [0][]{section*.1}{Giant Number Fluctuations and Energy Spectra in 3-D Bacterial Turbulence Supplemental Material}{}% 1
-\BOOKMARK [1][]{section*.2}{Materials and Methods}{section*.1}% 2
+\BOOKMARK [0][]{section*.1}{Density Fluctuations and Energy Spectra of 3D Bacterial Suspensions Supplemental Material}{}% 1
+\BOOKMARK [1][]{section*.2}{Experiment details}{section*.1}% 2
 \BOOKMARK [2][]{section*.3}{Light-powered E. coli}{section*.2}% 3
-\BOOKMARK [2][]{section*.4}{Sample preparation and microscopy}{section*.2}% 4
-\BOOKMARK [2][]{section*.5}{Imaging and analysis}{section*.2}% 5
-\BOOKMARK [3][]{section*.6}{Microscopy}{section*.5}% 6
-\BOOKMARK [3][]{section*.7}{Linear relation between intensity and density}{section*.5}% 7
-\BOOKMARK [2][]{section*.8}{Giant number fluctuations calculations}{section*.2}% 8
-\BOOKMARK [2][]{section*.9}{Particle image velocimetry \(PIV\)}{section*.2}% 9
-\BOOKMARK [2][]{section*.10}{Cross correlation}{section*.2}% 10
-\BOOKMARK [2][]{section*.11}{Energy spectra}{section*.2}% 11
-\BOOKMARK [1][]{section*.12}{Justification of methods and parameter choices}{section*.1}% 12
-\BOOKMARK [2][]{section*.13}{Two methods for calculating GNF}{section*.12}% 13
-\BOOKMARK [2][]{section*.14}{Video length for calculating local density fluctuations}{section*.12}% 14
-\BOOKMARK [2][]{section*.15}{Kinks in energy spectrum curves}{section*.12}% 15
-\BOOKMARK [2][]{section*.16}{Normalize GNF at small length scale}{section*.12}% 16
-\BOOKMARK [2][]{section*.17}{Does image contrast matter?}{section*.12}% 17
-\BOOKMARK [1][]{section*.18}{Supplementary videos}{section*.1}% 18
-\BOOKMARK [2][]{section*.19}{Bacterial turbulence}{section*.18}% 19
-\BOOKMARK [2][]{section*.20}{PIV overlay}{section*.18}% 20
-\BOOKMARK [1][]{section*.21}{References}{section*.1}% 21
+\BOOKMARK [1][]{section*.4}{Sample preparation and microscopy}{section*.1}% 4
+\BOOKMARK [1][]{section*.5}{Image analysis details}{section*.1}% 5
+\BOOKMARK [2][]{section*.6}{Calculation of density fluctuations}{section*.5}% 6
+\BOOKMARK [2][]{section*.7}{Particle image velocimetry \(PIV\)}{section*.5}% 7
+\BOOKMARK [2][]{section*.8}{Energy spectra}{section*.5}% 8
+\BOOKMARK [2][]{section*.9}{Correlation of local density fluctuations and kinetic energies}{section*.5}% 9
+\BOOKMARK [2][]{section*.10}{Density fluctuations in the transient state}{section*.5}% 10
+\BOOKMARK [1][]{section*.11}{References}{section*.1}% 11

@@ -5,6 +5,7 @@ Reallocating 'name_of_file' (item size: 1) to 20 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 Reallocating 'name_of_file' (item size: 1) to 10 items.
 The style file: apsrev4-2.bst
+I found no \citation commands---while reading file correlation_SI.aux
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
@@ -16,15 +17,15 @@ Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: correlation_SINotes.bib
 Database file #2: ../correlation.bib
-You're missing a field part---line 6 of file ../correlation.bib
+You're missing a field part---line 80 of file ../correlation.bib
  :   volume    = 
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 64 of file ../correlation.bib
+You're missing a field part---line 138 of file ../correlation.bib
  :   volume    = 
  :               ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 625 of file ../correlation.bib
+You're missing a field part---line 699 of file ../correlation.bib
  :   volume       = 
  :                  ,
 I'm skipping whatever remains of this entry
@@ -38,45 +39,45 @@ Control: production of article title (-1) disabled
 Control: page (0) single
 Control: year (1) truncated
 Control: production of eprint (0) enabled
-You've used 2 entries,
+You've used 0 entries,
             6079 wiz_defined-function locations,
-            1650 strings with 15447 characters,
-and the built_in function-call counts, 2442 in all, are:
-= -- 157
-> -- 62
-< -- 16
-+ -- 20
-- -- 14
-* -- 391
-:= -- 227
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 8
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 209
-empty$ -- 149
-format.name$ -- 34
-if$ -- 466
+            1631 strings with 14998 characters,
+and the built_in function-call counts, 313 in all, are:
+= -- 0
+> -- 3
+< -- 5
++ -- 2
+- -- 0
+* -- 65
+:= -- 29
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 19
+empty$ -- 1
+format.name$ -- 0
+if$ -- 26
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 31
-newline$ -- 58
-num.names$ -- 6
-pop$ -- 85
+int.to.str$ -- 8
+missing$ -- 0
+newline$ -- 52
+num.names$ -- 0
+pop$ -- 6
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 0
 quote$ -- 0
-skip$ -- 103
+skip$ -- 8
 stack$ -- 0
-substring$ -- 46
-swap$ -- 212
-text.length$ -- 7
+substring$ -- 0
+swap$ -- 27
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 29
+type$ -- 0
 warning$ -- 0
-while$ -- 6
+while$ -- 0
 width$ -- 0
-write$ -- 68
-(There were 3 error messages)
+write$ -- 52
+(There were 4 error messages)

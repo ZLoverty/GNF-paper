@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex correlation"] 1608268506 "correlation.aux" "correlation.bbl" "correlation" 1608268542
+["bibtex correlation"] 1608351664 "correlation.aux" "correlation.bbl" "correlation" 1608354404
   "C:/Program Files/MiKTeX 2.9/bibtex/bst/revtex/apsrev4-2.bst" 1601731616 69609 e9dea59f0e753ccda3ddc8f5806d846d ""
-  "correlation.aux" 1608268540 10710 1abb1476c1f43598005a3277ac98f215 "pdflatex"
+  "correlation.aux" 1608354402 10710 d5d3bd7d2751633ef98e94299c0aa164 "pdflatex"
   "correlation.bib" 1608243411 112970 ad3d7a6567977778093fc0123a68d821 ""
-  "correlationNotes.bib" 1608268538 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "correlationNotes.bib" 1608354400 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
-  "correlation.bbl"
   "correlation.blg"
-["pdflatex"] 1608268535 "correlation.tex" "correlation.pdf" "correlation" 1608268542
+  "correlation.bbl"
+["pdflatex"] 1608354397 "correlation.tex" "correlation.pdf" "correlation" 1608354404
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1233951848 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1233951848 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -197,19 +197,19 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
   "C:/Users/liuzy/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1606241096 10286385 0a268135268f000e790d8a9e44f707f3 ""
   "C:/Users/liuzy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1605722220 315396 8dfd5c60ea86b475be24549d29809ca2 ""
-  "Figures/energy-spectra/v5.pdf" 1608268149 396094 ba013a4deb04892754a26155de10bb6e ""
-  "Figures/experiment/v5.pdf" 1607092072 612707 e77f49c11228a0cc5cf68fe1468a3858 ""
-  "correlation.aux" 1608268540 10710 1abb1476c1f43598005a3277ac98f215 "pdflatex"
-  "correlation.bbl" 1608268506 39581 09275e3d6a28ec43f63be6a76431029c "bibtex correlation"
-  "correlation.out" 1608268540 684 04d9085efa4987765bc71f574e00f45c "pdflatex"
-  "correlation.tex" 1608268531 40599 d753bfbaed2dc99869e01bb53fde0783 ""
+  "Figures/energy-spectra/v6.pdf" 1608314266 391103 bcc72051de99b429cadaaa4347d66439 ""
+  "Figures/experiment/v6.pdf" 1607283081 608514 c38c6ebc7b6c1bcbc32ee2e3b98a8092 ""
+  "correlation.aux" 1608354402 10710 d5d3bd7d2751633ef98e94299c0aa164 "pdflatex"
+  "correlation.bbl" 1608351664 39581 09275e3d6a28ec43f63be6a76431029c "bibtex correlation"
+  "correlation.out" 1608354402 684 04d9085efa4987765bc71f574e00f45c "pdflatex"
+  "correlation.tex" 1608354390 40580 bc09ea8c1d2127ec4b442a993679856f ""
   "figures/GNF-energy-spectra-correlation-transient/v6.pdf" 1608164636 2271951 bf9318e0cdf1f69e50d3e7510fec55e1 ""
   "figures/GNF-energy-spectra-correlation/v6.pdf" 1608164085 393136 6dfbef99858e3e2bc4e18cb00c5c4d33 ""
   "figures/GNF/v5.pdf" 1608265949 373663 8d06cdcc1f8c057c3057e05fcd27fd49 ""
   "figures/spatiotemporal-correlations/v6.pdf" 1608156306 1930146 c3b3537dfcc9c0003b050e026089edae ""
   (generated)
+  "correlation.pdf"
   "correlation.log"
   "correlation.out"
   "correlation.aux"
-  "correlation.pdf"
   "correlationNotes.bib"

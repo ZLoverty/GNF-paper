@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{2}%
+\begin{thebibliography}{0}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -50,25 +50,4 @@
 \providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
 \let\auto@bib@innerbib\@empty
 %</preamble>
-\bibitem [{\citenamefont {Narayan}\ \emph {et~al.}(2007)\citenamefont
-  {Narayan}, \citenamefont {Ramaswamy},\ and\ \citenamefont
-  {Menon}}]{Narayan2007}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
-  {Narayan}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},\
-  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Menon}},\ }\href
-  {https://doi.org/10.1126/science.1140414} {\bibfield  {journal} {\bibinfo
-  {journal} {Science}\ }\textbf {\bibinfo {volume} {317}},\ \bibinfo {pages}
-  {105} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Aranson}\ \emph {et~al.}(2008)\citenamefont
-  {Aranson}, \citenamefont {Snezhko}, \citenamefont {Olafsen},\ and\
-  \citenamefont {Urbach}}]{Aranson2008}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
-  {Aranson}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Snezhko}},
-  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Olafsen}},\ and\
-  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Urbach}},\ }\href
-  {https://doi.org/10.1126/science.1153456} {\bibfield  {journal} {\bibinfo
-  {journal} {Science}\ }\textbf {\bibinfo {volume} {320}},\ \bibinfo {pages}
-  {612} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \end{thebibliography}%

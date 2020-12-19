@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.24)  17 DEC 2020 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.24)  18 DEC 2020 23:06
 entering extended mode
 **./correlation.tex
 (correlation.tex
@@ -785,24 +785,24 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Figures/experiment/v5.pdf, id=77, 230.42087pt x 194.43132pt>
-File: Figures/experiment/v5.pdf Graphic file (type pdf)
-<use Figures/experiment/v5.pdf>
-Package pdftex.def Info: Figures/experiment/v5.pdf  used on input line 72.
-(pdftex.def)             Requested size: 234.60342pt x 197.97018pt.
+<Figures/experiment/v6.pdf, id=77, 230.42087pt x 195.36089pt>
+File: Figures/experiment/v6.pdf Graphic file (type pdf)
+<use Figures/experiment/v6.pdf>
+Package pdftex.def Info: Figures/experiment/v6.pdf  used on input line 72.
+(pdftex.def)             Requested size: 234.60342pt x 198.91667pt.
  [1{C:/Users/liuzy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 85.
+ on input line 86.
 
 <figures/spatiotemporal-correlations/v6.pdf, id=116, 254.75583pt x 307.807pt>
 File: figures/spatiotemporal-correlations/v6.pdf Graphic file (type pdf)
 <use figures/spatiotemporal-correlations/v6.pdf>
 Package pdftex.def Info: figures/spatiotemporal-correlations/v6.pdf  used on in
-put line 88.
+put line 89.
 (pdftex.def)             Requested size: 239.70062pt x 289.62042pt.
 
-Underfull \hbox (badness 2894) in paragraph at lines 99--107
+Underfull \hbox (badness 2894) in paragraph at lines 100--108
 []\OT1/cmr/m/n/10 We use ge-net-i-cally en-gi-neered light-powered \OT1/cmr/m/i
 t/10 Es-
  []
@@ -811,85 +811,85 @@ t/10 Es-
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.108 I
-       t is challenging to directly count the number of bacteria in a 3D den...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
+l.110 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.108 I
-       t is challenging to directly count the number of bacteria in a 3D den...
- <./Figures/experiment/v5.pdf> <./figures/spatiotemporal-correlations/v6.pdf
+l.110 
+       <./Figures/experiment/v6.pdf> <./figures/spatiotemporal-correlations/v6.
+pdf
 
 pdfTeX warning: pdflatex (file ./figures/spatiotemporal-correlations/v6.pdf): P
 DF inclusion: multiple pdfs with page group included in a single page
 >]
-<figures/GNF/v5.pdf, id=11575, 252.945pt x 198.75598pt>
+<figures/GNF/v5.pdf, id=11533, 252.945pt x 198.75598pt>
 File: figures/GNF/v5.pdf Graphic file (type pdf)
 <use figures/GNF/v5.pdf>
-Package pdftex.def Info: figures/GNF/v5.pdf  used on input line 115.
+Package pdftex.def Info: figures/GNF/v5.pdf  used on input line 116.
 (pdftex.def)             Requested size: 239.70062pt x 188.35307pt.
  [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.140 
-       <./figures/GNF/v5.pdf>]
-<Figures/energy-spectra/v5.pdf, id=13714, 235.98318pt x 185.25333pt>
-File: Figures/energy-spectra/v5.pdf Graphic file (type pdf)
-<use Figures/energy-spectra/v5.pdf>
-Package pdftex.def Info: Figures/energy-spectra/v5.pdf  used on input line 147.
+l.143 Q
+       uantitatively, the strength of GNF can be measured by the scaling exp...
+ <./figures/GNF/v5.pdf>]
+<Figures/energy-spectra/v6.pdf, id=13672, 235.98318pt x 185.25333pt>
+File: Figures/energy-spectra/v6.pdf Graphic file (type pdf)
+<use Figures/energy-spectra/v6.pdf>
+Package pdftex.def Info: Figures/energy-spectra/v6.pdf  used on input line 148.
 
 (pdftex.def)             Requested size: 239.70062pt x 188.18134pt.
  [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.173 
-       <./Figures/energy-spectra/v5.pdf>]
-<figures/GNF-energy-spectra-correlation/v6.pdf, id=16017, 238.56943pt x 294.845
+l.178 
+       <./Figures/energy-spectra/v6.pdf>]
+<figures/GNF-energy-spectra-correlation/v6.pdf, id=15945, 238.56943pt x 294.845
 25pt>
 File: figures/GNF-energy-spectra-correlation/v6.pdf Graphic file (type pdf)
 <use figures/GNF-energy-spectra-correlation/v6.pdf>
 Package pdftex.def Info: figures/GNF-energy-spectra-correlation/v6.pdf  used on
- input line 180.
+ input line 181.
 (pdftex.def)             Requested size: 239.70062pt x 296.24818pt.
-<figures/GNF-energy-spectra-correlation-transient/v6.pdf, id=16018, 498.69559pt
+<figures/GNF-energy-spectra-correlation-transient/v6.pdf, id=15946, 498.69559pt
  x 263.59325pt>
 File: figures/GNF-energy-spectra-correlation-transient/v6.pdf Graphic file (typ
 e pdf)
 <use figures/GNF-energy-spectra-correlation-transient/v6.pdf>
 Package pdftex.def Info: figures/GNF-energy-spectra-correlation-transient/v6.pd
-f  used on input line 195.
+f  used on input line 196.
 (pdftex.def)             Requested size: 458.99689pt x 242.60927pt.
  [5pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.214 
+l.219 
        <./figures/GNF-energy-spectra-correlation/v6.pdf>] [6pdfTeX warning (ext
 4): destination with the same identifier (name{figure.6}) has been already used
 , duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.230 
+l.234 
        <./figures/GNF-energy-spectra-correlation-transient/v6.pdf>]
-Underfull \hbox (badness 1127) in paragraph at lines 236--237
+Underfull \hbox (badness 1127) in paragraph at lines 237--238
 \OT1/cmr/m/n/10 con-cen-tra-tion to bac-te-rial tur-bu-lence. The find-ing
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 236--237
-\OT1/cmr/m/n/10 quan-ti-ta-tively ver-i-fied the pre-dic-tion of the en-ergy
+Underfull \hbox (badness 2253) in paragraph at lines 237--238
+\OT1/cmr/m/n/10 scale-invariant cou-pling was also un-cov-ered in the
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 236--237
+Underfull \hbox (badness 1831) in paragraph at lines 237--238
 \OT1/cmr/m/n/10 bench-mark on the den-sity fluc-tu-a-tions and en-ergy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
@@ -929,13 +929,13 @@ Package rerunfilecheck Info: File `correlation.out' has not changed.
 (rerunfilecheck)             Checksum: 04D9085EFA4987765BC71F574E00F45C;684.
  ) 
 Here is how much of TeX's memory you used:
- 19846 strings out of 479799
- 359995 string characters out of 2877698
- 676747 words of memory out of 3000000
- 36355 multiletter control sequences out of 15000+200000
+ 19845 strings out of 479799
+ 359984 string characters out of 2877698
+ 670555 words of memory out of 3000000
+ 36354 multiletter control sequences out of 15000+200000
  548255 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,8n,96p,2161b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 85i,8n,96p,2144b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTe
@@ -954,9 +954,9 @@ nts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on correlation.pdf (8 pages, 6054332 bytes).
+Output written on correlation.pdf (8 pages, 6045197 bytes).
 PDF statistics:
- 29515 PDF objects out of 31911 (max. 8388607)
+ 29443 PDF objects out of 31911 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
