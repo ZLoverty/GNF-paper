@@ -56,11 +56,11 @@
 %   - vigorous bacterial turbulence
 %   - PIV overlay
 
-\section{Experiment details}
+\section{Materials and methods}
 \subsection{Light-powered \textit{E. coli}}
 We introduce a light-driven transmembrane proton pump, proteorhodopsin (PR), to wild-type \textit{E. coli} (BW25113) by transforming the bacteria with plasmid pZE-PR encoding the SAR86 $\gamma$-proteobacterial PR-variant (Walter 2007). The activity of PR is correlated with the intensity of light. Thus, we can control the swimming speed of bacteria using light of different intensities. In our experiments, we use high-intensity light, which saturates the light response of bacteria. The average swimming speed of bacteria is fixed at $v_0 = 15 \pm 3$ $\mu$m/s in the dilute limit.
 
-The bacteria are cultured at 37 \textcelsius{} with a shaking speed at 250 rpm for 14-16 hours in terrific broth (TB) [tryptone 1.2\% (w/w), yeast extract 2.4\% (w/w), and glycerol 0.4\% (w/w)] supplemented with 0.1 g/L ampicillin. The culture is then diluted 1: 100 (v: v) in fresh TB and grown at 30 \textcelsius{} for 6.5 hours. PR expression is triggered by supplementing the culture medium with 1 mM isopropyl $\beta$-D-thiogalactoside and 10  $\mu$M ethanolic all-trans-retinal in the mid-log phase (3 hours after the dilution).
+The bacteria are cultured at 37 \textcelsius{} with a shaking speed at 250 rpm for 14-16 hours in terrific broth (TB) [tryptone 1.2\% (w/w), yeast extract 2.4\% (w/w), and glycerol 0.4\% (w/w)] supplemented with 0.1 g/L ampicillin. The culture is then diluted 1:100 (v:v) in fresh TB and grown at 30 \textcelsius{} for 6.5 hours. PR expression is triggered by supplementing the culture medium with 1 mM isopropyl $\beta$-D-thiogalactoside and 10  $\mu$M ethanolic all-trans-retinal in the mid-log phase, 3 hours after the dilution.
 
 The bacteria are harvested by gentle centrifugation ($800g$ for 5 min). After discarding the culture medium in the supernatant, we resuspend bacteria with DI water. The resuspended suspension is then centrifuged again at $800g$ for 5 min, and finally adjusted to the target concentration for experiments.
 
@@ -68,7 +68,7 @@ The bacteria are harvested by gentle centrifugation ($800g$ for 5 min). After di
 
 To prepare the sample for microscopy, we construct a seal chamber made of glass slides (25 mm $\times$ 75 mm) and coverslips (18 mm $\times$ 18 mm). We first glue (NOA 81, Norland, NJ) two coverslips on a glass slide, side-by-side, leaving a 3-mm separation between the two coverslips. We then cover the 3-mm separation with another coverslip to form a channel. We then pipette bacterial suspensions into the channel. Finally, we seal the two ends of the channel using UV glue (NOA 76, Norland, NJ) to form a sealed chamber.
 
-Images of the bacterial suspensions are taken 50 $\mu$m above the bottom surface of the sealed chamber by a Nikon Ti-E inverted microscope using the bright field mode and a 20$\times$ (NA 0.5) objective. The field of view is 420 $\times$ 360 \textmu m$^2$. All videos are recorded at 30 frames per second using a sCMOS camera.
+Images of the bacterial suspensions are taken 50 $\mu$m above the bottom surface of the sealed chamber by a Nikon Ti-E inverted microscope using the bright field mode with a 20$\times$ (NA 0.5) objective. The field of view is 420 $\times$ 360 $\mu$m$^2$. All videos are recorded at 30 frames per second using a sCMOS camera.
 
 %%\subsubsection{Linear relation between intensity and density}
 %%In the low attenuation limit (small thickness and weak absorptivity), $I=I_0-\epsilon$ where $\epsilon\ll I_0$:
@@ -96,8 +96,8 @@ Images of the bacterial suspensions are taken 50 $\mu$m above the bottom surface
 \end{figure*}
 
 
-\section{Image analysis details}
-\subsection{Calculation of density fluctuations}
+\section{Image analysis}
+\subsection{Density fluctuations}
 \label{sec:GNF-calculations}
 % \subsubsection{Two different methods}
 %
@@ -111,22 +111,23 @@ Images of the bacterial suspensions are taken 50 $\mu$m above the bottom surface
 
 
 %%%%%%
-\subsubsection{Convert intensity to density}
-In Fig.~1d, we show that under the same illumination and imaging condition, the density and average pixel intensity follow approximately a linear relation, which can be expressed as suggests:
+\subsubsection{Pixel intensity and bacterial number}
+In Fig.~1d, we show that under the same illumination and imaging condition, bacterial density and the average pixel intensity follow approximately a linear relation, which can be expressed as follows:
 \begin{equation}
   \label{eq:phi-I-relation}
-  \phi = a + bI
+  \phi = a + bI,
 \end{equation}
-where $\phi$ is the volume fraction of bacterial suspensions, $I$ is the average pixel intensity in a window, $a$ and $b$ are constants under the same illumination and imaging conditions. The number of bacteria in a given subsystem with side length $l$ and thickness $d$ can be calculated as
+where $\phi$ is the volume fraction of bacterial suspensions, $I$ is the average pixel intensity, $a$ and $b$ are constants under the same illumination and imaging condition. The number of bacteria in a given subsystem with side length $l$ and thickness $d$ can be calculated as
 \begin{equation}
   \label{eq:n}
-  N = \frac{\phi l^2d}{V_b}
+  N = \frac{l^2d}{V_b} \phi = \frac{l^2d}{V_b} (a+bI),
 \end{equation}
-where $V_b$ is the volume of a single bacterium. Take the standard deviation of both sides of Eq.~\ref{eq:n}, we get
+where $V_b$ is the volume of a single bacterium. \textcolor{red}{$d$ is the depth of the field of microscopy, which is fixed in our experiments. We estimate $d \approx XX$ $\mu$m. Yi approximated it to be about 10 $\mu$m. But I am not sure if he has any solid evidence on the number.} Thus, the number of bacteria in the subsystem $N$ is proportional to $l^2 \phi$. Taking the standard deviation of both sides of Eq.~\ref{eq:n}, we get
 \begin{equation}
-  \Delta N = \frac{|b|d}{V_b} l^2\Delta I
+  \label{intensity-number}
+  \Delta N = \frac{l^2 d}{V_b}|b|\Delta I,
 \end{equation}
-where $\Delta$ stands for taking the standard deviation over time. Over different length scales and volume fractions, $\frac{|b|d}{V_b}$ is a constant. Thus, we use $l^2\Delta I$ as $\Delta N$ in all the figures.
+where $\Delta N$ and $\Delta I$ are the standard deviation of the bacterial number and the standard deviation of the average pixel intensity of the subsystem over time, respectively. Since $d|b|/V_b$ is a constant independent of subsystem sizes and bacterial volume fractions, $\Delta N$ is linearly proportional to $l^2\Delta I$. Because any constant in front of $\Delta N$ would not affect either the scaling relation or the relative magnitude of density fluctuations at different $\phi$, we simply use $l^2\Delta I$ as $\Delta N$ in our study.
 
 %%%%%%%%
 
@@ -135,58 +136,47 @@ where $\Delta$ stands for taking the standard deviation over time. Over differen
 		\includegraphics[width=0.46\textwidth]{Figures/GNF-normalization/same-illumination.pdf}
 		\caption[Density autocorrelation]
 		{
-			GNF curves at various volume fractions under same illumination and imaging conditions.
+			\textbf{GNF curves at various volume fractions under same illumination and imaging conditions.}
 		}
 		\label{fig:same-conditions}
 	\end{center}
 \end{figure}
 
-%% To illustrate the effect of changing imaging conditions, we measure the GNF of the same sample, under the same illumination, and use both 1 ND filter and 2 ND filter under the objective to dimmer the light that goes to the camera. Note that we have to use at least one filter to avoid over exposure of the camera. The result is shown in Fig.~\ref{fig:filter-effect}, where all the four runs with 2 filters falls into a bundle, where as the run with only one filter clearly lies out of the bundle. Despite the big difference in the magnitude, the overall length scale dependence is quite similar, suggesting that measuring GNF using light intensity is valid.
-
 \subsubsection{Density fluctuations at different length scales}
 
-Equipped with the relation between $\Delta N$ and $\Delta I$, we now calculate the density fluctuations at different length scales (using $l^2\Delta I$). We first crop square-shape subsystems of various sizes from the original image time series, as shown in Fig.~\ref{GNF-calculation}a. We vary the size of Each subsystem $l$ from $.2l_b$ to $55l_b$. For each size $l$, a standard deviation of the average pixel intensity $\Delta I$ is calculated over 50 frames (1.67 s). To improve statistics, we choose 20 subsystems of the same size evenly distributed in the field of view and obtain an averaged standard deviation of mean intensity $\Delta I$ (Fig.~\ref{GNF-calculation}b). This averaged $\Delta I$ is then multiplied by $l^2$ and is used as the density fluctuations $\Delta N$.
-
-% \textcolor{red}{Please rewrite/reorganize this section. I combine this session with the session on the normalization of GNF. The two sessions together allow you to convert $I$ into $N$ eventually.}
-% Using the TVSA method, we first crop square-shape subsystems of various sizes from the original image time series, as shown in Fig.~\ref{GNF-calculation}a. For each size $l$, a standard deviation of the light intensity $\Delta I$ are calculated over time. \textcolor{red}{What you directly measure is the image intensity. I suggest we use $\Delta I$ and $I$ first and state clearly how $\Delta I$ and $I$ are related to $\Delta N$ and $N$ at the end.} To improve statistics, we choose 20 different subsystems of the same size evenly distributed in the field of view and obtain an average $\Delta I$ and $I$  (Fig.~\ref{GNF-calculation}b). We vary the subsystem size $l$ from 10 \textmu m to 30 \textmu m, \textcolor{red}{from 10 to 30 um? It seems to be a very small range.} and examine the temporal variations of image intensity $\Delta I_{i}(l)$ in the $i^{th}$ frame for subsystem size $l$. The temporal variations are then averaged in space (over $i$) to give the final $\Delta I$. \textcolor{red}{I am confused that if $i$ is the number of frame, why is it an average of space?} Since $I$ is linearly proportional to bacterial volume fraction $\phi$. $\Delta I \sim \Delta \phi$
-% Then number fluctuations in the system is captured by the dependence of $\Delta N_{j}$ on $l_j$. In an equilibrium system, $\Delta N_{j}\propto l_j$ (this follows from $\Delta N_{j}\propto \sqrt{N_j}$ and $N_j\propto l_j^2$).
-% Thus, the deviation from $\Delta N_{j}\propto l_j$ quantifies the giant number fluctuation in the system.
-% In the main paper, we plot $\Delta N_{j}/l_j$ as a function of $l_j^2/l_b^2$, where $l_b$ is the length scale of single bacterial body length, chosen to be 3 \textmu m.
-% To be consistent with the notations in literatures, we get rid of the subscript $j$, and write $l_j$ as $\sqrt{N}$.
-% Note that the subscript $j$ denotes different choices of box sizes.
-
-% Without a more careful calibration, we are not able to obtain the exact number of particles using this Beer's law based method. Fortunately, the calculations of GNF does not require the exact number, but only the relative number. In the main paper, we show that the volume fractions $\phi$ and average pixel intensities $I$ follow a pretty linear relation. Such a relation entails that $\Delta I \propto \Delta N$, which is followed by $\Delta I/\sqrt N \propto \Delta N/\sqrt N$. The proportionality allows us to get the scaling exponents of $\Delta N/\sqrt N$ against $N$, without having to measure the exact particle numbers.
+Based on the linear relation between $\Delta N$ and $\Delta I$, we calculate the density fluctuations at different length scales. We first crop square-shape subsystems of increasing sizes, as shown in Fig.~\ref{GNF-calculation}a. For each subsystem size $l$, the standard deviation of the average pixel intensity of the subsystem is calculated over 50 frames (1.67 s or 8.35$\tau_b$), which is longer than the saturated density correlation time (Fig. 2f). To improve statistics, we choose 20 subsystems of the same size evenly distributed in the field of view and obtain a spatial average of the temporal standard deviation of the average pixel intensity $\Delta I$ (Fig.~\ref{GNF-calculation}b). This averaged $\Delta I$ is then multiplied by $l^2$ to give the number density fluctuations $\Delta N$ at the length scale $l$. Note that a second method has also been proposed for calculating number fluctuations, where the standard deviation of bacterial numbers is computed first spatially over different locations in a single time frame and is then averaged over time of different frames \cite{}. Although the two methods lead to the same results when spatial and temporal correlations are small compared with the system size and experiment duration \cite{}, the second method is subject to a systematic error due to potential stable non-uniform light illumination in our experiments. Hence, we use the first method introduced above in our study. Using this method, any non-uniform stable light illumination would result in a zero temporal standard deviation of $I$ and, therefore, would not affect our measurement of true density fluctuations.
+\textcolor{red}{I am not sure it is necessary to show Fig.~\ref{GNF-calculation}. Furthermore, it is a little confusing to show two figures with subsystems of different sizes. We can discuss if and how to present the figures better.}
 
 
-\subsubsection{Normalization}
 
-For optimal image qualities, we used different exposure times when acquiring the data. However, such difference prevents us from comparing $\Delta N$ at different volume fractions, since exposure time changes the overall magnitude of the image intensity fluctuations, independent of the fluctuations in the bacterial sample. In order to compare the magnitude of GNF across different volume fractions, and more importantly compare GNF with energy spectra, we need to normalize the GNF curves obtained at different illumination and imaging conditions, so that they reflect the actual relative magnitude independent of illumination and imaging conditions. To do it, we use the same illumination and imaging conditions to take videos of bacterial suspensions at various volume fractions where we control all the imaging parameters strictly.  The results are shown in Fig.~\ref{fig:same-conditions}, where all the curves are very close at small length scale, and show deviation at large length scales. This observation is intuitive: small scale density fluctuations is determined primarily by single cell dynamics and is not a strong function on volume fractions. In the main text, we normalized all the GNF curves at small length scale, by forcing $\Delta N_{0.3l_b}=1$.
+\subsubsection{Normalization of bacterial suspensions of different volume fractions}
+
+Practically, to optimize image qualities, we adjust the exposure time of imaging for suspensions of different $\phi$. Exposure times may affect the proportional constant $b$ in Eq.~\ref{eq:phi-I-relation}, which then introduces a $\phi$-dependent linear constant $b(\phi)$ in Eq.~\ref{eq:n}. Although $b(\phi)$ would not change the scaling exponent of the density fluctuations $\alpha$ at each given $\phi$, it will affect the relative magnitude of $\Delta N$ at different $\phi$. In order to compare the magnitude of density fluctuations at different $\phi$,  we further calibrate and normalize $\Delta I$ for different $\phi$. Specifically, as the calibration, we fix the intensity of illumination and the exposure time and take videos of bacterial suspensions at different $\phi$ under the exact same imaging condition. The calibration results are shown in Fig.~\ref{fig:same-conditions}, where all the curves at different $\phi$ collapse at small length scales. \textcolor{red}{First, why we don't see the diffusive behavior at large $l$ in this plot? Second, I am not sure if I agree with the argument below. Our density-fluctuation measurements show bacterial correlation at small scales even in dilute suspensions. Thus, we cannot detect only single bacterial dynamics at small scales. If that was the case, we should see $\Delta I l^2$ become flat as we discussed before.} The observation is intuitive: small scale density fluctuations is determined primarily by single cell dynamics and is not a strong function on volume fractions. Based on the calibration, we normalize $l^2 \Delta I$ by its value at a fixed small length scale. We choose the small scale at $l = 0.3l_b$ in our study. However, since $l^2 \Delta I$ at different $\phi$ shows the same slope at small $l$, choosing any other small lengths between \textcolor{red}{$XXl_b$} and \textcolor{red}{$XXl_b$} would lead to quantitatively the same results. After the normalization, the density fluctuations measured in our experiments show not only the correct scaling exponent but also the right relative magnitude at different $\phi$.
 
 
 \subsection{Particle image velocimetry (PIV)}
 
-2D in-plane velocity fields are extracted by Particle Image Velocimetry (PIV) analysis using openPIV package in Python \cite{Liberzon2020}. %(Fig.~\ref{fig:1}b).
+2D in-plane velocity fields are extracted by Particle Image Velocimetry (PIV) analysis using the openPIV package in Python \cite{Liberzon2020}. %(Fig.~\ref{fig:1}b).
 We fix the box size to be 16 $\mu$m, which is larger than the size of a single bacterial body but smaller than the velocity correlation length. A step size of the half of the box size (8 $\mu$m) is used by convention, which sets the spatial resolution of the velocity fields.
 
 \subsection{Energy spectra}
-The energy spectra of bacterial suspensions are calculated as follows.
+The energy spectra of bacterial suspensions are calculated as follows. First, we apply the built-in Fast Fourier Transform (FFT) function of Python \texttt{numpy.fft} package to convert the discrete velocity field $\bm{v}(\bm{r}) = [v_x(x,y), v_y(x,y)]$ obtained from PIV to the velocity field in the momentum $k$ space $\bm{v_k}(\bm{k}) = [u_k(k_x,k_y),v_k(k_x,k_y)]$. \textcolor{red}{Thanks for clarifying the details on how to do FFT including the step size and $2\pi$ factor. We should certainly document it in your thesis, but I don't think we need to put the details in the paper.} The point-wise kinetic energy density in the $k$-space is then computed as
+\begin{multline}
+E(k_x, k_y) = \\
+\frac{1}{2A}\langle u_k(k_x, k_y)u^*_k(k_x, k_y)+v_k(k_x, k_y)v_k^*(k_x, k_y)\rangle
+\end{multline}
+where $A$ is the total area of the field of view and $^*$ denotes the complex conjugate. \textcolor{red}{Why is $2A$ not $A$?} The $\langle\cdot\rangle$ indicates an average over multiple images from different times. Finally, the energy spectrum $E(k)$ is obtained by summing up $E(k_x,k_y)$ at a constant $k=(k_x^2+k_y^2)^{1/2}$. \textcolor{red}{I don't think this is exactly what you do. If I am right, you average $E(k_x,k_y)$ in a small ring and then calculate $E(k) = 2\pi k$ times the average $E(k_x,k_y)$. The two approaches are the same mathematically.}
 
-%% \textcolor{red}{Again, we need to show how the calculation is actually performed, instead of the theory behind. For example, we should state how we use FFT on the PIV velocity data and how the results are related to $E(k_x,k_y)$. Finally, we should discuss how $E(k_x,k_y)$ is used to finally get $E(k)$.}
-\begin{equation}
-E(k_x, k_y) = \frac{\langle u_k(k_x, k_y)u^*_k(k_x, k_y)+v_k(k_x, k_y)v_k^*(k_x, k_y)\rangle}{2A}
-\end{equation}
-where $E$ is the energy density in $k$ space, $u_k$ and $v_k$ are $k$ space velocity fields, $A$ is the real space area of the system and $^*$ denotes the complex conjugate. The $\langle\cdot\rangle$ denotes an average over multiple images from different times.
-
-The fourier transform of real space velocity $u_k$ and $v_k$ are computed as the following:
-\begin{itemize}
-  \item apply the built-in Fast Fourier Transform (FFT) function of Python \texttt{numpy.fft} package to the discrete velocity field $v(x, y)$ (from PIV) to get $V_k(k_x, k_y)$
-  \item since the FFT is defined as
-    $$
-    V_k=\sum^{n-1}_{m=0}v_m\exp(-2\pi i \frac{mk}{n})
-    $$
-    missing the $dx$ counterpart in the continuous Fourier transform, we additionally multiply $d_{step}^2$ to $V_k(k_x, k_y)$ to get the wavenumber domain velocity $v_k(k_x, k_y)$
-  \item the wavenumber field $k$ corresponding to $v_k(k_x, k_y)$ is obtained by applying the \texttt{numpy.fft.fftfreq} function. Since the definition of FFT introduces a prefactor $2\pi$ to the wavenumber, an additional $2\pi$ is also multiplied to $k$
-\end{itemize}
+%%The fourier transform of real space velocity $u_k$ and $v_k$ are computed as the following:
+%%\begin{itemize}
+%%  \item apply the built-in Fast Fourier Transform (FFT) function of Python \texttt{numpy.fft} package to the discrete velocity field $v(x, y)$ (from PIV) to get $V_k(k_x, k_y)$
+%%  \item since the FFT is defined as
+ %%   $$
+ %%   V_k=\sum^{n-1}_{m=0}v_m\exp(-2\pi i \frac{mk}{n})
+ %%   $$
+ %%   missing the $dx$ counterpart in the continuous Fourier transform, we additionally multiply $d_{step}^2$ to $V_k(k_x, k_y)$ to get the wavenumber domain velocity $v_k(k_x, k_y)$
+ %% \item the wavenumber field $k$ corresponding to $v_k(k_x, k_y)$ is obtained by applying the \texttt{numpy.fft.fftfreq} function. Since the definition of FFT introduces a prefactor $2\pi$ to the wavenumber, an additional $2\pi$ is also multiplied to $k$
+%%\end{itemize}
 
 
 % This method can be shown to be equivalent to another commonly used formula, which calculates the Fourier transform of real space velocity spatial correlation functions:
@@ -238,20 +228,21 @@ The fourier transform of real space velocity $u_k$ and $v_k$ are computed as the
 
 \subsection{Correlation of local density fluctuations and kinetic energies}
 
-%% \textcolor{red}{We need more details. In addition to the definition of the correlation function, we need to show how the density fluctuations and kinetic energies are calculate at $l = 2.5l_b$, staring from pixel image intensity and velocity fields at 8 um spacing.}
+To calculate local temporal density fluctuations, we need to approximate instantaneous intensity variations. On the one hand, the time interval for calculating the intensity difference between two frames needs to be smaller than the density correlation time in order to satisfy the instantaneous approximation, which is typically around 2 s (60 frames), as shown in Fig.\ref{fig:spatiotemporal-correlations}. \textcolor{red}{where does the 2 s comes from? The correlation is $4\tau_b$, which is 0.8 s.} On the other hand, the time interval should be sufficient long to suppress the influence of random fluctuations of image intensities in adjacent frames, a factor that always needs to be considered when calculating the derivative of an experimental quantity. In our study, we choose 0.3 s (10 frames) for the local density fluctuation calculation. We do not expect the results to be much different when varying this number from 0.17 to 0.6 s.
 
-Here we show the procedures of calculating the local coupling between density fluctuations and kinetic energy. When calculating the local density fluctuations, we want to measure the instantaneously change of density instead of a steady-state scaling. Thus, we choose the length of video for this calculation to be within the autocorrelation time of density (or more accurately, average pixel intensity) variations, which is typically around 2s, or 60 frames, as shown in Fig.\ref{fig:spatiotemporal-correlations}. We also want to include as many frames as we can instead of using adjacent frame, in order to suppress the effects from random fluctuations of image intensities, the nature of optical imaging. Thus, we used 10 frames for the local density fluctuation calculation. We don't expect the result to be much different when varying this number from 5 to 20.
-
-As shown in Fig.~\ref{fig:coupling-calculation}, we first take 10 frames $F_i(\bm{r})$ of consecutive images, where $i=1, 2, ..., 10$. All the 10 frames are coarse-grained by binning $25\times 25$ px$^2$ ($8\times8$ $\mu$m$^2$) windows into a single pixel $f_i(\bm{r})$, as shown in Fig.~\ref{fig:coupling-calculation}b. PIV algorithm is then applied on the first two images to obtain a representative velocity field $v{\bm{r}}$, as in Fig.~\ref{fig:coupling-calculation}c. Since the PIV analysis is done at a step size of 25 pixel, the coarse-graining procedure produces images with dimensions the same as the velocity fields obtained from PIV. We then take the standard deviation of the pixel intensity at each spot over 10 frames to obtain a field of density fluctuations, $\delta N(\bm{r}) = \sqrt{\langle(f_i-\langle f_i\rangle)^2\rangle}$, shown in Fig.~\ref{fig:coupling-calculation}d. The kinetic energy field is obtained by taking square of the magnitudes of PIV result and then divide it by 2, $E_k(\bm{r})=\langle v(\bm{r})^2 / 2 \rangle$, as shown in Fig.~\ref{fig:coupling-calculation}e. Finally, the normalized correlaiton between $\Delta N(\bm{r})$ and $E_k(\bm{r})$ is calculated as
+\textcolor{red}{I am not clear about the procedure below. What's $F_i(\bm{r})$? Is it the intensity field? Where is the length scale $l = 2.5l_b$ we stated in the main text? Is $2.5l_b = 8$ $\mu$m? The way you calculate kinetic energies is quite different from what I thought (if I understand your procedure right). Why not do PIV on the original images without coarsen-graining and then calculate the kinetic energies with a window by summing up velocity squares in that window. Will that give you the same result? We don't need to show 3f, since it is already in the main text.}
+As shown in Fig.~\ref{fig:coupling-calculation}, we first take 10 frames $F_i(\bm{r})$ of consecutive images, where $i=1, 2, ..., 10$. All the 10 frames are coarse-grained by binning $25\times 25$ px$^2$ ($8\times8$ $\mu$m$^2$) windows into a single pixel $f_i(\bm{r})$, as shown in Fig.~\ref{fig:coupling-calculation}b. PIV algorithm is then applied on the first two images to obtain a representative velocity field $v{\bm{r}}$, as in Fig.~\ref{fig:coupling-calculation}c. Since the PIV analysis is done at a step size of 25 pixel, the coarse-graining procedure produces images with dimensions the same as the velocity fields obtained from PIV. We then take the standard deviation of the pixel intensity at each spot over 10 frames to obtain a field of density fluctuations, $\delta N(\bm{r}) = \sqrt{\langle(f_i-\langle f_i\rangle)^2\rangle}$, shown in Fig.~\ref{fig:coupling-calculation}d. The kinetic energy field is obtained by taking square of the magnitudes of PIV result and then divide it by 2, $E_k(\bm{r})= v(\bm{r})^2 / 2 $, as shown in Fig.~\ref{fig:coupling-calculation}e. Finally, the normalized correlaiton between $\Delta N(\bm{r})$ and $E_k(\bm{r})$ is calculated as
+%
 \begin{equation}
-  \Delta N\star E_k = \frac{\langle(\Delta N-\overline{\Delta N})(E_k-\overline{E_k})\rangle}{\sigma_{\Delta N}\sigma_{E_k}}
+  C = \frac{\langle(\Delta N-\overline{\Delta N})(E_k-\overline{E_k})\rangle}{\sigma_{\Delta N}\sigma_{E_k}}
 \end{equation}
-
-$\star$ is the operator standing for cross correlation, $\bar\cdot$ means taking the mean, $\sigma$ means the standard deviation, and $\langle\cdot\rangle$ denotes taking the average of all scalars in an array. The cross correlation quantifies the similarity between arrays $N$ and $E_k$. The resulting number takes value from -1 to 1.
+%
+%$\star$ is the operator standing for cross correlation,
+where$\bar\cdot$ means taking the mean, $\sigma$ means the standard deviation, and $\langle\cdot\rangle$ denotes taking the average of all scalars in an array. The cross correlation quantifies the similarity between arrays $N$ and $E_k$. The resulting number takes value from -1 to 1.
 
 \subsection{Density fluctuations in the transient state}
 
-The density fluctuations in transient state is calculated using the same method as the steady state. The procedures described in Sec.~\ref{sec:GNF-calculations} is repeated every 50 frames in videos where the whole process of bacterial activity rising is recorded. Why 50 frames? It is about the length of correlation time, so we expect sound statistics from it. It is also short compared to the whole process of $\alpha$ rising (60 s, or 1800 frames), so it can also provide good temporal resolution to monitor the kinetic process.
+Density fluctuations in the transient state towards active turbulence is calculated using the same method as that in the steady state. Specifically, the procedure described in Sec.~\ref{sec:GNF-calculations} is applied at time $t$ over a time interval of $\Delta t$ during the transition towards active turbulence. We choose $\Delta t = 1.7$ s (50 frames), which is slightly smaller than the density correlation time and thus provides sound statistics. As a comparison, the entire transition takes about 60 s (1800 frames). Thus, $\Delta t$ is also small enough and provides a good temporal resolution to monitor the kinetic process.
 
 
 

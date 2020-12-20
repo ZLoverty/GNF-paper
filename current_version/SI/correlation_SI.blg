@@ -30,6 +30,7 @@ You're missing a field part---line 699 of file ../correlation.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "Liberzon2020" isn't style-file defined
 --line 1254 of file ../correlation.bib
+Warning--I didn't find a database entry for ""
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
