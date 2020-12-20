@@ -135,7 +135,7 @@ where $\Delta$ stands for taking the standard deviation over time. Over differen
 		\includegraphics[width=0.46\textwidth]{Figures/GNF-normalization/same-illumination.pdf}
 		\caption[Density autocorrelation]
 		{
-			\textbf{GNF curves at various volume fractions under same illumination and imaging conditions.}
+			GNF curves at various volume fractions under same illumination and imaging conditions.
 		}
 		\label{fig:same-conditions}
 	\end{center}
@@ -145,7 +145,7 @@ where $\Delta$ stands for taking the standard deviation over time. Over differen
 
 \subsubsection{Density fluctuations at different length scales}
 
-Equipped with the relation between $\Delta N$ and $\Delta I$, we now calculate the density fluctuations at different length scales (using $l^2\Delta I$). We first crop square-shape subsystems of various sizes from the original image time series, as shown in Fig.~\ref{GNF-calculation}a. For each size $l$, a standard deviation of the light intensity are calculated over 50 frames (1.67 s). To improve statistics, we choose 20 subsystems of the same size evenly distributed in the field of view and obtain an averaged standard deviation of mean intensity $\Delta I$ (Fig.~\ref{GNF-calculation}b). This averaged $\Delta I$ is then multiplied by $l^2$ and is used as the density fluctuations $\Delta N$.
+Equipped with the relation between $\Delta N$ and $\Delta I$, we now calculate the density fluctuations at different length scales (using $l^2\Delta I$). We first crop square-shape subsystems of various sizes from the original image time series, as shown in Fig.~\ref{GNF-calculation}a. We vary the size of Each subsystem $l$ from $.2l_b$ to $55l_b$. For each size $l$, a standard deviation of the average pixel intensity $\Delta I$ is calculated over 50 frames (1.67 s). To improve statistics, we choose 20 subsystems of the same size evenly distributed in the field of view and obtain an averaged standard deviation of mean intensity $\Delta I$ (Fig.~\ref{GNF-calculation}b). This averaged $\Delta I$ is then multiplied by $l^2$ and is used as the density fluctuations $\Delta N$.
 
 % \textcolor{red}{Please rewrite/reorganize this section. I combine this session with the session on the normalization of GNF. The two sessions together allow you to convert $I$ into $N$ eventually.}
 % Using the TVSA method, we first crop square-shape subsystems of various sizes from the original image time series, as shown in Fig.~\ref{GNF-calculation}a. For each size $l$, a standard deviation of the light intensity $\Delta I$ are calculated over time. \textcolor{red}{What you directly measure is the image intensity. I suggest we use $\Delta I$ and $I$ first and state clearly how $\Delta I$ and $I$ are related to $\Delta N$ and $N$ at the end.} To improve statistics, we choose 20 different subsystems of the same size evenly distributed in the field of view and obtain an average $\Delta I$ and $I$  (Fig.~\ref{GNF-calculation}b). We vary the subsystem size $l$ from 10 \textmu m to 30 \textmu m, \textcolor{red}{from 10 to 30 um? It seems to be a very small range.} and examine the temporal variations of image intensity $\Delta I_{i}(l)$ in the $i^{th}$ frame for subsystem size $l$. The temporal variations are then averaged in space (over $i$) to give the final $\Delta I$. \textcolor{red}{I am confused that if $i$ is the number of frame, why is it an average of space?} Since $I$ is linearly proportional to bacterial volume fraction $\phi$. $\Delta I \sim \Delta \phi$
