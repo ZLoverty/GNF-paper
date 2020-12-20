@@ -1,0 +1,19 @@
+v1
+--
+(a) Evolutions of GNF scaling exponent $\alpha$ (black), flow kinetic energy $E$ (orange) and coherent flow fraction $M$ (blue) during the onset of active turbulence ($\phi=6.4$).
+(b) Kinetic energy and number fluctuations at corresponding time and length scales during the onset of active turbulence at volume fractions ranging from 2.4\% to 9.6\%.
+
+v3
+--
+\textbf{GNF kinetics and density flow coupling at transient state.}
+(a) Kinetics of GNF at the onset of active turbulence in a $\phi=9.6\%$ suspension (legends indicates time in unit second). Inset: temporal evolution of scaling exponent $\alpha$, total kinetic energy $E$ and \textcolor{red}{fraction of coherent flow $M$} in the same sample.
+(b) Kinetic energy and number fluctuations at corresponding time and length scales during the onset of active turbulence at volume fractions ranging from 3.6\% to 14.4\%. Black dashed line is the phenomenological fitting of the universal coupling, the same as in Fig.~\ref{fig:GNF-energy-spectra-correlation}a.
+
+
+v6
+--
+\textbf{GNF kinetics and density flow coupling at transient state.}
+(a) Snapshots of a bacterial suspension ($\phi=6.4\%$) during the transition towards active turbulence, overlaid with velocity fields obtained from PIV analysis. At $t=0$ s, we turn on the illumination light and the bacteria start to gain speed. Time are labeled in corresponding images. 
+(b) Temporal evolution of scaling exponent $\alpha$, total kinetic energy $E$ and \textcolor{red}{fraction of coherent flow $M$} in the same sample.
+(c) Kinetics of GNF at the onset of active turbulence in a $\phi=6.4\%$ suspension (legends indicates time in unit second). 
+(d) Kinetic energy and number fluctuations at corresponding time and length scales during the onset of active turbulence at volume fractions ranging from 2.4\% to 9.6\%. Black dashed line is the phenomenological fitting of the universal coupling, the same as in Fig.~\ref{fig:GNF-energy-spectra-correlation}a.
