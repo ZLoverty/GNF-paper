@@ -494,25 +494,6 @@
   }\href {https://doi.org/10.1038/s41467-018-07781-y} {\bibfield  {journal}
   {\bibinfo  {journal} {Nat. Commun.}\ }\textbf {\bibinfo {volume} {9}},\
   \bibinfo {pages} {5373} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Liberzon}\ \emph {et~al.}(2020)\citenamefont
-  {Liberzon}, \citenamefont {Lasagna}, \citenamefont {Aubert}, \citenamefont
-  {Bachant}, \citenamefont {Käufer}, \citenamefont {jakirkham}, \citenamefont
-  {Bauer}, \citenamefont {Vodenicharski}, \citenamefont {Dallas}, \citenamefont
-  {Borg}, \citenamefont {tomerast},\ and\ \citenamefont
-  {ranleu}}]{Liberzon2020}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Liberzon}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Lasagna}},
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Aubert}}, \bibinfo
-  {author} {\bibfnamefont {P.}~\bibnamefont {Bachant}}, \bibinfo {author}
-  {\bibfnamefont {T.}~\bibnamefont {Käufer}}, \bibinfo {author} {\bibnamefont
-  {jakirkham}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bauer}},
-  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Vodenicharski}}, \bibinfo
-  {author} {\bibfnamefont {C.}~\bibnamefont {Dallas}}, \bibinfo {author}
-  {\bibfnamefont {J.}~\bibnamefont {Borg}}, \bibinfo {author} {\bibnamefont
-  {tomerast}},\ and\ \bibinfo {author} {\bibnamefont {ranleu}},\ }\href
-  {https://doi.org/10.5281/zenodo.3930343} {\bibinfo {title} {{OpenPIV}}}
-  (\bibinfo {year} {2020})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sokolov}\ \emph {et~al.}(2009)\citenamefont
   {Sokolov}, \citenamefont {Goldstein}, \citenamefont {Feldchtein},\ and\
   \citenamefont {Aranson}}]{Sokolov2009}%
@@ -551,23 +532,18 @@
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {98}},\ \bibinfo {pages} {158102} (\bibinfo {year}
   {2007})}\BibitemShut {NoStop}%
-\bibitem [{Liu()}]{Liu2020}%
-  \BibitemOpen
-  \href@noop {} {\bibinfo  {journal} {See Supplemental Material}\ }\BibitemShut
-  {NoStop}%
 \bibitem [{\citenamefont {Stenhammar}\ \emph {et~al.}(2017)\citenamefont
   {Stenhammar}, \citenamefont {Nardini}, \citenamefont {Nash}, \citenamefont
   {Marenduzzo},\ and\ \citenamefont {Morozov}}]{Stenhammar2017}%
   \BibitemOpen
-\bibfield  {journal} {  }\bibfield  {author} {\bibinfo {author} {\bibfnamefont
-  {J.}~\bibnamefont {Stenhammar}}, \bibinfo {author} {\bibfnamefont
-  {C.}~\bibnamefont {Nardini}}, \bibinfo {author} {\bibfnamefont {R.~W.}\
-  \bibnamefont {Nash}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Marenduzzo}},\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
-  {Morozov}},\ }\href {https://doi.org/10.1103/PhysRevLett.119.028005}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {119}},\ \bibinfo {pages} {1} (\bibinfo {year}
-  {2017})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Stenhammar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
+  \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Nash}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.119.028005} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\
+  \bibinfo {pages} {1} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nambiar}\ \emph {et~al.}(2021)\citenamefont
   {Nambiar}, \citenamefont {Garg},\ and\ \citenamefont
   {Subramanian}}]{Nambiar2021}%
@@ -583,11 +559,9 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
   {Magariyama}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Kudo}},\ }\href
-  {https://doi.org/https://doi.org/10.1016/S0006-3495(02)75204-1} {\bibfield
-  {journal} {\bibinfo  {journal} {Biophysical Journal}\ }\textbf {\bibinfo
-  {volume} {83}},\ \bibinfo {pages} {733 } (\bibinfo {year}
-  {2002})}\BibitemShut {NoStop}%
+  {Kudo}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Biophysical Journal}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages}
+  {733 } (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Drescher}\ \emph {et~al.}(2011)\citenamefont
   {Drescher}, \citenamefont {Dunkel}, \citenamefont {Cisneros}, \citenamefont
   {Ganguly},\ and\ \citenamefont {Goldstein}}]{Drescher2011}%
@@ -600,9 +574,7 @@
   {https://doi.org/10.1073/pnas.1019079108} {\bibfield  {journal} {\bibinfo
   {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
   {\bibinfo {volume} {108}},\ \bibinfo {pages} {10940} (\bibinfo {year}
-  {2011})},\ \Eprint
-  {https://arxiv.org/abs/https://www.pnas.org/content/108/27/10940.full.pdf}
-  {https://www.pnas.org/content/108/27/10940.full.pdf} \BibitemShut {NoStop}%
+  {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Pope}(2020)}]{Pope2000}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~B.}\ \bibnamefont
@@ -638,4 +610,35 @@
   {\bibinfo  {journal} {Phys. Fluids}\ }\textbf {\bibinfo {volume} {20}},\
   \bibinfo {pages} {123304} (\bibinfo {year} {2008}{\natexlab{b}})}\BibitemShut
   {NoStop}%
+\bibitem [{\citenamefont {Walter}\ \emph {et~al.}(2007)\citenamefont {Walter},
+  \citenamefont {Greenfield}, \citenamefont {Bustamante},\ and\ \citenamefont
+  {Liphardt}}]{Walter2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Walter}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Greenfield}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Bustamante}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liphardt}},\ }\href
+  {https://doi.org/10.1073/pnas.0611035104} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {104}},\ \bibinfo {pages} {2408} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liberzon}\ \emph {et~al.}(2020)\citenamefont
+  {Liberzon}, \citenamefont {Lasagna}, \citenamefont {Aubert}, \citenamefont
+  {Bachant}, \citenamefont {Käufer}, \citenamefont {jakirkham}, \citenamefont
+  {Bauer}, \citenamefont {Vodenicharski}, \citenamefont {Dallas}, \citenamefont
+  {Borg}, \citenamefont {tomerast},\ and\ \citenamefont
+  {ranleu}}]{Liberzon2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Liberzon}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Lasagna}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Aubert}}, \bibinfo
+  {author} {\bibfnamefont {P.}~\bibnamefont {Bachant}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Käufer}}, \bibinfo {author} {\bibnamefont
+  {jakirkham}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Bauer}},
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Vodenicharski}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Dallas}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Borg}}, \bibinfo {author} {\bibnamefont
+  {tomerast}},\ and\ \bibinfo {author} {\bibnamefont {ranleu}},\ }\href
+  {https://doi.org/10.5281/zenodo.3930343} {\bibinfo {title} {{OpenPIV}}}
+  (\bibinfo {year} {2020})\BibitemShut {NoStop}%
 \end{thebibliography}%
