@@ -560,6 +560,53 @@
   10.1038/s41467-018-07781-y} {\bibfield  {journal} {\bibinfo  {journal} {Nat.
   Commun.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {5373}
   (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Stenhammar}\ \emph {et~al.}(2017)\citenamefont
+  {Stenhammar}, \citenamefont {Nardini}, \citenamefont {Nash}, \citenamefont
+  {Marenduzzo},\ and\ \citenamefont {Morozov}}]{Stenhammar2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Stenhammar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
+  \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Nash}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\bibfield  {title}
+  {\emph {\bibinfo {title} {{Role of Correlations in the Collective Behavior of
+  Microswimmer Suspensions}},}\ }\href {\doibase
+  10.1103/PhysRevLett.119.028005} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
+  {028005} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nambiar}\ \emph {et~al.}(2021)\citenamefont
+  {Nambiar}, \citenamefont {Garg},\ and\ \citenamefont
+  {Subramanian}}]{Nambiar2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Nambiar}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Garg}}, \
+  and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Subramanian}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {Enhanced velocity fluctuations
+  in interacting swimmer suspensions},}\ }\href {\doibase 10.1017/jfm.2020.827}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Fluid Mech.}\ }\textbf
+  {\bibinfo {volume} {907}},\ \bibinfo {pages} {A26} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
+  {Shelley}(2008{\natexlab{a}})}]{Saintillan2008a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Instabilities and
+  pattern formation in active particle suspensions: Kinetic theory and
+  continuum simulations}},}\ }\href {\doibase 10.1103/PhysRevLett.100.178103}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {100}},\ \bibinfo {pages} {178103} (\bibinfo {year}
+  {2008}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
+  {Shelley}(2008{\natexlab{b}})}]{Saintillan2008b}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
+  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {Instabilities,
+  pattern formation, and mixing in active suspensions},}\ }\href {\doibase
+  10.1063/1.3041776} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Fluids}\
+  }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages} {123304} (\bibinfo
+  {year} {2008}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sokolov}\ \emph {et~al.}(2009)\citenamefont
   {Sokolov}, \citenamefont {Goldstein}, \citenamefont {Feldchtein},\ and\
   \citenamefont {Aranson}}]{Sokolov2009}%
@@ -603,32 +650,6 @@
   {\doibase 10.1103/PhysRevLett.98.158102} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo
   {pages} {158102} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Stenhammar}\ \emph {et~al.}(2017)\citenamefont
-  {Stenhammar}, \citenamefont {Nardini}, \citenamefont {Nash}, \citenamefont
-  {Marenduzzo},\ and\ \citenamefont {Morozov}}]{Stenhammar2017}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Stenhammar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
-  \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Nash}}, \bibinfo
-  {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}}, \ and\ \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\bibfield  {title}
-  {\emph {\bibinfo {title} {{Role of Correlations in the Collective Behavior of
-  Microswimmer Suspensions}},}\ }\href {\doibase
-  10.1103/PhysRevLett.119.028005} {\bibfield  {journal} {\bibinfo  {journal}
-  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
-  {028005} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Nambiar}\ \emph {et~al.}(2021)\citenamefont
-  {Nambiar}, \citenamefont {Garg},\ and\ \citenamefont
-  {Subramanian}}]{Nambiar2021}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Nambiar}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Garg}}, \
-  and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Subramanian}},\
-  }\bibfield  {title} {\emph {\bibinfo {title} {Enhanced velocity fluctuations
-  in interacting swimmer suspensions},}\ }\href {\doibase 10.1017/jfm.2020.827}
-  {\bibfield  {journal} {\bibinfo  {journal} {J. Fluid Mech.}\ }\textbf
-  {\bibinfo {volume} {907}},\ \bibinfo {pages} {A26} (\bibinfo {year}
-  {2021})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Magariyama}\ and\ \citenamefont
   {Kudo}(2002)}]{Magariyama2002}%
   \BibitemOpen
@@ -673,27 +694,6 @@
   10.1103/PhysRevE.83.061907} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
   Rev. E}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {061907}
   (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
-  {Shelley}(2008{\natexlab{a}})}]{Saintillan2008a}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Instabilities and
-  pattern formation in active particle suspensions: Kinetic theory and
-  continuum simulations}},}\ }\href {\doibase 10.1103/PhysRevLett.100.178103}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {100}},\ \bibinfo {pages} {178103} (\bibinfo {year}
-  {2008}{\natexlab{a}})}\BibitemShut {NoStop}%
-\bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
-  {Shelley}(2008{\natexlab{b}})}]{Saintillan2008b}%
-  \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
-  {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {Instabilities,
-  pattern formation, and mixing in active suspensions},}\ }\href {\doibase
-  10.1063/1.3041776} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Fluids}\
-  }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages} {123304} (\bibinfo
-  {year} {2008}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Walter}\ \emph {et~al.}(2007)\citenamefont {Walter},
   \citenamefont {Greenfield}, \citenamefont {Bustamante},\ and\ \citenamefont
   {Liphardt}}]{Walter2007}%
