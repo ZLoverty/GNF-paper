@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex correlation"] 1608741416 "correlation.aux" "correlation.bbl" "correlation" 1608744793
+["bibtex correlation"] 1608741416 "correlation.aux" "correlation.bbl" "correlation" 1608753046
   "./prx_bib.bst" 1608738991 74971 98f7e03020f2b05c3c776d43d3ce2f27 ""
-  "correlation.aux" 1608744792 13736 9b4d7777430a2bd1678d353c3c28b0c4 "pdflatex"
+  "correlation.aux" 1608753045 13736 9b4d7777430a2bd1678d353c3c28b0c4 "pdflatex"
   "correlation.bib" 1608738991 114742 c52ef83437b64206038da3cd032c4eb9 ""
-  "correlationNotes.bib" 1608744790 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "correlationNotes.bib" 1608753043 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "correlation.bbl"
   "correlation.blg"
-["pdflatex"] 1608744787 "correlation.tex" "correlation.pdf" "correlation" 1608744793
+["pdflatex"] 1608753040 "correlation.tex" "correlation.pdf" "correlation" 1608753046
   "C:/Users/liux3141/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1608423803 9763230 0eb3f29b06e954c6d84770c599c68cbe ""
   "C:/Users/liux3141/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1608739168 280857 11ec89b83293cd820a65d156db3caf56 ""
   "C:/Users/liux3141/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001771820 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -222,13 +222,13 @@
   "Figures/fig-7.pdf" 1608565123 201457 bb83fc64488924f4d3b226d62dfe72a5 ""
   "Figures/fig-8.pdf" 1608738991 166285 3951064cbd895a6e0bd8b1618587ff68 ""
   "Figures/fig-9.pdf" 1608738991 307470 45ce75fc4e80ac18a6752988500130eb ""
-  "correlation.aux" 1608744792 13736 9b4d7777430a2bd1678d353c3c28b0c4 "pdflatex"
+  "correlation.aux" 1608753045 13736 9b4d7777430a2bd1678d353c3c28b0c4 "pdflatex"
   "correlation.bbl" 1608741416 46377 80ee177c56c7bb34d380ed09a7d4b00f "bibtex correlation"
-  "correlation.out" 1608744792 1671 6ad17963bdf74965ad8f233ffb10f273 "pdflatex"
-  "correlation.tex" 1608744786 61120 bf99a0c905e3333f5c8dce45a54714a2 ""
+  "correlation.out" 1608753045 1671 6ad17963bdf74965ad8f233ffb10f273 "pdflatex"
+  "correlation.tex" 1608753036 61134 30a6e9df7122c4e12a16ac0a8bafa049 ""
   (generated)
-  "correlation.aux"
   "correlation.out"
-  "correlation.pdf"
+  "correlation.aux"
   "correlation.log"
+  "correlation.pdf"
   "correlationNotes.bib"
