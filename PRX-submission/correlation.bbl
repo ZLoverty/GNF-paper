@@ -1,8 +1,8 @@
-%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
 %Control: key (0)
 %Control: author (72) initials jnrlst
 %Control: editor formatted (1) identically to author
-%Control: production of article title (-1) disabled
+%Control: production of article title (1) required
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
@@ -22,7 +22,7 @@
  \fi
 }%
 \providecommand \natexlab [1]{#1}%
-\providecommand \enquote  [1]{``#1''}%
+\providecommand \emph  [1]{``#1''}%
 \providecommand \bibnamefont  [1]{#1}%
 \providecommand \bibfnamefont [1]{#1}%
 \providecommand \citenamefont [1]{#1}%
@@ -38,7 +38,7 @@
 \providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
 \providecommand \urlprefix  [0]{URL }%
 \providecommand \Eprint [0]{\href }%
-\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \doibase [0]{http://dx.doi.org/}%
 \providecommand \selectlanguage [0]{\@gobble}%
 \providecommand \bibinfo  [0]{\@secondoftwo}%
 \providecommand \bibfield  [0]{\@secondoftwo}%
@@ -53,17 +53,19 @@
 \bibitem [{\citenamefont {Ramaswamy}(2010)}]{Ramaswamy2010}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Ramaswamy}},\ }\href
-  {https://doi.org/10.1146/annurev-conmatphys-070909-104101} {\bibfield
-  {journal} {\bibinfo  {journal} {Annu. Rev. Condens. Matter Phys.}\ }\textbf
-  {\bibinfo {volume} {1}},\ \bibinfo {pages} {323} (\bibinfo {year}
-  {2010})}\BibitemShut {NoStop}%
+  {Ramaswamy}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{The mechanics
+  and statistics of active matter}},}\ }\href {\doibase
+  10.1146/annurev-conmatphys-070909-104101} {\bibfield  {journal} {\bibinfo
+  {journal} {Annu. Rev. Condens. Matter Phys.}\ }\textbf {\bibinfo {volume}
+  {1}},\ \bibinfo {pages} {323} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Cates}(2012)}]{Cates2012}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
-  {Cates}},\ }\href {https://doi.org/10.1088/0034-4885/75/4/042601} {\bibfield
-  {journal} {\bibinfo  {journal} {Rep. Prog. Phys.}\ }\textbf {\bibinfo
-  {volume} {75}},\ \bibinfo {pages} {42601} (\bibinfo {year}
+  {Cates}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Diffusive transport
+  without detailed balance in motile bacteria: does microbiology need
+  statistical physics?}}}\ }\href {\doibase 10.1088/0034-4885/75/4/042601}
+  {\bibfield  {journal} {\bibinfo  {journal} {Rep. Prog. Phys.}\ }\textbf
+  {\bibinfo {volume} {75}},\ \bibinfo {pages} {42601} (\bibinfo {year}
   {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Marchetti}\ \emph {et~al.}(2013)\citenamefont
   {Marchetti}, \citenamefont {Joanny}, \citenamefont {Ramaswamy}, \citenamefont
@@ -75,102 +77,118 @@
   {Joanny}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},
   \bibinfo {author} {\bibfnamefont {T.~B.}\ \bibnamefont {Liverpool}}, \bibinfo
   {author} {\bibfnamefont {J.}~\bibnamefont {Prost}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {Rao}},\ and\ \bibinfo {author}
-  {\bibfnamefont {R.~A.}\ \bibnamefont {Simha}},\ }\href
-  {https://doi.org/10.1103/RevModPhys.85.1143} {\bibfield  {journal} {\bibinfo
-  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo
-  {pages} {1143} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  {\bibfnamefont {M.}~\bibnamefont {Rao}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.~A.}\ \bibnamefont {Simha}},\ }\bibfield  {title} {\emph
+  {\bibinfo {title} {{Hydrodynamics of soft active matter}},}\ }\href {\doibase
+  10.1103/RevModPhys.85.1143} {\bibfield  {journal} {\bibinfo  {journal} {Rev.
+  Mod. Phys.}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo {pages} {1143}
+  (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Poon}(2013)}]{Poon2013}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.~C.~K.}\
-  \bibnamefont {Poon}},\ }in\ \href@noop {} {\emph {\bibinfo {booktitle}
-  {Proceedings of the International School of Physics, Course CLXXXIV ``Physics
-  of Complex Colloid''}}},\ \bibinfo {editor} {edited by\ \bibinfo {editor}
-  {\bibfnamefont {C.}~\bibnamefont {Bechinger}}, \bibinfo {editor}
-  {\bibfnamefont {F.}~\bibnamefont {Sciortino}},\ and\ \bibinfo {editor}
-  {\bibfnamefont {P.}~\bibnamefont {Ziherl}}}\ (\bibinfo  {publisher} {ISO
-  Press},\ \bibinfo {year} {2013})\BibitemShut {NoStop}%
+  \bibnamefont {Poon}},\ }\bibfield  {title} {\emph {\bibinfo {title} {From
+  clarkia to escherichia and janus: the physics of natural and synthetic active
+  colloids},}\ }in\ \href@noop {} {\emph {\bibinfo {booktitle} {Proceedings of
+  the International School of Physics, Course CLXXXIV ``Physics of Complex
+  Colloid''}}},\ \bibinfo {editor} {edited by\ \bibinfo {editor} {\bibfnamefont
+  {C.}~\bibnamefont {Bechinger}}, \bibinfo {editor} {\bibfnamefont
+  {F.}~\bibnamefont {Sciortino}}, \ and\ \bibinfo {editor} {\bibfnamefont
+  {P.}~\bibnamefont {Ziherl}}}\ (\bibinfo  {publisher} {ISO Press},\ \bibinfo
+  {year} {2013})\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Elgeti}\ \emph {et~al.}(2015)\citenamefont {Elgeti},
   \citenamefont {Winkler},\ and\ \citenamefont {Gompper}}]{Elgeti2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Elgeti}}, \bibinfo {author} {\bibfnamefont {R.~G.}\ \bibnamefont
-  {Winkler}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
-  {Gompper}},\ }\href {https://doi.org/10.1088/0034-4885/78/5/056601}
-  {\bibfield  {journal} {\bibinfo  {journal} {Rep. Prog. Phys.}\ }\textbf
-  {\bibinfo {volume} {78}},\ \bibinfo {pages} {056601} (\bibinfo {year}
+  {Elgeti}}, \bibinfo {author} {\bibfnamefont {R.~G.}\ \bibnamefont {Winkler}},
+  \ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Gompper}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {Physics of
+  microswimmers{\textemdash}single particle motion and collective behavior: a
+  review},}\ }\href {\doibase 10.1088/0034-4885/78/5/056601} {\bibfield
+  {journal} {\bibinfo  {journal} {Rep. Prog. Phys.}\ }\textbf {\bibinfo
+  {volume} {78}},\ \bibinfo {pages} {056601} (\bibinfo {year}
   {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Mishin}(2015)}]{Mishin2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Mishin}},\ }\href
-  {https://doi.org/https://doi.org/10.1016/j.aop.2015.09.015} {\bibfield
-  {journal} {\bibinfo  {journal} {Ann. Phys.}\ }\textbf {\bibinfo {volume}
-  {363}},\ \bibinfo {pages} {48} (\bibinfo {year} {2015})}\BibitemShut
-  {NoStop}%
+  {Mishin}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Thermodynamic
+  theory of equilibrium fluctuations}},}\ }\href {\doibase
+  https://doi.org/10.1016/j.aop.2015.09.015} {\bibfield  {journal} {\bibinfo
+  {journal} {Ann. Phys.}\ }\textbf {\bibinfo {volume} {363}},\ \bibinfo {pages}
+  {48} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Narayan}\ \emph {et~al.}(2007)\citenamefont
   {Narayan}, \citenamefont {Ramaswamy},\ and\ \citenamefont
   {Menon}}]{Narayan2007}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
-  {Narayan}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},\
-  and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Menon}},\ }\href
-  {https://doi.org/10.1126/science.1140414} {\bibfield  {journal} {\bibinfo
-  {journal} {Science}\ }\textbf {\bibinfo {volume} {317}},\ \bibinfo {pages}
-  {105} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+  {Narayan}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},
+  \ and\ \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Menon}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {Long-lived giant number
+  fluctuations in a swarming granular nematic},}\ }\href {\doibase
+  10.1126/science.1140414} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {317}},\ \bibinfo {pages} {105}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Aranson}\ \emph {et~al.}(2008)\citenamefont
   {Aranson}, \citenamefont {Snezhko}, \citenamefont {Olafsen},\ and\
   \citenamefont {Urbach}}]{Aranson2008}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
   {Aranson}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Snezhko}},
-  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Olafsen}},\ and\
-  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Urbach}},\ }\href
-  {https://doi.org/10.1126/science.1153456} {\bibfield  {journal} {\bibinfo
-  {journal} {Science}\ }\textbf {\bibinfo {volume} {320}},\ \bibinfo {pages}
-  {612} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Olafsen}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.~S.}\ \bibnamefont {Urbach}},\ }\bibfield
+   {title} {\emph {\bibinfo {title} {{Comment on "Long-Lived Giant Number
+  Fluctuations in a Swarming Granular Nematic"}},}\ }\href {\doibase
+  10.1126/science.1153456} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science}\ }\textbf {\bibinfo {volume} {320}},\ \bibinfo {pages} {612}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kudrolli}\ \emph {et~al.}(2008)\citenamefont
   {Kudrolli}, \citenamefont {Lumay}, \citenamefont {Volfson},\ and\
   \citenamefont {Tsimring}}]{Kudrolli2008}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
   {Kudrolli}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Lumay}},
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Volfson}},\ and\ \bibinfo
-  {author} {\bibfnamefont {L.~S.}\ \bibnamefont {Tsimring}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.100.058001} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {100}},\
-  \bibinfo {pages} {058001} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Volfson}}, \ and\
+  \bibinfo {author} {\bibfnamefont {L.~S.}\ \bibnamefont {Tsimring}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Swarming and swirling in
+  self-propelled polar granular rods}},}\ }\href {\doibase
+  10.1103/PhysRevLett.100.058001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo {pages}
+  {058001} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Deseigne}\ \emph {et~al.}(2010)\citenamefont
   {Deseigne}, \citenamefont {Dauchot},\ and\ \citenamefont
   {Chat{\'{e}}}}]{Deseigne2010}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Deseigne}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Dauchot}},\
+  {Deseigne}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Dauchot}}, \
   and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Chat{\'{e}}}},\
-  }\href {https://doi.org/10.1103/PhysRevLett.105.098001} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {105}},\
-  \bibinfo {pages} {098001} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Collective motion of vibrated
+  polar disks}},}\ }\href {\doibase 10.1103/PhysRevLett.105.098001} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {105}},\ \bibinfo {pages} {098001} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2010)\citenamefont {Zhang},
   \citenamefont {Be'er}, \citenamefont {Florin},\ and\ \citenamefont
   {Swinney}}]{Zhang2010}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~P.}\ \bibnamefont
   {Zhang}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Be'er}},
-  \bibinfo {author} {\bibfnamefont {E.~L.}\ \bibnamefont {Florin}},\ and\
-  \bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont {Swinney}},\ }\href
-  {https://doi.org/10.1073/pnas.1001651107} {\bibfield  {journal} {\bibinfo
-  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume}
-  {107}},\ \bibinfo {pages} {13626} (\bibinfo {year} {2010})}\BibitemShut
-  {NoStop}%
+  \bibinfo {author} {\bibfnamefont {E.~L.}\ \bibnamefont {Florin}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont {Swinney}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Collective motion and density
+  fluctuations in bacterial colonies}},}\ }\href {\doibase
+  10.1073/pnas.1001651107} {\bibfield  {journal} {\bibinfo  {journal} {Proc.
+  Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume} {107}},\ \bibinfo
+  {pages} {13626} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nishiguchi}\ \emph {et~al.}(2017)\citenamefont
   {Nishiguchi}, \citenamefont {Nagai}, \citenamefont {Chat{\'{e}}},\ and\
   \citenamefont {Sano}}]{Nishiguchi2017}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {Nishiguchi}}, \bibinfo {author} {\bibfnamefont {K.~H.}\ \bibnamefont
-  {Nagai}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Chat{\'{e}}}},\
-  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sano}},\ }\href
-  {https://doi.org/10.1103/PhysRevE.95.020601} {\bibfield  {journal} {\bibinfo
+  {Nagai}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Chat{\'{e}}}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sano}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Long-range nematic order and
+  anomalous fluctuations in suspensions of swimming filamentous bacteria}},}\
+  }\href {\doibase 10.1103/PhysRevE.95.020601} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo
   {pages} {020601} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Kawaguchi}\ \emph {et~al.}(2017)\citenamefont
@@ -178,20 +196,23 @@
   {Sano}}]{Kawaguchi2017}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
-  {Kawaguchi}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Kageyama}},\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
-  {Sano}},\ }\href {https://doi.org/10.1038/nature22321} {\bibfield  {journal}
-  {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {545}},\ \bibinfo
-  {pages} {327} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+  {Kawaguchi}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Kageyama}},
+  \ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Sano}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Topological defects control
+  collective dynamics in neural progenitor cell cultures}},}\ }\href {\doibase
+  10.1038/nature22321} {\bibfield  {journal} {\bibinfo  {journal} {Nature}\
+  }\textbf {\bibinfo {volume} {545}},\ \bibinfo {pages} {327} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schaller}\ and\ \citenamefont
   {Bausch}(2013)}]{Schaller2013}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
   {Schaller}}\ and\ \bibinfo {author} {\bibfnamefont {A.~R.}\ \bibnamefont
-  {Bausch}},\ }\href {https://doi.org/10.1073/pnas.1215368110} {\bibfield
-  {journal} {\bibinfo  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf
-  {\bibinfo {volume} {110}},\ \bibinfo {pages} {4488} (\bibinfo {year}
-  {2013})}\BibitemShut {NoStop}%
+  {Bausch}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Topological
+  defects and density fluctuations in collectively moving systems}},}\ }\href
+  {\doibase 10.1073/pnas.1215368110} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume} {110}},\
+  \bibinfo {pages} {4488} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Palacci}\ \emph {et~al.}(2013)\citenamefont
   {Palacci}, \citenamefont {Sacanna}, \citenamefont {Steinberg}, \citenamefont
   {Pine},\ and\ \citenamefont {Chaikin}}]{Palacci2013}%
@@ -199,52 +220,64 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Palacci}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sacanna}},
   \bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont {Steinberg}}, \bibinfo
-  {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Pine}},\ and\ \bibinfo
-  {author} {\bibfnamefont {P.~M.}\ \bibnamefont {Chaikin}},\ }\href
-  {https://doi.org/10.1126/science.1230020} {\bibfield  {journal} {\bibinfo
-  {journal} {Science}\ }\textbf {\bibinfo {volume} {339}},\ \bibinfo {pages}
-  {936} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Pine}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {P.~M.}\ \bibnamefont {Chaikin}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {Living crystals of light-activated
+  colloidal surfers},}\ }\href {\doibase 10.1126/science.1230020} {\bibfield
+  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo {volume}
+  {339}},\ \bibinfo {pages} {936} (\bibinfo {year} {2013})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {Karani}\ \emph {et~al.}(2019)\citenamefont {Karani},
   \citenamefont {Pradillo},\ and\ \citenamefont {Vlahovska}}]{Karani2019}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
   {Karani}}, \bibinfo {author} {\bibfnamefont {G.~E.}\ \bibnamefont
-  {Pradillo}},\ and\ \bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont
-  {Vlahovska}},\ }\href {https://doi.org/10.1103/PhysRevLett.123.208002}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {123}},\ \bibinfo {pages} {208002} (\bibinfo {year}
+  {Pradillo}}, \ and\ \bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont
+  {Vlahovska}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Tuning the
+  Random Walk of Active Colloids: From Individual Run-And-Tumble to Dynamic
+  Clustering}},}\ }\href {\doibase 10.1103/PhysRevLett.123.208002} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {123}},\ \bibinfo {pages} {208002} (\bibinfo {year}
   {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Toner}\ and\ \citenamefont {Tu}(1995)}]{Toner1995}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Toner}}\ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tu}},\
-  }\href {https://doi.org/10.1103/PhysRevLett.75.4326} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {75}},\
-  \bibinfo {pages} {4326} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Long-range order in a
+  two-dimensional dynamical XY model: How birds fly together}},}\ }\href
+  {\doibase 10.1103/PhysRevLett.75.4326} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo
+  {pages} {4326} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Tu}\ \emph {et~al.}(1998)\citenamefont {Tu},
   \citenamefont {Toner},\ and\ \citenamefont {Ulm}}]{Tu1998}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Tu}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Toner}},\ and\
-  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ulm}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.80.4819} {\bibfield  {journal} {\bibinfo
-   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo
-  {pages} {4819} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+  {Tu}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Toner}}, \ and\
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ulm}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {{Sound waves and the absence of galilean
+  invariance in flocks}},}\ }\href {\doibase 10.1103/PhysRevLett.80.4819}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {80}},\ \bibinfo {pages} {4819} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Toner}\ and\ \citenamefont {Tu}(1998)}]{Toner1998}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Toner}}\ and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tu}},\
-  }\href {https://doi.org/10.1103/PhysRevE.58.4828} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {58}},\
-  \bibinfo {pages} {4828} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Flocks, herds, and schools: A
+  quantitative theory of flocking}},}\ }\href {\doibase
+  10.1103/PhysRevE.58.4828} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {58}},\ \bibinfo {pages} {4828}
+  (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {{Aditi Simha}}\ and\ \citenamefont
   {Ramaswamy}(2002)}]{AditiSimha2002}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
   {{Aditi Simha}}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Ramaswamy}},\ }\href {https://doi.org/10.1103/PhysRevLett.89.058101}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {89}},\ \bibinfo {pages} {58101} (\bibinfo {year}
+  {Ramaswamy}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Hydrodynamic
+  fluctuations and instabilities in ordered suspensions of self-propelled
+  particles}},}\ }\href {\doibase 10.1103/PhysRevLett.89.058101} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {89}},\ \bibinfo {pages} {58101} (\bibinfo {year}
   {2002})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ramaswamy}\ \emph {et~al.}(2003)\citenamefont
   {Ramaswamy}, \citenamefont {Simha},\ and\ \citenamefont
@@ -252,17 +285,20 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
   {Ramaswamy}}, \bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
-  {Simha}},\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Toner}},\
-  }\href {https://doi.org/10.1209/epl/i2003-00346-7} {\bibfield  {journal}
-  {\bibinfo  {journal} {Europhys. Lett.}\ }\textbf {\bibinfo {volume} {62}},\
-  \bibinfo {pages} {196} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
+  {Simha}}, \ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Toner}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Active nematics on
+  a substrate: Giant number fluctuations and long-time tails}},}\ }\href
+  {\doibase 10.1209/epl/i2003-00346-7} {\bibfield  {journal} {\bibinfo
+  {journal} {Europhys. Lett.}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo
+  {pages} {196} (\bibinfo {year} {2003})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Toner}\ \emph {et~al.}(2005)\citenamefont {Toner},
   \citenamefont {Tu},\ and\ \citenamefont {Ramaswamy}}]{Toner2005}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
-  {Toner}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tu}},\ and\
-  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},\ }\href
-  {https://doi.org/10.1016/j.aop.2005.04.011} {\bibfield  {journal} {\bibinfo
+  {Toner}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ramaswamy}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {{Hydrodynamics and phases of flocks}},}\
+  }\href {\doibase 10.1016/j.aop.2005.04.011} {\bibfield  {journal} {\bibinfo
   {journal} {Ann. Phys.}\ }\textbf {\bibinfo {volume} {318}},\ \bibinfo {pages}
   {170} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Chat\'e}\ \emph {et~al.}(2008)\citenamefont
@@ -271,47 +307,55 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
   {Chat\'e}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Ginelli}},
-  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Gr\'egoire}},\ and\
-  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Raynaud}},\ }\href
-  {https://doi.org/10.1103/PhysRevE.77.046113} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo
-  {pages} {046113} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Gr\'egoire}}, \ and\
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Raynaud}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {Collective motion of self-propelled
+  particles interacting without cohesion},}\ }\href {\doibase
+  10.1103/PhysRevE.77.046113} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo {pages} {046113}
+  (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Mishra}\ \emph {et~al.}(2010)\citenamefont {Mishra},
   \citenamefont {Baskaran},\ and\ \citenamefont {Marchetti}}]{Mishra2010}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Mishra}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Baskaran}},\
+  {Mishra}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Baskaran}}, \
   and\ \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont {Marchetti}},\
-  }\href {https://doi.org/10.1103/PhysRevE.81.061916} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {81}},\
-  \bibinfo {pages} {061916} (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\emph {\bibinfo {title} {Fluctuations and pattern
+  formation in self-propelled particles},}\ }\href {\doibase
+  10.1103/PhysRevE.81.061916} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo {pages} {061916}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Dey}\ \emph {et~al.}(2012)\citenamefont {Dey},
   \citenamefont {Das},\ and\ \citenamefont {Rajesh}}]{Dey2012}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Dey}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Das}},\ and\
-  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Rajesh}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.108.238001} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {108}},\
-  \bibinfo {pages} {238001} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+  {Dey}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Das}}, \ and\
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Rajesh}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {{Spatial structures and giant number
+  fluctuations in models of active matter}},}\ }\href {\doibase
+  10.1103/PhysRevLett.108.238001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {108}},\ \bibinfo {pages}
+  {238001} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
   {Shelley}(2012)}]{Saintillan2012}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {Shelley}},\ }\href {https://doi.org/10.1098/rsif.2011.0355} {\bibfield
-  {journal} {\bibinfo  {journal} {J. R. Soc. Interface}\ }\textbf {\bibinfo
-  {volume} {9}},\ \bibinfo {pages} {571} (\bibinfo {year} {2012})}\BibitemShut
-  {NoStop}%
+  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Emergence of
+  coherent structures and large-scale flows in motile suspensions}},}\ }\href
+  {\doibase 10.1098/rsif.2011.0355} {\bibfield  {journal} {\bibinfo  {journal}
+  {J. R. Soc. Interface}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages}
+  {571} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
   {Shelley}(2013)}]{Saintillan2013}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {Shelley}},\ }\href {https://doi.org/10.1016/j.crhy.2013.04.001} {\bibfield
-  {journal} {\bibinfo  {journal} {Comptes Rendus Phys.}\ }\textbf {\bibinfo
-  {volume} {14}},\ \bibinfo {pages} {497} (\bibinfo {year} {2013})}\BibitemShut
-  {NoStop}%
+  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Active
+  suspensions and their nonlinear models}},}\ }\href {\doibase
+  10.1016/j.crhy.2013.04.001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Comptes Rendus Phys.}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages}
+  {497} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ngo}\ \emph {et~al.}(2014)\citenamefont {Ngo},
   \citenamefont {Peshkov}, \citenamefont {Aranson}, \citenamefont {Bertin},
   \citenamefont {Ginelli},\ and\ \citenamefont {Chat{\'{e}}}}]{Ngo2014}%
@@ -320,29 +364,33 @@
   {Ngo}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Peshkov}},
   \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont {Aranson}}, \bibinfo
   {author} {\bibfnamefont {E.}~\bibnamefont {Bertin}}, \bibinfo {author}
-  {\bibfnamefont {F.}~\bibnamefont {Ginelli}},\ and\ \bibinfo {author}
-  {\bibfnamefont {H.}~\bibnamefont {Chat{\'{e}}}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.113.038302} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {113}},\
-  \bibinfo {pages} {038302} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+  {\bibfnamefont {F.}~\bibnamefont {Ginelli}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Chat{\'{e}}}},\ }\bibfield  {title} {\emph
+  {\bibinfo {title} {{Large-scale chaos and fluctuations in active
+  nematics}},}\ }\href {\doibase 10.1103/PhysRevLett.113.038302} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {113}},\ \bibinfo {pages} {038302} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Mahault}\ \emph {et~al.}(2019)\citenamefont
   {Mahault}, \citenamefont {Ginelli},\ and\ \citenamefont
   {Chat{\'{e}}}}]{Mahault2019}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
-  {Mahault}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Ginelli}},\
+  {Mahault}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Ginelli}}, \
   and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Chat{\'{e}}}},\
-  }\href {https://doi.org/10.1103/PhysRevLett.123.218001} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {123}},\
-  \bibinfo {pages} {218001} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Quantitative Assessment of the
+  Toner and Tu Theory of Polar Flocks}},}\ }\href {\doibase
+  10.1103/PhysRevLett.123.218001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {123}},\ \bibinfo {pages}
+  {218001} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wolgemuth}(2008)}]{Wolgemuth2008}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~W.}\ \bibnamefont
-  {Wolgemuth}},\ }\href
-  {https://doi.org/https://doi.org/10.1529/biophysj.107.118257} {\bibfield
-  {journal} {\bibinfo  {journal} {Biophys. J.}\ }\textbf {\bibinfo {volume}
-  {95}},\ \bibinfo {pages} {1564 } (\bibinfo {year} {2008})}\BibitemShut
-  {NoStop}%
+  {Wolgemuth}},\ }\bibfield  {title} {\emph {\bibinfo {title} {Collective
+  swimming and the dynamics of bacterial turbulence},}\ }\href {\doibase
+  https://doi.org/10.1529/biophysj.107.118257} {\bibfield  {journal} {\bibinfo
+  {journal} {Biophys. J.}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo {pages}
+  {1564 } (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wensink}\ \emph {et~al.}(2012)\citenamefont
   {Wensink}, \citenamefont {Dunkel}, \citenamefont {Heidenreich}, \citenamefont
   {Drescher}, \citenamefont {Goldstein}, \citenamefont {L{\"{o}}wen},\ and\
@@ -353,12 +401,12 @@
   \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heidenreich}}, \bibinfo
   {author} {\bibfnamefont {K.}~\bibnamefont {Drescher}}, \bibinfo {author}
   {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}}, \bibinfo {author}
-  {\bibfnamefont {H.}~\bibnamefont {L{\"{o}}wen}},\ and\ \bibinfo {author}
-  {\bibfnamefont {J.~M.}\ \bibnamefont {Yeomans}},\ }\href
-  {https://doi.org/10.1073/pnas.1202032109} {\bibfield  {journal} {\bibinfo
-  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume}
-  {109}},\ \bibinfo {pages} {14308} (\bibinfo {year} {2012})}\BibitemShut
-  {NoStop}%
+  {\bibfnamefont {H.}~\bibnamefont {L{\"{o}}wen}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {J.~M.}\ \bibnamefont {Yeomans}},\ }\bibfield  {title} {\emph
+  {\bibinfo {title} {{Meso-scale turbulence in living fluids}},}\ }\href
+  {\doibase 10.1073/pnas.1202032109} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume} {109}},\
+  \bibinfo {pages} {14308} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Dunkel}\ \emph {et~al.}(2013)\citenamefont {Dunkel},
   \citenamefont {Heidenreich}, \citenamefont {Drescher}, \citenamefont
   {Wensink}, \citenamefont {B{\"{a}}r},\ and\ \citenamefont
@@ -368,22 +416,24 @@
   {Dunkel}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Heidenreich}},
   \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Drescher}}, \bibinfo
   {author} {\bibfnamefont {H.~H.}\ \bibnamefont {Wensink}}, \bibinfo {author}
-  {\bibfnamefont {M.}~\bibnamefont {B{\"{a}}r}},\ and\ \bibinfo {author}
-  {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.110.228102} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {110}},\
-  \bibinfo {pages} {228102} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+  {\bibfnamefont {M.}~\bibnamefont {B{\"{a}}r}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\ }\bibfield  {title}
+  {\emph {\bibinfo {title} {{Fluid dynamics of bacterial turbulence}},}\ }\href
+  {\doibase 10.1103/PhysRevLett.110.228102} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {110}},\ \bibinfo
+  {pages} {228102} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Bratanov}\ \emph {et~al.}(2015)\citenamefont
   {Bratanov}, \citenamefont {Jenko},\ and\ \citenamefont
   {Frey}}]{Bratanov2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
-  {Bratanov}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Jenko}},\
-  and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Frey}},\ }\href
-  {https://doi.org/10.1073/pnas.1509304112} {\bibfield  {journal} {\bibinfo
-  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume}
-  {112}},\ \bibinfo {pages} {15048} (\bibinfo {year} {2015})}\BibitemShut
-  {NoStop}%
+  {Bratanov}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Jenko}}, \
+  and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Frey}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {{New class of turbulence in active
+  fluids}},}\ }\href {\doibase 10.1073/pnas.1509304112} {\bibfield  {journal}
+  {\bibinfo  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo
+  {volume} {112}},\ \bibinfo {pages} {15048} (\bibinfo {year}
+  {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Guo}\ \emph {et~al.}(2018)\citenamefont {Guo},
   \citenamefont {Samanta}, \citenamefont {Peng}, \citenamefont {Xu},\ and\
   \citenamefont {Cheng}}]{Guo2018}%
@@ -391,23 +441,26 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
   {Guo}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Samanta}},
   \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Peng}}, \bibinfo {author}
-  {\bibfnamefont {X.}~\bibnamefont {Xu}},\ and\ \bibinfo {author}
-  {\bibfnamefont {X.}~\bibnamefont {Cheng}},\ }\href
-  {https://doi.org/10.1073/pnas.1722505115} {\bibfield  {journal} {\bibinfo
-  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume}
-  {115}},\ \bibinfo {pages} {7212} (\bibinfo {year} {2018})}\BibitemShut
-  {NoStop}%
+  {\bibfnamefont {X.}~\bibnamefont {Xu}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Cheng}},\ }\bibfield  {title} {\emph
+  {\bibinfo {title} {Symmetric shear banding and swarming vortices in bacterial
+  superfluids},}\ }\href {\doibase 10.1073/pnas.1722505115} {\bibfield
+  {journal} {\bibinfo  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf
+  {\bibinfo {volume} {115}},\ \bibinfo {pages} {7212} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Linkmann}\ \emph {et~al.}(2019)\citenamefont
   {Linkmann}, \citenamefont {Boffetta}, \citenamefont {Marchetti},\ and\
   \citenamefont {Eckhardt}}]{Linkmann2019}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
   {Linkmann}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Boffetta}},
-  \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont {Marchetti}},\ and\
-  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Eckhardt}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.122.214503} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {122}},\
-  \bibinfo {pages} {214503} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont {Marchetti}}, \ and\
+  \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Eckhardt}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {Phase transition to large scale coherent
+  structures in two-dimensional active matter turbulence},}\ }\href {\doibase
+  10.1103/PhysRevLett.122.214503} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {122}},\ \bibinfo {pages}
+  {214503} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Bardfalvy}\ \emph {et~al.}(2019)\citenamefont
   {Bardfalvy}, \citenamefont {Nordanger}, \citenamefont {Nardini},
   \citenamefont {Morozov},\ and\ \citenamefont {Stenhammar}}]{Bardfalvy2019}%
@@ -415,20 +468,24 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {Bardfalvy}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
   {Nordanger}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ and\ \bibinfo
-  {author} {\bibfnamefont {J.}~\bibnamefont {Stenhammar}},\ }\href
-  {https://doi.org/10.1039/C9SM00774A} {\bibfield  {journal} {\bibinfo
-  {journal} {Soft Matter}\ }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages}
-  {7747} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Stenhammar}},\ }\bibfield
+   {title} {\emph {\bibinfo {title} {Particle-resolved lattice boltzmann
+  simulations of 3-dimensional active turbulence},}\ }\href {\doibase
+  10.1039/C9SM00774A} {\bibfield  {journal} {\bibinfo  {journal} {Soft Matter}\
+  }\textbf {\bibinfo {volume} {15}},\ \bibinfo {pages} {7747} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Alert}\ \emph {et~al.}(2020)\citenamefont {Alert},
   \citenamefont {Joanny},\ and\ \citenamefont {Casademunt}}]{Alert2020}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
-  {Alert}}, \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Joanny}},\
+  {Alert}}, \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Joanny}}, \
   and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Casademunt}},\
-  }\href {https://doi.org/10.1038/s41567-020-0854-4} {\bibfield  {journal}
-  {\bibinfo  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume} {16}},\
-  \bibinfo {pages} {682} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\emph {\bibinfo {title} {Universal scaling of active
+  nematic turbulence},}\ }\href {\doibase 10.1038/s41567-020-0854-4} {\bibfield
+   {journal} {\bibinfo  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume}
+  {16}},\ \bibinfo {pages} {682} (\bibinfo {year} {2020})}\BibitemShut
+  {NoStop}%
 \bibitem [{\citenamefont {{\v{S}}kult{\'{e}}ty}\ \emph
   {et~al.}(2020)\citenamefont {{\v{S}}kult{\'{e}}ty}, \citenamefont {Nardini},
   \citenamefont {Stenhammar}, \citenamefont {Marenduzzo},\ and\ \citenamefont
@@ -437,20 +494,22 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
   {{\v{S}}kult{\'{e}}ty}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
   {Nardini}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Stenhammar}},
-  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}},\ and\
-  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\href
-  {https://doi.org/10.1103/PhysRevX.10.031059} {\bibfield  {journal} {\bibinfo
-  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo
-  {pages} {031059} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}}, \ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {{Swimming Suppresses Correlations in Dilute
+  Suspensions of Pusher Microorganisms}},}\ }\href {\doibase
+  10.1103/PhysRevX.10.031059} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. X}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages} {031059}
+  (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Peng}\ \emph {et~al.}(2020)\citenamefont {Peng},
   \citenamefont {Liu},\ and\ \citenamefont {Cheng}}]{Peng2020}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
-  {Peng}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Liu}},\ and\
+  {Peng}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Liu}}, \ and\
   \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Cheng}},\ }\href@noop {}
-  {\bibinfo {title} {Imaging the emergence of bacterial turbulence using
-  light-powered escherichia coli}} (\bibinfo {year} {2020}),\ \Eprint
-  {https://arxiv.org/abs/2003.12399} {arXiv:2003.12399 [cond-mat.soft]}
+  {\emph {\bibinfo {title} {Imaging the emergence of bacterial turbulence using
+  light-powered escherichia coli},}\ } (\bibinfo {year} {2020}),\ \Eprint
+  {http://arxiv.org/abs/2003.12399} {arXiv:2003.12399 [cond-mat.soft]}
   \BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Ishikawa}\ \emph {et~al.}(2011)\citenamefont
   {Ishikawa}, \citenamefont {Yoshida}, \citenamefont {Ueno}, \citenamefont
@@ -461,18 +520,21 @@
   {Ishikawa}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Yoshida}},
   \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ueno}}, \bibinfo {author}
   {\bibfnamefont {M.}~\bibnamefont {Wiedeman}}, \bibinfo {author}
-  {\bibfnamefont {Y.}~\bibnamefont {Imai}},\ and\ \bibinfo {author}
-  {\bibfnamefont {T.}~\bibnamefont {Yamaguchi}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.107.028102} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {107}},\
-  \bibinfo {pages} {028102} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+  {\bibfnamefont {Y.}~\bibnamefont {Imai}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Yamaguchi}},\ }\bibfield  {title} {\emph
+  {\bibinfo {title} {{Energy transport in a concentrated suspension of
+  bacteria}},}\ }\href {\doibase 10.1103/PhysRevLett.107.028102} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {107}},\ \bibinfo {pages} {028102} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Giomi}(2015)}]{Giomi2015}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
-  {Giomi}},\ }\href {https://doi.org/10.1103/PhysRevX.5.031003} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume}
-  {5}},\ \bibinfo {pages} {031003} (\bibinfo {year} {2015})}\BibitemShut
-  {NoStop}%
+  {Giomi}},\ }\bibfield  {title} {\emph {\bibinfo {title} {Geometry and
+  topology of turbulence in active nematics},}\ }\href {\doibase
+  10.1103/PhysRevX.5.031003} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. X}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages} {031003}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Creppy}\ \emph {et~al.}(2015)\citenamefont {Creppy},
   \citenamefont {Praud}, \citenamefont {Druart}, \citenamefont {Kohnke},\ and\
   \citenamefont {Plourabou\'e}}]{Creppy2015}%
@@ -480,9 +542,10 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
   {Creppy}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Praud}},
   \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Druart}}, \bibinfo
-  {author} {\bibfnamefont {P.~L.}\ \bibnamefont {Kohnke}},\ and\ \bibinfo
-  {author} {\bibfnamefont {F.}~\bibnamefont {Plourabou\'e}},\ }\href
-  {https://doi.org/10.1103/PhysRevE.92.032722} {\bibfield  {journal} {\bibinfo
+  {author} {\bibfnamefont {P.~L.}\ \bibnamefont {Kohnke}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {F.}~\bibnamefont {Plourabou\'e}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {Turbulence of swarming sperm},}\ }\href
+  {\doibase 10.1103/PhysRevE.92.032722} {\bibfield  {journal} {\bibinfo
   {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo
   {pages} {032722} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Patteson}\ \emph {et~al.}(2018)\citenamefont
@@ -490,11 +553,13 @@
   {Arratia}}]{Patteson2018}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
-  {Patteson}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gopinath}},\
-  and\ \bibinfo {author} {\bibfnamefont {P.~E.}\ \bibnamefont {Arratia}},\
-  }\href {https://doi.org/10.1038/s41467-018-07781-y} {\bibfield  {journal}
-  {\bibinfo  {journal} {Nat. Commun.}\ }\textbf {\bibinfo {volume} {9}},\
-  \bibinfo {pages} {5373} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+  {Patteson}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Gopinath}},
+  \ and\ \bibinfo {author} {\bibfnamefont {P.~E.}\ \bibnamefont {Arratia}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {The propagation of
+  active-passive interfaces in bacterial swarms},}\ }\href {\doibase
+  10.1038/s41467-018-07781-y} {\bibfield  {journal} {\bibinfo  {journal} {Nat.
+  Commun.}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {5373}
+  (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sokolov}\ \emph {et~al.}(2009)\citenamefont
   {Sokolov}, \citenamefont {Goldstein}, \citenamefont {Feldchtein},\ and\
   \citenamefont {Aranson}}]{Sokolov2009}%
@@ -502,11 +567,12 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
   {Sokolov}}, \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
   {Goldstein}}, \bibinfo {author} {\bibfnamefont {F.~I.}\ \bibnamefont
-  {Feldchtein}},\ and\ \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont
-  {Aranson}},\ }\href {https://doi.org/10.1103/PhysRevE.80.031903} {\bibfield
-  {journal} {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume}
-  {80}},\ \bibinfo {pages} {031903} (\bibinfo {year} {2009})}\BibitemShut
-  {NoStop}%
+  {Feldchtein}}, \ and\ \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont
+  {Aranson}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Enhanced mixing
+  and spatial instability in concentrated bacterial suspensions}},}\ }\href
+  {\doibase 10.1103/PhysRevE.80.031903} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo
+  {pages} {031903} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Wilson}\ \emph {et~al.}(2011)\citenamefont {Wilson},
   \citenamefont {Martinez}, \citenamefont {Schwarz-Linek}, \citenamefont
   {Tailleur}, \citenamefont {Bryant}, \citenamefont {Pusey},\ and\
@@ -517,11 +583,13 @@
   {Martinez}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Schwarz-Linek}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Tailleur}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Bryant}},
-  \bibinfo {author} {\bibfnamefont {P.~N.}\ \bibnamefont {Pusey}},\ and\
-  \bibinfo {author} {\bibfnamefont {W.~C.~K.}\ \bibnamefont {Poon}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.106.018101} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {106}},\
-  \bibinfo {pages} {018101} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+  \bibinfo {author} {\bibfnamefont {P.~N.}\ \bibnamefont {Pusey}}, \ and\
+  \bibinfo {author} {\bibfnamefont {W.~C.~K.}\ \bibnamefont {Poon}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {{Differential dynamic
+  microscopy of bacterial motility}},}\ }\href {\doibase
+  10.1103/PhysRevLett.106.018101} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages}
+  {018101} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Sokolov}\ \emph {et~al.}(2007)\citenamefont
   {Sokolov}, \citenamefont {Aranson}, \citenamefont {Kessler},\ and\
   \citenamefont {Goldstein}}]{Sokolov2007}%
@@ -529,11 +597,12 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
   {Sokolov}}, \bibinfo {author} {\bibfnamefont {I.~S.}\ \bibnamefont
   {Aranson}}, \bibinfo {author} {\bibfnamefont {J.~O.}\ \bibnamefont
-  {Kessler}},\ and\ \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
-  {Goldstein}},\ }\href {https://doi.org/10.1103/PhysRevLett.98.158102}
-  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
-  {\bibinfo {volume} {98}},\ \bibinfo {pages} {158102} (\bibinfo {year}
-  {2007})}\BibitemShut {NoStop}%
+  {Kessler}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Goldstein}},\ }\bibfield  {title} {\emph {\bibinfo {title} {Concentration
+  dependence of the collective dynamics of swimming bacteria},}\ }\href
+  {\doibase 10.1103/PhysRevLett.98.158102} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {98}},\ \bibinfo
+  {pages} {158102} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Stenhammar}\ \emph {et~al.}(2017)\citenamefont
   {Stenhammar}, \citenamefont {Nardini}, \citenamefont {Nash}, \citenamefont
   {Marenduzzo},\ and\ \citenamefont {Morozov}}]{Stenhammar2017}%
@@ -541,31 +610,36 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
   {Stenhammar}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Nardini}},
   \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Nash}}, \bibinfo
-  {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}},\ and\ \bibinfo
-  {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\href
-  {https://doi.org/10.1103/PhysRevLett.119.028005} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\
-  \bibinfo {pages} {028005} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+  {author} {\bibfnamefont {D.}~\bibnamefont {Marenduzzo}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Morozov}},\ }\bibfield  {title}
+  {\emph {\bibinfo {title} {{Role of Correlations in the Collective Behavior of
+  Microswimmer Suspensions}},}\ }\href {\doibase
+  10.1103/PhysRevLett.119.028005} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\ \bibinfo {pages}
+  {028005} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Nambiar}\ \emph {et~al.}(2021)\citenamefont
   {Nambiar}, \citenamefont {Garg},\ and\ \citenamefont
   {Subramanian}}]{Nambiar2021}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Nambiar}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Garg}},\ and\
-  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Subramanian}},\ }\href
-  {https://doi.org/10.1017/jfm.2020.827} {\bibfield  {journal} {\bibinfo
-  {journal} {J. Fluid Mech.}\ }\textbf {\bibinfo {volume} {907}},\ \bibinfo
-  {pages} {A26} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+  {Nambiar}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Garg}}, \
+  and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Subramanian}},\
+  }\bibfield  {title} {\emph {\bibinfo {title} {Enhanced velocity fluctuations
+  in interacting swimmer suspensions},}\ }\href {\doibase 10.1017/jfm.2020.827}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Fluid Mech.}\ }\textbf
+  {\bibinfo {volume} {907}},\ \bibinfo {pages} {A26} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Magariyama}\ and\ \citenamefont
   {Kudo}(2002)}]{Magariyama2002}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
   {Magariyama}}\ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
-  {Kudo}},\ }\href
-  {https://doi.org/https://doi.org/10.1016/S0006-3495(02)75204-1} {\bibfield
-  {journal} {\bibinfo  {journal} {Biophy. J.}\ }\textbf {\bibinfo {volume}
-  {83}},\ \bibinfo {pages} {733 } (\bibinfo {year} {2002})}\BibitemShut
-  {NoStop}%
+  {Kudo}},\ }\bibfield  {title} {\emph {\bibinfo {title} {A mathematical
+  explanation of an increase in bacterial swimming speed with viscosity in
+  linear-polymer solutions},}\ }\href {\doibase
+  https://doi.org/10.1016/S0006-3495(02)75204-1} {\bibfield  {journal}
+  {\bibinfo  {journal} {Biophy. J.}\ }\textbf {\bibinfo {volume} {83}},\
+  \bibinfo {pages} {733 } (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Drescher}\ \emph {et~al.}(2011)\citenamefont
   {Drescher}, \citenamefont {Dunkel}, \citenamefont {Cisneros}, \citenamefont
   {Ganguly},\ and\ \citenamefont {Goldstein}}]{Drescher2011}%
@@ -573,12 +647,13 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
   {Drescher}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Dunkel}},
   \bibinfo {author} {\bibfnamefont {L.~H.}\ \bibnamefont {Cisneros}}, \bibinfo
-  {author} {\bibfnamefont {S.}~\bibnamefont {Ganguly}},\ and\ \bibinfo {author}
-  {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\ }\href
-  {https://doi.org/10.1073/pnas.1019079108} {\bibfield  {journal} {\bibinfo
-  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume}
-  {108}},\ \bibinfo {pages} {10940} (\bibinfo {year} {2011})}\BibitemShut
-  {NoStop}%
+  {author} {\bibfnamefont {S.}~\bibnamefont {Ganguly}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {Fluid dynamics and noise in bacterial
+  cell{\textendash}cell and cell{\textendash}surface scattering},}\ }\href
+  {\doibase 10.1073/pnas.1019079108} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume} {108}},\
+  \bibinfo {pages} {10940} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Pope}(2020)}]{Pope2000}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.~B.}\ \bibnamefont
@@ -591,17 +666,21 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~H.}\ \bibnamefont
   {Cisneros}}, \bibinfo {author} {\bibfnamefont {J.~O.}\ \bibnamefont
-  {Kessler}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ganguly}},\
+  {Kessler}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Ganguly}}, \
   and\ \bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont {Goldstein}},\
-  }\href {https://doi.org/10.1103/PhysRevE.83.061907} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Rev. E}\ }\textbf {\bibinfo {volume} {83}},\
-  \bibinfo {pages} {061907} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+  }\bibfield  {title} {\emph {\bibinfo {title} {Dynamics of swimming bacteria:
+  Transition to directional order at high concentration},}\ }\href {\doibase
+  10.1103/PhysRevE.83.061907} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. E}\ }\textbf {\bibinfo {volume} {83}},\ \bibinfo {pages} {061907}
+  (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Saintillan}\ and\ \citenamefont
   {Shelley}(2008{\natexlab{a}})}]{Saintillan2008a}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {Shelley}},\ }\href {https://doi.org/10.1103/PhysRevLett.100.178103}
+  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {{Instabilities and
+  pattern formation in active particle suspensions: Kinetic theory and
+  continuum simulations}},}\ }\href {\doibase 10.1103/PhysRevLett.100.178103}
   {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
   {\bibinfo {volume} {100}},\ \bibinfo {pages} {178103} (\bibinfo {year}
   {2008}{\natexlab{a}})}\BibitemShut {NoStop}%
@@ -610,22 +689,24 @@
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
   {Saintillan}}\ and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont
-  {Shelley}},\ }\href {https://doi.org/10.1063/1.3041776} {\bibfield  {journal}
-  {\bibinfo  {journal} {Phys. Fluids}\ }\textbf {\bibinfo {volume} {20}},\
-  \bibinfo {pages} {123304} (\bibinfo {year} {2008}{\natexlab{b}})}\BibitemShut
-  {NoStop}%
+  {Shelley}},\ }\bibfield  {title} {\emph {\bibinfo {title} {Instabilities,
+  pattern formation, and mixing in active suspensions},}\ }\href {\doibase
+  10.1063/1.3041776} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Fluids}\
+  }\textbf {\bibinfo {volume} {20}},\ \bibinfo {pages} {123304} (\bibinfo
+  {year} {2008}{\natexlab{b}})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Walter}\ \emph {et~al.}(2007)\citenamefont {Walter},
   \citenamefont {Greenfield}, \citenamefont {Bustamante},\ and\ \citenamefont
   {Liphardt}}]{Walter2007}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
   {Walter}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Greenfield}},
-  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Bustamante}},\ and\
-  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liphardt}},\ }\href
-  {https://doi.org/10.1073/pnas.0611035104} {\bibfield  {journal} {\bibinfo
-  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf {\bibinfo {volume}
-  {104}},\ \bibinfo {pages} {2408} (\bibinfo {year} {2007})}\BibitemShut
-  {NoStop}%
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Bustamante}}, \ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liphardt}},\ }\bibfield
+  {title} {\emph {\bibinfo {title} {Light-powering escherichia coli with
+  proteorhodopsin},}\ }\href {\doibase 10.1073/pnas.0611035104} {\bibfield
+  {journal} {\bibinfo  {journal} {Proc. Natl. Acad. Sci. U. S. A.}\ }\textbf
+  {\bibinfo {volume} {104}},\ \bibinfo {pages} {2408} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Liberzon}\ \emph {et~al.}(2020)\citenamefont
   {Liberzon}, \citenamefont {Lasagna}, \citenamefont {Aubert}, \citenamefont
   {Bachant}, \citenamefont {Käufer}, \citenamefont {jakirkham}, \citenamefont
@@ -642,7 +723,7 @@
   \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Vodenicharski}}, \bibinfo
   {author} {\bibfnamefont {C.}~\bibnamefont {Dallas}}, \bibinfo {author}
   {\bibfnamefont {J.}~\bibnamefont {Borg}}, \bibinfo {author} {\bibnamefont
-  {tomerast}},\ and\ \bibinfo {author} {\bibnamefont {ranleu}},\ }\href
-  {https://doi.org/10.5281/zenodo.3930343} {\bibinfo {title} {{OpenPIV}}}
+  {tomerast}}, \ and\ \bibinfo {author} {\bibnamefont {ranleu}},\ }\href
+  {\doibase 10.5281/zenodo.3930343} {\emph {\bibinfo {title} {{OpenPIV}},}\ }
   (\bibinfo {year} {2020})\BibitemShut {NoStop}%
 \end{thebibliography}%
