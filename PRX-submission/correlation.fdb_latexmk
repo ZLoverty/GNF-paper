@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex correlation"] 1608703439 "correlation.aux" "correlation.bbl" "correlation" 1608703885
+["bibtex correlation"] 1608734450 "correlation.aux" "correlation.bbl" "correlation" 1608734457
   "./prx_bib.bst" 1608668585 71514 98f7e03020f2b05c3c776d43d3ce2f27 ""
-  "correlation.aux" 1608703883 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
+  "correlation.aux" 1608734456 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
   "correlation.bib" 1608658852 114742 c52ef83437b64206038da3cd032c4eb9 ""
-  "correlationNotes.bib" 1608703882 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "correlationNotes.bib" 1608734455 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
-  "correlation.blg"
   "correlation.bbl"
-["pdflatex"] 1608703878 "correlation.tex" "correlation.pdf" "correlation" 1608703885
+  "correlation.blg"
+["pdflatex"] 1608734451 "correlation.tex" "correlation.pdf" "correlation" 1608734457
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001771820 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993058908 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -222,13 +222,13 @@
   "Figures/fig-7.pdf" 1608517751 201457 bb83fc64488924f4d3b226d62dfe72a5 ""
   "Figures/fig-8.pdf" 1608668458 166285 3951064cbd895a6e0bd8b1618587ff68 ""
   "Figures/fig-9.pdf" 1608667741 307470 45ce75fc4e80ac18a6752988500130eb ""
-  "correlation.aux" 1608703883 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
-  "correlation.bbl" 1608703440 46377 f40d914aff35abe2fdf34d1c45755fe0 "bibtex correlation"
-  "correlation.out" 1608703883 1671 6ad17963bdf74965ad8f233ffb10f273 "pdflatex"
-  "correlation.tex" 1608703876 59807 dbb858f1e68c0e98ac5fdab8b139a63c ""
+  "correlation.aux" 1608734456 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
+  "correlation.bbl" 1608734451 46377 f40d914aff35abe2fdf34d1c45755fe0 "bibtex correlation"
+  "correlation.out" 1608734456 1671 6ad17963bdf74965ad8f233ffb10f273 "pdflatex"
+  "correlation.tex" 1608734410 59947 9609acac9777eef97a6af740cccbb3ab ""
   (generated)
-  "correlation.log"
-  "correlation.aux"
-  "correlation.out"
   "correlation.pdf"
   "correlationNotes.bib"
+  "correlation.log"
+  "correlation.out"
+  "correlation.aux"
