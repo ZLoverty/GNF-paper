@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex correlation"] 1608682027 "correlation.aux" "correlation.bbl" "correlation" 1608682051
+["bibtex correlation"] 1608703439 "correlation.aux" "correlation.bbl" "correlation" 1608703885
   "./prx_bib.bst" 1608668585 71514 98f7e03020f2b05c3c776d43d3ce2f27 ""
-  "correlation.aux" 1608682050 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
+  "correlation.aux" 1608703883 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
   "correlation.bib" 1608658852 114742 c52ef83437b64206038da3cd032c4eb9 ""
-  "correlationNotes.bib" 1608682048 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "correlationNotes.bib" 1608703882 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "correlation.blg"
   "correlation.bbl"
-["pdflatex"] 1608682045 "correlation.tex" "correlation.pdf" "correlation" 1608682051
+["pdflatex"] 1608703878 "correlation.tex" "correlation.pdf" "correlation" 1608703885
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001771820 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993058908 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -52,6 +52,7 @@
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmti9.tfm" 1136765053 1476 cccc6cc4935c18ec3d5623b77ecb8b74 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmtt10.tfm" 1136765053 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136765053 520 4889cce2180234b97cad636b6039c722 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247593066 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247593066 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx7.pfb" 1247593067 32007 e8fa0078355f39467039935974716569 ""
@@ -173,6 +174,7 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty" 1601741526 8167 20fdfdd783821971c55bc8ee918cbe63 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty" 1601741526 2677 e3b24ff953e5b58d924f163d25380312 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty" 1601741526 4093 d7fa7d81d2870d509d25b17d0245e735 ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/grfext/grfext.sty" 1575399474 7133 b94bbacbee6e4fdccdc7f810b2aec370 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/hycolor/hycolor.sty" 1580380792 18571 4c28a13fc3d975e6e81c9bea1d697276 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def" 1589579336 50570 2e81797743231d9037b0cbe3436d74ba ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty" 1589579336 236775 8ab18a05f69e6caef423fa59cb0af03b ""
@@ -205,6 +207,7 @@
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/bm.sty" 1580644884 12671 ace2aac118748ea10d1717448ecafbed ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/dcolumn.sty" 1580644884 2759 94d3a6c47039c68836a032f9cbf842a2 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/tools/xr.sty" 1580644886 2563 dd6205ea1aace555689a972b70de1459 ""
+  "C:/Program Files/MiKTeX 2.9/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/varwidth/varwidth.sty" 1238465940 10894 d359a13923460b2a73d4312d613554c8 ""
   "C:/Program Files/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty" 1463131981 57049 34128738f682d033422ca125f82e5d62 ""
@@ -219,13 +222,13 @@
   "Figures/fig-7.pdf" 1608517751 201457 bb83fc64488924f4d3b226d62dfe72a5 ""
   "Figures/fig-8.pdf" 1608668458 166285 3951064cbd895a6e0bd8b1618587ff68 ""
   "Figures/fig-9.pdf" 1608667741 307470 45ce75fc4e80ac18a6752988500130eb ""
-  "correlation.aux" 1608682050 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
-  "correlation.bbl" 1608682027 46377 f40d914aff35abe2fdf34d1c45755fe0 "bibtex correlation"
-  "correlation.out" 1608682050 1671 6ad17963bdf74965ad8f233ffb10f273 "pdflatex"
-  "correlation.tex" 1608682043 56747 520a8ed41779bf659ce36dc6d7fc847e ""
+  "correlation.aux" 1608703883 13631 b4d08c4a32c0899ea3a45ed5e42a144f "pdflatex"
+  "correlation.bbl" 1608703440 46377 f40d914aff35abe2fdf34d1c45755fe0 "bibtex correlation"
+  "correlation.out" 1608703883 1671 6ad17963bdf74965ad8f233ffb10f273 "pdflatex"
+  "correlation.tex" 1608703876 59807 dbb858f1e68c0e98ac5fdab8b139a63c ""
   (generated)
-  "correlation.pdf"
   "correlation.log"
   "correlation.aux"
-  "correlationNotes.bib"
   "correlation.out"
+  "correlation.pdf"
+  "correlationNotes.bib"

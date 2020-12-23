@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.20)  22 DEC 2020 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.20)  23 DEC 2020 00:11
 entering extended mode
 **./correlation.tex
 (correlation.tex
@@ -697,59 +697,79 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks46
 \@floatcapt=\box83
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/ulem\ulem.sty"
+\UL@box=\box84
+\UL@hyphenbox=\box85
+\UL@skip=\skip64
+\UL@hook=\toks47
+\UL@height=\dimen273
+\UL@pe=\count309
+\UL@pixel=\dimen274
+\ULC@box=\box86
+Package: ulem 2019/11/18
+\ULdepth=\dimen275
+)
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 28.
+lass! (Proceeding with fingers crossed.) on input line 29.
 
 
 Class revtex4-2 Warning: Repair the float package.
 
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 28.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 28.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 28.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 29.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 29.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 29.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count309
-\l__pdf_internal_box=\box84
+\l__kernel_color_stack_int=\count310
+\l__pdf_internal_box=\box87
 )
 (correlation.aux)
 \openout1 = `correlation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
-\scratchdimen=\dimen273
-\scratchbox=\box85
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count313
-\MPscratchDim=\dimen274
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks48
+\scratchcounter=\count311
+\scratchdimen=\dimen276
+\scratchbox=\box88
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count314
+\MPscratchDim=\dimen277
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks49
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
 )
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -760,26 +780,26 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count316
+\c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (correlation.out) (correlation.out)
 \@outlinefile=\write5
 \openout5 = `correlation.out'.
 
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 28.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 29.
 \openout3 = `correlationNotes.bib'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -788,43 +808,43 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Figures/fig-1.pdf, id=125, 230.42087pt x 195.36089pt>
 File: Figures/fig-1.pdf Graphic file (type pdf)
 <use Figures/fig-1.pdf>
-Package pdftex.def Info: Figures/fig-1.pdf  used on input line 74.
-(pdftex.def)             Requested size: 229.49844pt x 194.58832pt.
+Package pdftex.def Info: Figures/fig-1.pdf  used on input line 79.
+(pdftex.def)             Requested size: 234.60342pt x 198.91667pt.
  [1{C:/Users/liuzy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 87.
+ on input line 93.
 
 <Figures/fig-2.pdf, id=177, 254.75583pt x 307.807pt>
 File: Figures/fig-2.pdf Graphic file (type pdf)
 <use Figures/fig-2.pdf>
-Package pdftex.def Info: Figures/fig-2.pdf  used on input line 102.
+Package pdftex.def Info: Figures/fig-2.pdf  used on input line 108.
 (pdftex.def)             Requested size: 239.70062pt x 289.62042pt.
 <Figures/fig-3.pdf, id=180, 249.3315pt x 194.29036pt>
 File: Figures/fig-3.pdf Graphic file (type pdf)
 <use Figures/fig-3.pdf>
-Package pdftex.def Info: Figures/fig-3.pdf  used on input line 123.
+Package pdftex.def Info: Figures/fig-3.pdf  used on input line 129.
 (pdftex.def)             Requested size: 239.70062pt x 186.78639pt.
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.132 
+l.138 
        <./Figures/fig-1.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 132.
+ on input line 138.
 
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.143 
+l.149 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.143 
+l.149 
        <./Figures/fig-2.pdf> <./Figures/fig-3.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/fig-3.pdf): PDF inclusion: multiple pd
@@ -833,26 +853,26 @@ fs with page group included in a single page
 <Figures/fig-4.pdf, id=13713, 235.98318pt x 185.25333pt>
 File: Figures/fig-4.pdf Graphic file (type pdf)
 <use Figures/fig-4.pdf>
-Package pdftex.def Info: Figures/fig-4.pdf  used on input line 149.
+Package pdftex.def Info: Figures/fig-4.pdf  used on input line 155.
 (pdftex.def)             Requested size: 239.70062pt x 188.18134pt.
  [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.171 
+l.177 
        <./Figures/fig-4.pdf>]
 <Figures/fig-5.pdf, id=14907, 238.56943pt x 294.84525pt>
 File: Figures/fig-5.pdf Graphic file (type pdf)
 <use Figures/fig-5.pdf>
-Package pdftex.def Info: Figures/fig-5.pdf  used on input line 185.
+Package pdftex.def Info: Figures/fig-5.pdf  used on input line 194.
 (pdftex.def)             Requested size: 239.70062pt x 296.24818pt.
-<Figures/fig-6.pdf, id=14908, 503.21248pt x 269.86855pt>
+<Figures/fig-6.pdf, id=14910, 503.21248pt x 269.86855pt>
 File: Figures/fig-6.pdf Graphic file (type pdf)
 <use Figures/fig-6.pdf>
-Package pdftex.def Info: Figures/fig-6.pdf  used on input line 200.
-(pdftex.def)             Requested size: 458.99689pt x 246.16548pt.
+Package pdftex.def Info: Figures/fig-6.pdf  used on input line 209.
+(pdftex.def)             Requested size: 453.89969pt x 243.43123pt.
 
-Underfull \hbox (badness 1776) in paragraph at lines 213--217
+Underfull \hbox (badness 1776) in paragraph at lines 222--226
 []\OT1/cmr/m/n/10 Both GNF and en-ergy spec-tra probe the scale-
  []
 
@@ -860,49 +880,49 @@ Underfull \hbox (badness 1776) in paragraph at lines 213--217
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.217 
+l.226 
        <./Figures/fig-5.pdf>] [6pdfTeX warning (ext4): destination with the sam
 e identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.232 
+l.241 
        <./Figures/fig-6.pdf>]
-Underfull \hbox (badness 1997) in paragraph at lines 252--253
+Underfull \hbox (badness 1997) in paragraph at lines 270--271
 \OT1/cmr/m/n/10 pump, pro-te-orhodopsin (PR), to wild-type \OT1/cmr/m/it/10 E. 
 coli
  []
 
 [7]
-<Figures/fig-7.pdf, id=22540, 180.675pt x 180.675pt>
+<Figures/fig-7.pdf, id=22542, 180.675pt x 180.675pt>
 File: Figures/fig-7.pdf Graphic file (type pdf)
 <use Figures/fig-7.pdf>
-Package pdftex.def Info: Figures/fig-7.pdf  used on input line 266.
+Package pdftex.def Info: Figures/fig-7.pdf  used on input line 284.
 (pdftex.def)             Requested size: 203.99689pt x 203.9977pt.
-<Figures/fig-8.pdf, id=22543, 252.945pt x 202.356pt>
+<Figures/fig-8.pdf, id=22545, 252.945pt x 202.356pt>
 File: Figures/fig-8.pdf Graphic file (type pdf)
 <use Figures/fig-8.pdf>
-Package pdftex.def Info: Figures/fig-8.pdf  used on input line 299.
-(pdftex.def)             Requested size: 234.60342pt x 187.68584pt.
+Package pdftex.def Info: Figures/fig-8.pdf  used on input line 317.
+(pdftex.def)             Requested size: 239.70062pt x 191.76468pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.311 
+l.329 
        <./Figures/fig-7.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 311.
+ on input line 329.
 
 [9pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.329 
+l.347 
        <./Figures/fig-8.pdf>]
-<Figures/fig-9.pdf, id=22614, 222.1884pt x 315.94998pt>
+<Figures/fig-9.pdf, id=22616, 222.1884pt x 315.94998pt>
 File: Figures/fig-9.pdf Graphic file (type pdf)
 <use Figures/fig-9.pdf>
-Package pdftex.def Info: Figures/fig-9.pdf  used on input line 333.
+Package pdftex.def Info: Figures/fig-9.pdf  used on input line 351.
 (pdftex.def)             Requested size: 234.60342pt x 333.6037pt.
  (correlation.bbl [10pdfTeX warning (ext4): destination with the same identifie
 r (name{figure.9}) has been already used, duplicate ignored
@@ -945,13 +965,13 @@ Package rerunfilecheck Info: File `correlation.out' has not changed.
 (rerunfilecheck)             Checksum: 6AD17963BDF74965AD8F233FFB10F273;1671.
  ) 
 Here is how much of TeX's memory you used:
- 19924 strings out of 479799
- 360479 string characters out of 2877698
- 685426 words of memory out of 3000000
- 36404 multiletter control sequences out of 15000+200000
- 549117 words of font info for 80 fonts, out of 3000000 for 9000
+ 20033 strings out of 479799
+ 361953 string characters out of 2877698
+ 687177 words of memory out of 3000000
+ 36504 multiletter control sequences out of 15000+200000
+ 549223 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,8n,96p,2087b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 85i,8n,96p,2225b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
@@ -979,9 +999,9 @@ e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on correlation.pdf (12 pages, 5797636 bytes).
+Output written on correlation.pdf (12 pages, 5800206 bytes).
 PDF statistics:
- 22880 PDF objects out of 26593 (max. 8388607)
+ 22882 PDF objects out of 26593 (max. 8388607)
  107 named destinations out of 1000 (max. 500000)
  242 words of extra memory for PDF output out of 10000 (max. 10000000)
 

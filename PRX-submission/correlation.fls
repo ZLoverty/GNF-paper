@@ -701,6 +701,17 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdftex.def
@@ -729,6 +740,16 @@ INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\grfext\grfext.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
@@ -773,6 +794,7 @@ INPUT .\correlation.out
 OUTPUT correlation.out
 OUTPUT correlationNotes.bib
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
@@ -800,7 +822,6 @@ INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmti9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi9.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
