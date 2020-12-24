@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex correlation"] 1608766261 "correlation.aux" "correlation.bbl" "correlation" 1608766270
+["bibtex correlation"] 1608769216 "correlation.aux" "correlation.bbl" "correlation" 1608776154
   "./prx_bib.bst" 1608668585 71514 98f7e03020f2b05c3c776d43d3ce2f27 ""
-  "correlation.aux" 1608766269 13720 35511ac7ebfc4ecda083e98eb1511ba8 "pdflatex"
+  "correlation.aux" 1608776153 13720 2b1079751446c17247451e44794ddfd1 "pdflatex"
   "correlation.bib" 1608658852 114742 c52ef83437b64206038da3cd032c4eb9 ""
-  "correlationNotes.bib" 1608766267 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "correlationNotes.bib" 1608776151 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "correlation.blg"
   "correlation.bbl"
-["pdflatex"] 1608766262 "correlation.tex" "correlation.pdf" "correlation" 1608766270
+["pdflatex"] 1608776148 "correlation.tex" "correlation.pdf" "correlation" 1608776154
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001771820 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993058908 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1233951848 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -222,13 +222,13 @@
   "Figures/fig-7.pdf" 1608517751 201457 bb83fc64488924f4d3b226d62dfe72a5 ""
   "Figures/fig-8.pdf" 1608757520 166686 d5c9e38a1b4dab9f833b0f87225ad577 ""
   "Figures/fig-9.pdf" 1608667741 307470 45ce75fc4e80ac18a6752988500130eb ""
-  "correlation.aux" 1608766269 13720 35511ac7ebfc4ecda083e98eb1511ba8 "pdflatex"
-  "correlation.bbl" 1608766262 46055 40d983236fd26e3085260cdca2ce8d5e "bibtex correlation"
-  "correlation.out" 1608766269 1673 6dd1d9205d3c76be4b9cbeb3155b253e "pdflatex"
-  "correlation.tex" 1608766186 56635 2e03d4682f87edfc37987cb6233c2234 ""
+  "correlation.aux" 1608776153 13720 2b1079751446c17247451e44794ddfd1 "pdflatex"
+  "correlation.bbl" 1608769217 46055 40d983236fd26e3085260cdca2ce8d5e "bibtex correlation"
+  "correlation.out" 1608776153 1673 6dd1d9205d3c76be4b9cbeb3155b253e "pdflatex"
+  "correlation.tex" 1608776146 57269 1c26dceec6088a5c387f1f3761d02acf ""
   (generated)
   "correlation.out"
   "correlation.aux"
-  "correlationNotes.bib"
   "correlation.log"
+  "correlationNotes.bib"
   "correlation.pdf"

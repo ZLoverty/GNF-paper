@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.20)  23 DEC 2020 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.20)  23 DEC 2020 20:15
 entering extended mode
 **./correlation.tex
 (correlation.tex
@@ -822,33 +822,33 @@ LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
 <Figures/fig-2.pdf, id=180, 254.75583pt x 307.807pt>
 File: Figures/fig-2.pdf Graphic file (type pdf)
 <use Figures/fig-2.pdf>
-Package pdftex.def Info: Figures/fig-2.pdf  used on input line 111.
+Package pdftex.def Info: Figures/fig-2.pdf  used on input line 113.
 (pdftex.def)             Requested size: 234.60342pt x 283.46298pt.
-<Figures/fig-3.pdf, id=183, 249.3315pt x 194.29036pt>
-File: Figures/fig-3.pdf Graphic file (type pdf)
-<use Figures/fig-3.pdf>
-Package pdftex.def Info: Figures/fig-3.pdf  used on input line 132.
-(pdftex.def)             Requested size: 239.70062pt x 186.78639pt.
 [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.147 
+l.130 
        <./Figures/fig-1.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 147.
+ on input line 130.
 
+<Figures/fig-3.pdf, id=272, 249.3315pt x 194.29036pt>
+File: Figures/fig-3.pdf Graphic file (type pdf)
+<use Figures/fig-3.pdf>
+Package pdftex.def Info: Figures/fig-3.pdf  used on input line 134.
+(pdftex.def)             Requested size: 239.70062pt x 186.78639pt.
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.152 
+l.154 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.152 
+l.154 
        <./Figures/fig-2.pdf> <./Figures/fig-3.pdf
 
 pdfTeX warning: pdflatex (file ./Figures/fig-3.pdf): PDF inclusion: multiple pd
@@ -857,26 +857,26 @@ fs with page group included in a single page
 <Figures/fig-4.pdf, id=13717, 235.98318pt x 185.25333pt>
 File: Figures/fig-4.pdf Graphic file (type pdf)
 <use Figures/fig-4.pdf>
-Package pdftex.def Info: Figures/fig-4.pdf  used on input line 158.
+Package pdftex.def Info: Figures/fig-4.pdf  used on input line 160.
 (pdftex.def)             Requested size: 239.70062pt x 188.18134pt.
  [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.184 
+l.183 
        <./Figures/fig-4.pdf>]
 <Figures/fig-5.pdf, id=14911, 238.56943pt x 294.84525pt>
 File: Figures/fig-5.pdf Graphic file (type pdf)
 <use Figures/fig-5.pdf>
-Package pdftex.def Info: Figures/fig-5.pdf  used on input line 191.
+Package pdftex.def Info: Figures/fig-5.pdf  used on input line 193.
 (pdftex.def)             Requested size: 239.70062pt x 296.24818pt.
 <Figures/fig-6.pdf, id=14914, 503.21248pt x 269.86855pt>
 File: Figures/fig-6.pdf Graphic file (type pdf)
 <use Figures/fig-6.pdf>
-Package pdftex.def Info: Figures/fig-6.pdf  used on input line 206.
+Package pdftex.def Info: Figures/fig-6.pdf  used on input line 208.
 (pdftex.def)             Requested size: 453.89969pt x 243.43123pt.
 
-Underfull \hbox (badness 1776) in paragraph at lines 219--223
+Underfull \hbox (badness 1776) in paragraph at lines 221--225
 []\OT1/cmr/m/n/10 Both GNF and en-ergy spec-tra probe the scale-
  []
 
@@ -884,56 +884,57 @@ Underfull \hbox (badness 1776) in paragraph at lines 219--223
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.223 
+l.225 
        <./Figures/fig-5.pdf>] [6pdfTeX warning (ext4): destination with the sam
 e identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.236 
+l.234 
        <./Figures/fig-6.pdf>]
-Underfull \hbox (badness 1997) in paragraph at lines 262--263
+Underfull \hbox (badness 1997) in paragraph at lines 263--264
 \OT1/cmr/m/n/10 pump, pro-te-orhodopsin (PR), to wild-type \OT1/cmr/m/it/10 E. 
 coli
  []
 
 [7]
-<Figures/fig-7.pdf, id=22548, 180.675pt x 180.675pt>
+<Figures/fig-7.pdf, id=22547, 180.675pt x 180.675pt>
 File: Figures/fig-7.pdf Graphic file (type pdf)
 <use Figures/fig-7.pdf>
-Package pdftex.def Info: Figures/fig-7.pdf  used on input line 276.
+Package pdftex.def Info: Figures/fig-7.pdf  used on input line 277.
 (pdftex.def)             Requested size: 203.99689pt x 203.9977pt.
-<Figures/fig-8.pdf, id=22551, 252.945pt x 202.356pt>
+<Figures/fig-8.pdf, id=22550, 252.945pt x 202.356pt>
 File: Figures/fig-8.pdf Graphic file (type pdf)
 <use Figures/fig-8.pdf>
-Package pdftex.def Info: Figures/fig-8.pdf  used on input line 309.
+Package pdftex.def Info: Figures/fig-8.pdf  used on input line 310.
 (pdftex.def)             Requested size: 239.70062pt x 191.76468pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.320 
+l.321 
        <./Figures/fig-7.pdf>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 320.
+ on input line 321.
 
 [9pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.338 
-       <./Figures/fig-8.pdf>]
-<Figures/fig-9.pdf, id=22621, 222.1884pt x 315.94998pt>
+l.337 \end{multline}
+                     <./Figures/fig-8.pdf>]
+<Figures/fig-9.pdf, id=22620, 222.1884pt x 315.94998pt>
 File: Figures/fig-9.pdf Graphic file (type pdf)
 <use Figures/fig-9.pdf>
-Package pdftex.def Info: Figures/fig-9.pdf  used on input line 342.
+Package pdftex.def Info: Figures/fig-9.pdf  used on input line 343.
 (pdftex.def)             Requested size: 234.60342pt x 333.6037pt.
  (correlation.bbl [10pdfTeX warning (ext4): destination with the same identifie
 r (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.86 ...m [{\citenamefont {Poon}(2013)}]{Poon2013}
-                                                  % <./Figures/fig-9.pdf>]
+l.56   {Ramaswamy}},\ }
+                       \bibfield  {title} {\emph {\bibinfo {title} {{The mec...
+ <./Figures/fig-9.pdf>]
 Underfull \hbox (badness 1028) in paragraph at lines 89--99
  \OT1/cmr/m/it/9 the physics of nat-u-ral and syn-thetic ac-tive col-loids,
  []
@@ -973,12 +974,12 @@ Package rerunfilecheck Info: File `correlation.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  20025 strings out of 479799
- 361854 string characters out of 2877698
- 687179 words of memory out of 3000000
+ 361853 string characters out of 2877698
+ 685103 words of memory out of 3000000
  36497 multiletter control sequences out of 15000+200000
  549223 words of font info for 81 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,8n,96p,2234b,593s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 85i,8n,96p,2234b,583s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
@@ -1006,7 +1007,7 @@ e1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
 9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on correlation.pdf (12 pages, 5801548 bytes).
+Output written on correlation.pdf (12 pages, 5802569 bytes).
 PDF statistics:
  22887 PDF objects out of 26593 (max. 8388607)
  106 named destinations out of 1000 (max. 500000)
