@@ -6,7 +6,7 @@
 *.fls
 *.out
 *.synctex.gz
-*.bib
+*Notes.bib
 *.fdb_latexmk
 *.blg
 *.zip
